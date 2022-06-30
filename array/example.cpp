@@ -1,6 +1,6 @@
 struct Foo {
 	int x;
-	char c[32];
+	char c[8];
 };
 
 void foo(Foo f){}

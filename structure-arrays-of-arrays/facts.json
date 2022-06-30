@@ -1,5 +1,5 @@
 {
-    "library": "/home/vanessa/Desktop/Code/cle/examples/structure-arrays-of-arrays/example",
+    "library": "/home/vanessa/Desktop/Code/smeagle-examples/structure-arrays-of-arrays/example",
     "locations": [
         {
             "function": {
@@ -41,7 +41,7 @@
                     },
                     {
                         "name": "array",
-                        "type": "85bc02241595669fc880b82ab543098f",
+                        "type": "43910f1ce77e8f60831db73f8c986ea3",
                         "location": "%rsi",
                         "direction": "import"
                     }
@@ -90,44 +90,44 @@
             "class": "Integer",
             "direction": "import"
         },
-        "d449d18ab3dce375e0f01aa2fe82d92c": {
+        "8df3049eb062fe341b519e940e42d404": {
             "class": "Array",
             "name": "two_d",
-            "size": 0,
+            "size": 40,
             "count": 0,
-            "type": "1fd8c01bdca094933f920b41375cfed0"
+            "type": "int"
         },
-        "b50f361252ff85eedc7459a5572d2093": {
+        "59061f49c573d0639f8da5d62e5d688f": {
             "class": "Array",
             "name": "three_d",
-            "size": 0,
+            "size": 240,
             "count": 0,
-            "type": "1fd8c01bdca094933f920b41375cfed0"
+            "type": "int"
         },
-        "039aab370feda6121bd2984537427938": {
+        "7bf2a24d9f5b5f83f79b7a35fb6c65f5": {
             "name": "Structy",
             "size": 24100,
             "class": "Struct",
             "fields": [
                 {
                     "name": "two_d",
-                    "type": "d449d18ab3dce375e0f01aa2fe82d92c",
+                    "type": "8df3049eb062fe341b519e940e42d404",
                     "offset": 0,
                     "direction": "export"
                 },
                 {
                     "name": "three_d",
-                    "type": "b50f361252ff85eedc7459a5572d2093",
+                    "type": "59061f49c573d0639f8da5d62e5d688f",
                     "offset": 100,
                     "direction": "export"
                 }
             ]
         },
-        "85bc02241595669fc880b82ab543098f": {
+        "43910f1ce77e8f60831db73f8c986ea3": {
             "class": "Pointer",
             "size": 8,
             "underlying_type": {
-                "type": "039aab370feda6121bd2984537427938"
+                "type": "7bf2a24d9f5b5f83f79b7a35fb6c65f5"
             },
             "direction": "both",
             "name": "array"

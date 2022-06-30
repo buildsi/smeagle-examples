@@ -1,5 +1,5 @@
 {
-    "library": "/home/vanessa/Desktop/Code/cle/examples/function-as-parameter/lib.so",
+    "library": "/home/vanessa/Desktop/Code/smeagle-examples/function-as-parameter/lib.so",
     "locations": [
         {
             "variables": [
@@ -796,7 +796,7 @@
                 "class": "Function",
                 "parameters": [
                     {
-                        "type": "6ec309bd3cb246f4cd37588aae80aa9e",
+                        "type": "2000f29f01b72ff02090cf7540bde03a",
                         "location": "%rdi",
                         "direction": "import"
                     }
@@ -823,7 +823,7 @@
                         "direction": "import"
                     },
                     {
-                        "type": "6ec309bd3cb246f4cd37588aae80aa9e",
+                        "type": "2000f29f01b72ff02090cf7540bde03a",
                         "location": "%rdx",
                         "direction": "import"
                     }
@@ -846,7 +846,7 @@
                         "direction": "import"
                     },
                     {
-                        "type": "6ec309bd3cb246f4cd37588aae80aa9e",
+                        "type": "2000f29f01b72ff02090cf7540bde03a",
                         "location": "%rsi",
                         "direction": "import"
                     }
@@ -868,7 +868,7 @@
                         "direction": "import"
                     },
                     {
-                        "type": "6ec309bd3cb246f4cd37588aae80aa9e",
+                        "type": "2000f29f01b72ff02090cf7540bde03a",
                         "location": "%rsi",
                         "direction": "import"
                     }
@@ -886,7 +886,7 @@
                 "class": "Function",
                 "parameters": [
                     {
-                        "type": "6ec309bd3cb246f4cd37588aae80aa9e",
+                        "type": "2000f29f01b72ff02090cf7540bde03a",
                         "location": "%rdi",
                         "direction": "import"
                     },
@@ -909,7 +909,7 @@
                 "class": "Function",
                 "parameters": [
                     {
-                        "type": "6ec309bd3cb246f4cd37588aae80aa9e",
+                        "type": "2000f29f01b72ff02090cf7540bde03a",
                         "location": "%rdi",
                         "direction": "import"
                     },
@@ -932,7 +932,7 @@
                 "class": "Function",
                 "parameters": [
                     {
-                        "type": "6ec309bd3cb246f4cd37588aae80aa9e",
+                        "type": "2000f29f01b72ff02090cf7540bde03a",
                         "location": "%rdi",
                         "direction": "import"
                     }
@@ -968,7 +968,7 @@
                         "direction": "import"
                     },
                     {
-                        "type": "7e04975b49ca774a2c908a105aab3bb7",
+                        "type": "3e65e9370c94add63ffc8ef50db93502",
                         "location": "%rsi",
                         "direction": "import"
                     }
@@ -999,7 +999,7 @@
                         "direction": "import"
                     },
                     {
-                        "type": "7e04975b49ca774a2c908a105aab3bb7",
+                        "type": "3e65e9370c94add63ffc8ef50db93502",
                         "location": "%rdx",
                         "direction": "import"
                     }
@@ -1016,7 +1016,7 @@
                 "class": "Function",
                 "parameters": [
                     {
-                        "type": "d3b84bcd8b39aa5c7e8dcc5f54c06fff",
+                        "type": "725b0e5936ae6ce281ef2e539f01619b",
                         "location": "%rdi",
                         "direction": "import"
                     }
@@ -1048,7 +1048,7 @@
                         "direction": "import"
                     },
                     {
-                        "type": "7e04975b49ca774a2c908a105aab3bb7",
+                        "type": "3e65e9370c94add63ffc8ef50db93502",
                         "location": "%rdx",
                         "direction": "import"
                     }
@@ -1070,7 +1070,7 @@
                         "direction": "import"
                     },
                     {
-                        "type": "6ec309bd3cb246f4cd37588aae80aa9e",
+                        "type": "2000f29f01b72ff02090cf7540bde03a",
                         "location": "%rsi",
                         "direction": "import"
                     }
@@ -1135,7 +1135,7 @@
                         "direction": "import"
                     },
                     {
-                        "type": "6ec309bd3cb246f4cd37588aae80aa9e",
+                        "type": "2000f29f01b72ff02090cf7540bde03a",
                         "location": "%rdi",
                         "direction": "import"
                     }
@@ -1152,7 +1152,7 @@
                 "class": "Function",
                 "parameters": [
                     {
-                        "type": "6ec309bd3cb246f4cd37588aae80aa9e",
+                        "type": "2000f29f01b72ff02090cf7540bde03a",
                         "location": "%rdi",
                         "direction": "import"
                     },
@@ -1245,7 +1245,7 @@
                         "direction": "import"
                     },
                     {
-                        "type": "7e04975b49ca774a2c908a105aab3bb7",
+                        "type": "3e65e9370c94add63ffc8ef50db93502",
                         "location": "%rdx",
                         "direction": "import"
                     }
@@ -1519,7 +1519,7 @@
                         "direction": "import"
                     },
                     {
-                        "type": "7e04975b49ca774a2c908a105aab3bb7",
+                        "type": "3e65e9370c94add63ffc8ef50db93502",
                         "location": "%rdx",
                         "direction": "import"
                     }
@@ -2860,7 +2860,7 @@
                 "class": "Function",
                 "parameters": [
                     {
-                        "type": "e2ac5a1736ef45498ad2ffff23b85e81",
+                        "type": "0f8384ead0583569a937779835ccef2a",
                         "location": "%rdi",
                         "direction": "import"
                     }
@@ -2879,7 +2879,7 @@
                 "class": "Function",
                 "parameters": [
                     {
-                        "type": "e2ac5a1736ef45498ad2ffff23b85e81",
+                        "type": "0f8384ead0583569a937779835ccef2a",
                         "location": "%rdi",
                         "direction": "import"
                     }
@@ -2897,7 +2897,7 @@
                 "class": "Function",
                 "parameters": [
                     {
-                        "type": "e2ac5a1736ef45498ad2ffff23b85e81",
+                        "type": "0f8384ead0583569a937779835ccef2a",
                         "location": "%rdi",
                         "direction": "import"
                     }
@@ -2915,7 +2915,7 @@
                 "class": "Function",
                 "parameters": [
                     {
-                        "type": "e2ac5a1736ef45498ad2ffff23b85e81",
+                        "type": "0f8384ead0583569a937779835ccef2a",
                         "location": "%rdi",
                         "direction": "import"
                     }
@@ -2933,7 +2933,7 @@
                 "class": "Function",
                 "parameters": [
                     {
-                        "type": "e2ac5a1736ef45498ad2ffff23b85e81",
+                        "type": "0f8384ead0583569a937779835ccef2a",
                         "location": "%rdi",
                         "direction": "import"
                     }
@@ -2951,7 +2951,7 @@
                 "class": "Function",
                 "parameters": [
                     {
-                        "type": "e2ac5a1736ef45498ad2ffff23b85e81",
+                        "type": "0f8384ead0583569a937779835ccef2a",
                         "location": "%rdi",
                         "direction": "import"
                     }
@@ -2969,12 +2969,12 @@
                 "class": "Function",
                 "parameters": [
                     {
-                        "type": "e2ac5a1736ef45498ad2ffff23b85e81",
+                        "type": "0f8384ead0583569a937779835ccef2a",
                         "location": "%rdi",
                         "direction": "import"
                     },
                     {
-                        "type": "4195c81be8198318e6fa299ef44211ed",
+                        "type": "4095b705815dc11d0e2c5d2e7b441dd7",
                         "location": "%rsi",
                         "direction": "import"
                     }
@@ -3002,7 +3002,7 @@
                         "direction": "import"
                     },
                     {
-                        "type": "e2ac5a1736ef45498ad2ffff23b85e81",
+                        "type": "0f8384ead0583569a937779835ccef2a",
                         "location": "%rdx",
                         "direction": "import"
                     }
@@ -3031,7 +3031,7 @@
                     }
                 ],
                 "return": {
-                    "type": "e5bee9dafbdbab0a64d5b00111377ab7",
+                    "type": "0cb69e09047ff428738fd00c7c26986c",
                     "direction": "export",
                     "location": "%rax"
                 }
@@ -3056,7 +3056,7 @@
                         "direction": "import"
                     },
                     {
-                        "type": "e2ac5a1736ef45498ad2ffff23b85e81",
+                        "type": "0f8384ead0583569a937779835ccef2a",
                         "location": "%rsi",
                         "direction": "import"
                     }
@@ -3083,13 +3083,13 @@
                         "direction": "import"
                     },
                     {
-                        "type": "e2ac5a1736ef45498ad2ffff23b85e81",
+                        "type": "0f8384ead0583569a937779835ccef2a",
                         "location": "%rdx",
                         "direction": "import"
                     }
                 ],
                 "return": {
-                    "type": "93795c61708d67ae40d76f0da0b08301",
+                    "type": "1175694dfb70df2c1514538884b9544d",
                     "direction": "export",
                     "location": "%rax"
                 }
@@ -3101,7 +3101,7 @@
                 "class": "Function",
                 "parameters": [
                     {
-                        "type": "e2ac5a1736ef45498ad2ffff23b85e81",
+                        "type": "0f8384ead0583569a937779835ccef2a",
                         "location": "%rdi",
                         "direction": "import"
                     },
@@ -3129,12 +3129,12 @@
                 "class": "Function",
                 "parameters": [
                     {
-                        "type": "e2ac5a1736ef45498ad2ffff23b85e81",
+                        "type": "0f8384ead0583569a937779835ccef2a",
                         "location": "%rdi",
                         "direction": "import"
                     },
                     {
-                        "type": "dc86d9db9c3c45a793b71dffdf17e12d",
+                        "type": "8adabc7cf0adb9eadb3e074348317581",
                         "location": "%rsi",
                         "direction": "import"
                     }
@@ -3152,7 +3152,7 @@
                 "class": "Function",
                 "parameters": [
                     {
-                        "type": "e2ac5a1736ef45498ad2ffff23b85e81",
+                        "type": "0f8384ead0583569a937779835ccef2a",
                         "location": "%rdi",
                         "direction": "import"
                     }
@@ -3170,7 +3170,7 @@
                 "class": "Function",
                 "parameters": [
                     {
-                        "type": "e2ac5a1736ef45498ad2ffff23b85e81",
+                        "type": "0f8384ead0583569a937779835ccef2a",
                         "location": "%rdi",
                         "direction": "import"
                     }
@@ -3259,7 +3259,7 @@
                 "class": "Function",
                 "parameters": [
                     {
-                        "type": "e2ac5a1736ef45498ad2ffff23b85e81",
+                        "type": "0f8384ead0583569a937779835ccef2a",
                         "location": "%rdi",
                         "direction": "import"
                     }
@@ -3278,7 +3278,7 @@
                 "class": "Function",
                 "parameters": [
                     {
-                        "type": "e2ac5a1736ef45498ad2ffff23b85e81",
+                        "type": "0f8384ead0583569a937779835ccef2a",
                         "location": "%rdi",
                         "direction": "import"
                     },
@@ -3302,7 +3302,7 @@
                 "class": "Function",
                 "parameters": [
                     {
-                        "type": "e2ac5a1736ef45498ad2ffff23b85e81",
+                        "type": "0f8384ead0583569a937779835ccef2a",
                         "location": "%rdi",
                         "direction": "import"
                     },
@@ -3333,7 +3333,7 @@
                 "name": "tmpfile",
                 "class": "Function",
                 "return": {
-                    "type": "f0e0997ce7a77bcfb9b5fc2288ea27c5",
+                    "type": "bdb87e3bee65963bd52b69c5f1265425",
                     "direction": "export",
                     "location": "%rax"
                 }
@@ -3368,7 +3368,7 @@
                         "direction": "import"
                     },
                     {
-                        "type": "e2ac5a1736ef45498ad2ffff23b85e81",
+                        "type": "0f8384ead0583569a937779835ccef2a",
                         "location": "%rsi",
                         "direction": "import"
                     }
@@ -4089,12 +4089,12 @@
             "class": "Integer",
             "direction": "import"
         },
-        "3c8d3a6bd33f59768130ac604311b353": {
+        "27abb6e7c118c10edfd35a1934f8ca68": {
             "class": "Array",
             "name": "_shortbuf",
-            "size": 0,
+            "size": 1,
             "count": 0,
-            "type": "5c9aaaf36f52e308f9f5b66a32099fc6"
+            "type": "char"
         },
         "04e2665ae0d47bf5ebc3c31a5e859164": {
             "name": "_IO_lock_t",
@@ -4159,14 +4159,14 @@
             "direction": "both",
             "name": "_freeres_buf"
         },
-        "27819721a57d5e9769c28f54042db591": {
+        "aba0c2468e740889b75c6166d5576d7e": {
             "class": "Array",
             "name": "_unused2",
-            "size": 0,
+            "size": 20,
             "count": 0,
-            "type": "5c9aaaf36f52e308f9f5b66a32099fc6"
+            "type": "char"
         },
-        "a6406389e0e2bc1924a91320ec26ea49": {
+        "b2bb34395c4bc0e5c9a1d17fe35ba300": {
             "name": "_IO_FILE",
             "size": 216,
             "class": "Struct",
@@ -4287,7 +4287,7 @@
                 },
                 {
                     "name": "_shortbuf",
-                    "type": "3c8d3a6bd33f59768130ac604311b353",
+                    "type": "27abb6e7c118c10edfd35a1934f8ca68",
                     "offset": 131,
                     "direction": "export"
                 },
@@ -4341,22 +4341,22 @@
                 },
                 {
                     "name": "_unused2",
-                    "type": "27819721a57d5e9769c28f54042db591",
+                    "type": "aba0c2468e740889b75c6166d5576d7e",
                     "offset": 196,
                     "direction": "export"
                 }
             ]
         },
-        "75b382d34f50d0ac3d3f38173f0891db": {
+        "7eaeda61f49162ef6bc99f441f546b15": {
             "class": "Pointer",
             "size": 8,
             "underlying_type": {
-                "type": "a6406389e0e2bc1924a91320ec26ea49"
+                "type": "b2bb34395c4bc0e5c9a1d17fe35ba300"
             },
             "direction": "both",
             "name": "_chain"
         },
-        "3aa627574b37700f7d86356d541c1435": {
+        "c507c4725ae9ca9c32dd4ddf6de33ef5": {
             "name": "_IO_FILE",
             "size": 216,
             "class": "Struct",
@@ -4441,7 +4441,7 @@
                 },
                 {
                     "name": "_chain",
-                    "type": "75b382d34f50d0ac3d3f38173f0891db",
+                    "type": "7eaeda61f49162ef6bc99f441f546b15",
                     "offset": 104,
                     "direction": "export"
                 },
@@ -4477,7 +4477,7 @@
                 },
                 {
                     "name": "_shortbuf",
-                    "type": "3c8d3a6bd33f59768130ac604311b353",
+                    "type": "27abb6e7c118c10edfd35a1934f8ca68",
                     "offset": 131,
                     "direction": "export"
                 },
@@ -4531,21 +4531,21 @@
                 },
                 {
                     "name": "_unused2",
-                    "type": "27819721a57d5e9769c28f54042db591",
+                    "type": "aba0c2468e740889b75c6166d5576d7e",
                     "offset": 196,
                     "direction": "export"
                 }
             ]
         },
-        "8a84d215dd0d0753105b8d14c40b2fa7": {
+        "8deffcdc728e62fecfd74981d6bfee1b": {
             "name": "__FILE",
-            "type": "3aa627574b37700f7d86356d541c1435"
+            "type": "c507c4725ae9ca9c32dd4ddf6de33ef5"
         },
-        "6ec309bd3cb246f4cd37588aae80aa9e": {
+        "2000f29f01b72ff02090cf7540bde03a": {
             "class": "Pointer",
             "size": 8,
             "underlying_type": {
-                "type": "8a84d215dd0d0753105b8d14c40b2fa7"
+                "type": "8deffcdc728e62fecfd74981d6bfee1b"
             },
             "direction": "both"
         },
@@ -4590,14 +4590,14 @@
             },
             "direction": "both"
         },
-        "c2af32ff6f32b390796bcf59cda1adf0": {
+        "45e8fd8dc4441bedee4510e115e90066": {
             "class": "Array",
             "name": "__wchb",
-            "size": 0,
+            "size": 4,
             "count": 0,
-            "type": "5c9aaaf36f52e308f9f5b66a32099fc6"
+            "type": "char"
         },
-        "6a69c8dc939af4dc37b3b70a5ce832c7": {
+        "a5e7701449c5a9a99cfe241f55077ac6": {
             "name": "unknown",
             "size": 4,
             "class": "Union",
@@ -4608,11 +4608,11 @@
                 },
                 {
                     "name": "__wchb",
-                    "type": "c2af32ff6f32b390796bcf59cda1adf0"
+                    "type": "45e8fd8dc4441bedee4510e115e90066"
                 }
             ]
         },
-        "84d12993c1fabf340bf6abd24a7de250": {
+        "e8b0de4452a536af6aa7b9f1d0ad9f59": {
             "name": "11__mbstate_t",
             "size": 8,
             "class": "Struct",
@@ -4630,41 +4630,41 @@
                 },
                 {
                     "name": "__value",
-                    "type": "6a69c8dc939af4dc37b3b70a5ce832c7",
+                    "type": "a5e7701449c5a9a99cfe241f55077ac6",
                     "offset": 4,
                     "direction": "export"
                 }
             ]
         },
-        "bb6e8b8fe726a8560506e009823eaeb3": {
+        "794f2a6d3277cd3ddf204aae6c884845": {
             "name": "__mbstate_t",
-            "type": "84d12993c1fabf340bf6abd24a7de250"
+            "type": "e8b0de4452a536af6aa7b9f1d0ad9f59"
         },
-        "20ab0d093890a6d0a20e97d546c58016": {
+        "4f41750e90e0bd60110aecbe03af4604": {
             "name": "mbstate_t",
-            "type": "bb6e8b8fe726a8560506e009823eaeb3"
+            "type": "794f2a6d3277cd3ddf204aae6c884845"
         },
-        "7e04975b49ca774a2c908a105aab3bb7": {
+        "3e65e9370c94add63ffc8ef50db93502": {
             "class": "Pointer",
             "size": 8,
             "underlying_type": {
-                "type": "20ab0d093890a6d0a20e97d546c58016"
+                "type": "4f41750e90e0bd60110aecbe03af4604"
             },
             "direction": "both"
         },
-        "365f17aca38327e458f533d3a9518f07": {
+        "8c752637e3f2d0b278009e8da5b5d3d5": {
             "name": "mbstate_t",
-            "type": "bb6e8b8fe726a8560506e009823eaeb3",
+            "type": "794f2a6d3277cd3ddf204aae6c884845",
             "constant": true
         },
-        "0b6358bd328f7a7a8459245adb91c3f5": {
-            "type": "365f17aca38327e458f533d3a9518f07"
+        "94ff9d5fccf56a58f59a7066a154dbde": {
+            "type": "8c752637e3f2d0b278009e8da5b5d3d5"
         },
-        "d3b84bcd8b39aa5c7e8dcc5f54c06fff": {
+        "725b0e5936ae6ce281ef2e539f01619b": {
             "class": "Pointer",
             "size": 8,
             "underlying_type": {
-                "type": "0b6358bd328f7a7a8459245adb91c3f5"
+                "type": "94ff9d5fccf56a58f59a7066a154dbde"
             },
             "direction": "both"
         },
@@ -5421,19 +5421,19 @@
             },
             "direction": "both"
         },
-        "5394106cffbe3cdb4be0715ce5cd676b": {
+        "7aafb13b7fcc73357d46bd4f285bd315": {
             "name": "FILE",
-            "type": "3aa627574b37700f7d86356d541c1435"
+            "type": "c507c4725ae9ca9c32dd4ddf6de33ef5"
         },
-        "e2ac5a1736ef45498ad2ffff23b85e81": {
+        "0f8384ead0583569a937779835ccef2a": {
             "class": "Pointer",
             "size": 8,
             "underlying_type": {
-                "type": "5394106cffbe3cdb4be0715ce5cd676b"
+                "type": "7aafb13b7fcc73357d46bd4f285bd315"
             },
             "direction": "both"
         },
-        "00800b9b0112bb36abd824aad0a031a4": {
+        "6d25293676feaa92bf35dab9f417d71c": {
             "name": "_G_fpos_t",
             "size": 16,
             "class": "Struct",
@@ -5446,25 +5446,25 @@
                 },
                 {
                     "name": "__state",
-                    "type": "bb6e8b8fe726a8560506e009823eaeb3",
+                    "type": "794f2a6d3277cd3ddf204aae6c884845",
                     "offset": 8,
                     "direction": "export"
                 }
             ]
         },
-        "9b51ee3db3ae70fc8d146b4cb69599c2": {
+        "a36aeee6f856ab4ca5ff3e90cd29adcc": {
             "name": "__fpos_t",
-            "type": "00800b9b0112bb36abd824aad0a031a4"
+            "type": "6d25293676feaa92bf35dab9f417d71c"
         },
-        "adc0db315ea404904a799c94c1e3ddbe": {
+        "76e959c6800cc7f9ef8139828d59e418": {
             "name": "fpos_t",
-            "type": "9b51ee3db3ae70fc8d146b4cb69599c2"
+            "type": "a36aeee6f856ab4ca5ff3e90cd29adcc"
         },
-        "4195c81be8198318e6fa299ef44211ed": {
+        "4095b705815dc11d0e2c5d2e7b441dd7": {
             "class": "Pointer",
             "size": 8,
             "underlying_type": {
-                "type": "adc0db315ea404904a799c94c1e3ddbe"
+                "type": "76e959c6800cc7f9ef8139828d59e418"
             },
             "direction": "both"
         },
@@ -5477,45 +5477,45 @@
             "direction": "both",
             "name": "fgets"
         },
-        "e5bee9dafbdbab0a64d5b00111377ab7": {
+        "0cb69e09047ff428738fd00c7c26986c": {
             "class": "Pointer",
             "size": 8,
             "underlying_type": {
-                "type": "5394106cffbe3cdb4be0715ce5cd676b"
+                "type": "7aafb13b7fcc73357d46bd4f285bd315"
             },
             "direction": "both",
             "name": "fopen"
         },
-        "93795c61708d67ae40d76f0da0b08301": {
+        "1175694dfb70df2c1514538884b9544d": {
             "class": "Pointer",
             "size": 8,
             "underlying_type": {
-                "type": "5394106cffbe3cdb4be0715ce5cd676b"
+                "type": "7aafb13b7fcc73357d46bd4f285bd315"
             },
             "direction": "both",
             "name": "freopen"
         },
-        "cb3dbefd7636e09e8d031d8e7f3c3f0e": {
+        "def7230e944faa5821e413562763009d": {
             "name": "fpos_t",
-            "type": "9b51ee3db3ae70fc8d146b4cb69599c2",
+            "type": "a36aeee6f856ab4ca5ff3e90cd29adcc",
             "constant": true
         },
-        "499ceb48def68e7c765e5f69d4dc769c": {
-            "type": "cb3dbefd7636e09e8d031d8e7f3c3f0e"
+        "800203f001c1d5537fd44a91bc1b612d": {
+            "type": "def7230e944faa5821e413562763009d"
         },
-        "dc86d9db9c3c45a793b71dffdf17e12d": {
+        "8adabc7cf0adb9eadb3e074348317581": {
             "class": "Pointer",
             "size": 8,
             "underlying_type": {
-                "type": "499ceb48def68e7c765e5f69d4dc769c"
+                "type": "800203f001c1d5537fd44a91bc1b612d"
             },
             "direction": "both"
         },
-        "f0e0997ce7a77bcfb9b5fc2288ea27c5": {
+        "bdb87e3bee65963bd52b69c5f1265425": {
             "class": "Pointer",
             "size": 8,
             "underlying_type": {
-                "type": "5394106cffbe3cdb4be0715ce5cd676b"
+                "type": "7aafb13b7fcc73357d46bd4f285bd315"
             },
             "direction": "both",
             "name": "tmpfile"

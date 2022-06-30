@@ -1,5 +1,5 @@
 {
-    "library": "/home/vanessa/Desktop/Code/cle/examples/class-inheritance/lib.so",
+    "library": "/home/vanessa/Desktop/Code/smeagle-examples/class-inheritance/lib.so",
     "locations": [
         {
             "function": {
@@ -27,7 +27,7 @@
                     {
                         "name": "d",
                         "type": "fcb14b37764790a6b2c525f152fd3279",
-                        "location": "%xmm0",
+                        "location": "%rcx",
                         "direction": "import"
                     }
                 ],

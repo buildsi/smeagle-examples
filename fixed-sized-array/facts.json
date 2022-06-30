@@ -1,12 +1,12 @@
 {
-    "library": "/home/vanessa/Desktop/Code/cle/examples/fixed-sized-array/lib.so",
+    "library": "/home/vanessa/Desktop/Code/smeagle-examples/fixed-sized-array/lib.so",
     "locations": [
         {
             "variables": [
                 {
                     "name": "fixedSizeArray",
                     "location": "var",
-                    "type": "6dd3e0b89ad7707fa4a10ea61767519f",
+                    "type": "245cde0c8f021af32e68f2ac34176fca",
                     "direction": "export"
                 }
             ]
@@ -58,12 +58,12 @@
             "class": "Integer",
             "direction": "import"
         },
-        "6dd3e0b89ad7707fa4a10ea61767519f": {
+        "245cde0c8f021af32e68f2ac34176fca": {
             "class": "Array",
             "name": "fixedSizeArray",
-            "size": 0,
+            "size": 120,
             "count": 0,
-            "type": "1fd8c01bdca094933f920b41375cfed0"
+            "type": "int"
         },
         "210d6ae6dbf28fcd041c68d1fe5930a3": {
             "class": "Pointer",

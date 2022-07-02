@@ -3,7 +3,7 @@ struct Foo {
 	char c[8];
 };
 
-void foo(Foo f){}
+void foo(int y, Foo f){}
 
 int main(){
   return 0;

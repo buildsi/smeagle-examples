@@ -24,13 +24,13 @@
                 "parameters": [
                     {
                         "type": "ccde650e346806f391a49d694423efe7",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "eea1fba329979152a19cdd7da0d4c214",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     }
                 ],
                 "return": {
@@ -48,8 +48,8 @@
                 "parameters": [
                     {
                         "type": "ccde650e346806f391a49d694423efe7",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     }
                 ],
                 "return": {
@@ -67,8 +67,8 @@
                 "parameters": [
                     {
                         "type": "ccde650e346806f391a49d694423efe7",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     }
                 ],
                 "return": {
@@ -86,8 +86,8 @@
                 "parameters": [
                     {
                         "type": "faefbe4a8ba109ec1fec9edfcd0fea78",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     }
                 ],
                 "return": {
@@ -104,8 +104,8 @@
                 "parameters": [
                     {
                         "type": "ccde650e346806f391a49d694423efe7",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     }
                 ],
                 "return": {
@@ -123,8 +123,8 @@
                 "parameters": [
                     {
                         "type": "ccde650e346806f391a49d694423efe7",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "bfd086dea09b934cd68b4c0d87efe791",
@@ -146,8 +146,8 @@
                 "parameters": [
                     {
                         "type": "ccde650e346806f391a49d694423efe7",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "0feae1ef9c774483925f15d607c3cfa9",
@@ -169,8 +169,8 @@
                 "parameters": [
                     {
                         "type": "ccde650e346806f391a49d694423efe7",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "a1cb941a0105be277afd9e1b4777f1fc",
@@ -192,8 +192,8 @@
                 "parameters": [
                     {
                         "type": "ccde650e346806f391a49d694423efe7",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "bfd086dea09b934cd68b4c0d87efe791",
@@ -213,8 +213,8 @@
                 "parameters": [
                     {
                         "type": "ccde650e346806f391a49d694423efe7",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "a1cb941a0105be277afd9e1b4777f1fc",
@@ -234,13 +234,13 @@
                 "parameters": [
                     {
                         "type": "ccde650e346806f391a49d694423efe7",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "1fd8c01bdca094933f920b41375cfed0",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     }
                 ],
                 "return": {
@@ -258,8 +258,8 @@
                 "parameters": [
                     {
                         "type": "ccde650e346806f391a49d694423efe7",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "a1cb941a0105be277afd9e1b4777f1fc",
@@ -281,8 +281,8 @@
                 "parameters": [
                     {
                         "type": "faefbe4a8ba109ec1fec9edfcd0fea78",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     }
                 ],
                 "return": {
@@ -299,8 +299,8 @@
                 "parameters": [
                     {
                         "type": "faefbe4a8ba109ec1fec9edfcd0fea78",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     }
                 ],
                 "return": {
@@ -316,8 +316,19 @@
                 "class": "Function",
                 "parameters": [
                     {
-                        "type": "ec514c51f44d9931b23d66f84ded4189",
-                        "location": "%rdi",
+                        "type": {
+                            "name": "exception_ptr",
+                            "size": 8,
+                            "class": "Class",
+                            "fields": [
+                                {
+                                    "name": "_M_exception_object",
+                                    "type": "bd0f95a6606dcd8b66497841cf8daa03",
+                                    "offset": 0,
+                                    "location": "%rdi"
+                                }
+                            ]
+                        },
                         "direction": "import"
                     }
                 ],
@@ -400,13 +411,13 @@
                 "parameters": [
                     {
                         "type": "09c17cfabdd7c8765e5b310f693beb4b",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "09c17cfabdd7c8765e5b310f693beb4b",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     },
                     {
                         "type": "2b7927ac6886d6f780cffd9e51ebbc49",
@@ -427,8 +438,8 @@
                 "parameters": [
                     {
                         "type": "09c17cfabdd7c8765e5b310f693beb4b",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     }
                 ],
                 "return": {
@@ -444,8 +455,8 @@
                 "parameters": [
                     {
                         "type": "09c17cfabdd7c8765e5b310f693beb4b",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "2b7927ac6886d6f780cffd9e51ebbc49",
@@ -470,13 +481,13 @@
                 "parameters": [
                     {
                         "type": "0f17165719d21e9d0386a046f5aa5286",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "09c17cfabdd7c8765e5b310f693beb4b",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     },
                     {
                         "type": "2b7927ac6886d6f780cffd9e51ebbc49",
@@ -497,13 +508,13 @@
                 "parameters": [
                     {
                         "type": "0f17165719d21e9d0386a046f5aa5286",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "09c17cfabdd7c8765e5b310f693beb4b",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     },
                     {
                         "type": "2b7927ac6886d6f780cffd9e51ebbc49",
@@ -524,8 +535,8 @@
                 "parameters": [
                     {
                         "type": "0f17165719d21e9d0386a046f5aa5286",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "2b7927ac6886d6f780cffd9e51ebbc49",
@@ -629,8 +640,8 @@
                 "parameters": [
                     {
                         "type": "96f2d1a2b33f9338e4e4c67366e08506",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     }
                 ],
                 "return": {
@@ -648,13 +659,13 @@
                 "parameters": [
                     {
                         "type": "96f2d1a2b33f9338e4e4c67366e08506",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "1fd8c01bdca094933f920b41375cfed0",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     }
                 ],
                 "return": {
@@ -672,8 +683,8 @@
                 "parameters": [
                     {
                         "type": "96f2d1a2b33f9338e4e4c67366e08506",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "b94d50401440b488c90959f03595fb3d",
@@ -695,8 +706,8 @@
                 "parameters": [
                     {
                         "type": "96f2d1a2b33f9338e4e4c67366e08506",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "b94d50401440b488c90959f03595fb3d",
@@ -716,13 +727,13 @@
                 "parameters": [
                     {
                         "type": "f25a2f3a382920b687803993686dd511",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "1fd8c01bdca094933f920b41375cfed0",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     }
                 ],
                 "return": {
@@ -742,8 +753,8 @@
                     },
                     {
                         "type": "5c9aaaf36f52e308f9f5b66a32099fc6",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     }
                 ],
                 "return": {
@@ -763,8 +774,8 @@
                     },
                     {
                         "type": "f6c6ac4abc38af967acabc28f28e42b0",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     }
                 ],
                 "return": {
@@ -780,8 +791,8 @@
                 "parameters": [
                     {
                         "type": "1fd8c01bdca094933f920b41375cfed0",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     }
                 ],
                 "return": {
@@ -797,8 +808,8 @@
                 "parameters": [
                     {
                         "type": "2000f29f01b72ff02090cf7540bde03a",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     }
                 ],
                 "return": {
@@ -814,18 +825,18 @@
                 "parameters": [
                     {
                         "type": "ead5740211da1042b7b33218a2baa915",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "1fd8c01bdca094933f920b41375cfed0",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     },
                     {
                         "type": "2000f29f01b72ff02090cf7540bde03a",
-                        "location": "%rdx",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdx"
                     }
                 ],
                 "return": {
@@ -842,13 +853,13 @@
                 "parameters": [
                     {
                         "type": "15aac316b4c8111ac0f06c723801334d",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "2000f29f01b72ff02090cf7540bde03a",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     }
                 ],
                 "return": {
@@ -864,13 +875,13 @@
                 "parameters": [
                     {
                         "type": "0aceb1e0176c9c113dc804b54ce17014",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "2000f29f01b72ff02090cf7540bde03a",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     }
                 ],
                 "return": {
@@ -887,13 +898,13 @@
                 "parameters": [
                     {
                         "type": "2000f29f01b72ff02090cf7540bde03a",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "1fd8c01bdca094933f920b41375cfed0",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     }
                 ],
                 "return": {
@@ -910,13 +921,13 @@
                 "parameters": [
                     {
                         "type": "2000f29f01b72ff02090cf7540bde03a",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "0aceb1e0176c9c113dc804b54ce17014",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     }
                 ],
                 "return": {
@@ -933,8 +944,8 @@
                 "parameters": [
                     {
                         "type": "2000f29f01b72ff02090cf7540bde03a",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     }
                 ],
                 "return": {
@@ -960,8 +971,8 @@
                 "parameters": [
                     {
                         "type": "f6c6ac4abc38af967acabc28f28e42b0",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "2b7927ac6886d6f780cffd9e51ebbc49",
@@ -969,8 +980,8 @@
                     },
                     {
                         "type": "3e65e9370c94add63ffc8ef50db93502",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     }
                 ],
                 "return": {
@@ -986,13 +997,13 @@
                 "parameters": [
                     {
                         "type": "ead5740211da1042b7b33218a2baa915",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "f6c6ac4abc38af967acabc28f28e42b0",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     },
                     {
                         "type": "2b7927ac6886d6f780cffd9e51ebbc49",
@@ -1000,8 +1011,8 @@
                     },
                     {
                         "type": "3e65e9370c94add63ffc8ef50db93502",
-                        "location": "%rdx",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdx"
                     }
                 ],
                 "return": {
@@ -1017,8 +1028,8 @@
                 "parameters": [
                     {
                         "type": "725b0e5936ae6ce281ef2e539f01619b",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     }
                 ],
                 "return": {
@@ -1035,13 +1046,13 @@
                 "parameters": [
                     {
                         "type": "ead5740211da1042b7b33218a2baa915",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "af50ba73e94b265212d140f30cd87127",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     },
                     {
                         "type": "2b7927ac6886d6f780cffd9e51ebbc49",
@@ -1049,8 +1060,8 @@
                     },
                     {
                         "type": "3e65e9370c94add63ffc8ef50db93502",
-                        "location": "%rdx",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdx"
                     }
                 ],
                 "return": {
@@ -1066,13 +1077,13 @@
                 "parameters": [
                     {
                         "type": "15aac316b4c8111ac0f06c723801334d",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "2000f29f01b72ff02090cf7540bde03a",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     }
                 ],
                 "return": {
@@ -1088,8 +1099,8 @@
                 "parameters": [
                     {
                         "type": "15aac316b4c8111ac0f06c723801334d",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     }
                 ],
                 "return": {
@@ -1105,8 +1116,8 @@
                 "parameters": [
                     {
                         "type": "ead5740211da1042b7b33218a2baa915",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "2b7927ac6886d6f780cffd9e51ebbc49",
@@ -1114,8 +1125,8 @@
                     },
                     {
                         "type": "0aceb1e0176c9c113dc804b54ce17014",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     }
                 ],
                 "return": {
@@ -1136,8 +1147,8 @@
                     },
                     {
                         "type": "2000f29f01b72ff02090cf7540bde03a",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     }
                 ],
                 "return": {
@@ -1153,18 +1164,18 @@
                 "parameters": [
                     {
                         "type": "2000f29f01b72ff02090cf7540bde03a",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "0aceb1e0176c9c113dc804b54ce17014",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     },
                     {
                         "type": "087bc1a9b9afc38ef929bec90cdbf90f",
-                        "location": "%rdx",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdx"
                     }
                 ],
                 "return": {
@@ -1181,8 +1192,8 @@
                 "parameters": [
                     {
                         "type": "ead5740211da1042b7b33218a2baa915",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "2b7927ac6886d6f780cffd9e51ebbc49",
@@ -1190,13 +1201,13 @@
                     },
                     {
                         "type": "0aceb1e0176c9c113dc804b54ce17014",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     },
                     {
                         "type": "087bc1a9b9afc38ef929bec90cdbf90f",
-                        "location": "%rdx",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdx"
                     }
                 ],
                 "return": {
@@ -1213,13 +1224,13 @@
                 "parameters": [
                     {
                         "type": "0aceb1e0176c9c113dc804b54ce17014",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "087bc1a9b9afc38ef929bec90cdbf90f",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     }
                 ],
                 "return": {
@@ -1236,18 +1247,18 @@
                 "parameters": [
                     {
                         "type": "376a1ba4ca8c718e3e55c1cbc5a0cfa7",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "15aac316b4c8111ac0f06c723801334d",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     },
                     {
                         "type": "3e65e9370c94add63ffc8ef50db93502",
-                        "location": "%rdx",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdx"
                     }
                 ],
                 "return": {
@@ -1263,13 +1274,13 @@
                 "parameters": [
                     {
                         "type": "ead5740211da1042b7b33218a2baa915",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "0aceb1e0176c9c113dc804b54ce17014",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     }
                 ],
                 "return": {
@@ -1286,13 +1297,13 @@
                 "parameters": [
                     {
                         "type": "0aceb1e0176c9c113dc804b54ce17014",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "0aceb1e0176c9c113dc804b54ce17014",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     }
                 ],
                 "return": {
@@ -1309,13 +1320,13 @@
                 "parameters": [
                     {
                         "type": "0aceb1e0176c9c113dc804b54ce17014",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "0aceb1e0176c9c113dc804b54ce17014",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     }
                 ],
                 "return": {
@@ -1332,13 +1343,13 @@
                 "parameters": [
                     {
                         "type": "ead5740211da1042b7b33218a2baa915",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "0aceb1e0176c9c113dc804b54ce17014",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     }
                 ],
                 "return": {
@@ -1355,13 +1366,13 @@
                 "parameters": [
                     {
                         "type": "0aceb1e0176c9c113dc804b54ce17014",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "0aceb1e0176c9c113dc804b54ce17014",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     }
                 ],
                 "return": {
@@ -1377,8 +1388,8 @@
                 "parameters": [
                     {
                         "type": "ead5740211da1042b7b33218a2baa915",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "2b7927ac6886d6f780cffd9e51ebbc49",
@@ -1386,13 +1397,13 @@
                     },
                     {
                         "type": "0aceb1e0176c9c113dc804b54ce17014",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     },
                     {
                         "type": "65899b2cd8669c351543abf2a51f3817",
-                        "location": "%rdx",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdx"
                     }
                 ],
                 "return": {
@@ -1408,8 +1419,8 @@
                 "parameters": [
                     {
                         "type": "0aceb1e0176c9c113dc804b54ce17014",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     }
                 ],
                 "return": {
@@ -1425,13 +1436,13 @@
                 "parameters": [
                     {
                         "type": "ead5740211da1042b7b33218a2baa915",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "0aceb1e0176c9c113dc804b54ce17014",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     },
                     {
                         "type": "2b7927ac6886d6f780cffd9e51ebbc49",
@@ -1452,13 +1463,13 @@
                 "parameters": [
                     {
                         "type": "0aceb1e0176c9c113dc804b54ce17014",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "0aceb1e0176c9c113dc804b54ce17014",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     },
                     {
                         "type": "2b7927ac6886d6f780cffd9e51ebbc49",
@@ -1479,13 +1490,13 @@
                 "parameters": [
                     {
                         "type": "ead5740211da1042b7b33218a2baa915",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "0aceb1e0176c9c113dc804b54ce17014",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     },
                     {
                         "type": "2b7927ac6886d6f780cffd9e51ebbc49",
@@ -1506,13 +1517,13 @@
                 "parameters": [
                     {
                         "type": "376a1ba4ca8c718e3e55c1cbc5a0cfa7",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "16afd3156b71523272e55bea03720f57",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     },
                     {
                         "type": "2b7927ac6886d6f780cffd9e51ebbc49",
@@ -1520,8 +1531,8 @@
                     },
                     {
                         "type": "3e65e9370c94add63ffc8ef50db93502",
-                        "location": "%rdx",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdx"
                     }
                 ],
                 "return": {
@@ -1537,13 +1548,13 @@
                 "parameters": [
                     {
                         "type": "0aceb1e0176c9c113dc804b54ce17014",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "0aceb1e0176c9c113dc804b54ce17014",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     }
                 ],
                 "return": {
@@ -1559,13 +1570,13 @@
                 "parameters": [
                     {
                         "type": "0aceb1e0176c9c113dc804b54ce17014",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "526a2ebfec1b737688ea2ab681626377",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     }
                 ],
                 "return": {
@@ -1582,13 +1593,13 @@
                 "parameters": [
                     {
                         "type": "0aceb1e0176c9c113dc804b54ce17014",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "526a2ebfec1b737688ea2ab681626377",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     }
                 ],
                 "return": {
@@ -1605,18 +1616,18 @@
                 "parameters": [
                     {
                         "type": "ead5740211da1042b7b33218a2baa915",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "0aceb1e0176c9c113dc804b54ce17014",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     },
                     {
                         "type": "526a2ebfec1b737688ea2ab681626377",
-                        "location": "%rdx",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdx"
                     }
                 ],
                 "return": {
@@ -1633,18 +1644,18 @@
                 "parameters": [
                     {
                         "type": "0aceb1e0176c9c113dc804b54ce17014",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "526a2ebfec1b737688ea2ab681626377",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     },
                     {
                         "type": "1fd8c01bdca094933f920b41375cfed0",
-                        "location": "%rdx",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdx"
                     }
                 ],
                 "return": {
@@ -1661,18 +1672,18 @@
                 "parameters": [
                     {
                         "type": "0aceb1e0176c9c113dc804b54ce17014",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "526a2ebfec1b737688ea2ab681626377",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     },
                     {
                         "type": "1fd8c01bdca094933f920b41375cfed0",
-                        "location": "%rdx",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdx"
                     }
                 ],
                 "return": {
@@ -1689,13 +1700,13 @@
                 "parameters": [
                     {
                         "type": "ead5740211da1042b7b33218a2baa915",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "0aceb1e0176c9c113dc804b54ce17014",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     },
                     {
                         "type": "2b7927ac6886d6f780cffd9e51ebbc49",
@@ -1732,13 +1743,13 @@
                 "parameters": [
                     {
                         "type": "0aceb1e0176c9c113dc804b54ce17014",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "0aceb1e0176c9c113dc804b54ce17014",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     },
                     {
                         "type": "2b7927ac6886d6f780cffd9e51ebbc49",
@@ -1759,13 +1770,13 @@
                 "parameters": [
                     {
                         "type": "ead5740211da1042b7b33218a2baa915",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "0aceb1e0176c9c113dc804b54ce17014",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     },
                     {
                         "type": "2b7927ac6886d6f780cffd9e51ebbc49",
@@ -1786,13 +1797,13 @@
                 "parameters": [
                     {
                         "type": "ead5740211da1042b7b33218a2baa915",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "0aceb1e0176c9c113dc804b54ce17014",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     },
                     {
                         "type": "2b7927ac6886d6f780cffd9e51ebbc49",
@@ -1813,13 +1824,13 @@
                 "parameters": [
                     {
                         "type": "ead5740211da1042b7b33218a2baa915",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "15aac316b4c8111ac0f06c723801334d",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     },
                     {
                         "type": "2b7927ac6886d6f780cffd9e51ebbc49",
@@ -1840,8 +1851,8 @@
                 "parameters": [
                     {
                         "type": "0aceb1e0176c9c113dc804b54ce17014",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     }
                 ],
                 "return": {
@@ -1858,13 +1869,13 @@
                 "parameters": [
                     {
                         "type": "0aceb1e0176c9c113dc804b54ce17014",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "15aac316b4c8111ac0f06c723801334d",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     }
                 ],
                 "return": {
@@ -1881,13 +1892,13 @@
                 "parameters": [
                     {
                         "type": "ead5740211da1042b7b33218a2baa915",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "15aac316b4c8111ac0f06c723801334d",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     }
                 ],
                 "return": {
@@ -1904,13 +1915,13 @@
                 "parameters": [
                     {
                         "type": "0aceb1e0176c9c113dc804b54ce17014",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "0aceb1e0176c9c113dc804b54ce17014",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     }
                 ],
                 "return": {
@@ -1927,13 +1938,13 @@
                 "parameters": [
                     {
                         "type": "ead5740211da1042b7b33218a2baa915",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "0aceb1e0176c9c113dc804b54ce17014",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     }
                 ],
                 "return": {
@@ -1950,13 +1961,13 @@
                 "parameters": [
                     {
                         "type": "0aceb1e0176c9c113dc804b54ce17014",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "15aac316b4c8111ac0f06c723801334d",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     }
                 ],
                 "return": {
@@ -1973,13 +1984,13 @@
                 "parameters": [
                     {
                         "type": "ead5740211da1042b7b33218a2baa915",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "15aac316b4c8111ac0f06c723801334d",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     }
                 ],
                 "return": {
@@ -1996,13 +2007,13 @@
                 "parameters": [
                     {
                         "type": "0aceb1e0176c9c113dc804b54ce17014",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "0aceb1e0176c9c113dc804b54ce17014",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     }
                 ],
                 "return": {
@@ -2019,13 +2030,13 @@
                 "parameters": [
                     {
                         "type": "ead5740211da1042b7b33218a2baa915",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "0aceb1e0176c9c113dc804b54ce17014",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     }
                 ],
                 "return": {
@@ -2042,13 +2053,13 @@
                 "parameters": [
                     {
                         "type": "0aceb1e0176c9c113dc804b54ce17014",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "15aac316b4c8111ac0f06c723801334d",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     },
                     {
                         "type": "2b7927ac6886d6f780cffd9e51ebbc49",
@@ -2069,13 +2080,13 @@
                 "parameters": [
                     {
                         "type": "ead5740211da1042b7b33218a2baa915",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "15aac316b4c8111ac0f06c723801334d",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     },
                     {
                         "type": "2b7927ac6886d6f780cffd9e51ebbc49",
@@ -2096,13 +2107,13 @@
                 "parameters": [
                     {
                         "type": "a44bf8971dc4a612236c2e4dccc1cd7e",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "a44bf8971dc4a612236c2e4dccc1cd7e",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     }
                 ],
                 "return": {
@@ -2118,13 +2129,13 @@
                 "parameters": [
                     {
                         "type": "0aceb1e0176c9c113dc804b54ce17014",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "526a2ebfec1b737688ea2ab681626377",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     }
                 ],
                 "return": {
@@ -2141,18 +2152,18 @@
                 "parameters": [
                     {
                         "type": "0aceb1e0176c9c113dc804b54ce17014",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "526a2ebfec1b737688ea2ab681626377",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     },
                     {
                         "type": "1fd8c01bdca094933f920b41375cfed0",
-                        "location": "%rdx",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdx"
                     }
                 ],
                 "return": {
@@ -2169,18 +2180,18 @@
                 "parameters": [
                     {
                         "type": "0aceb1e0176c9c113dc804b54ce17014",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "526a2ebfec1b737688ea2ab681626377",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     },
                     {
                         "type": "1fd8c01bdca094933f920b41375cfed0",
-                        "location": "%rdx",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdx"
                     }
                 ],
                 "return": {
@@ -2197,13 +2208,13 @@
                 "parameters": [
                     {
                         "type": "1fd8c01bdca094933f920b41375cfed0",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "f6c6ac4abc38af967acabc28f28e42b0",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     }
                 ],
                 "return": {
@@ -2231,8 +2242,8 @@
                 "parameters": [
                     {
                         "type": "8ee7293812d612c467b2cbe6555d252d",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     }
                 ],
                 "return": {
@@ -2249,8 +2260,8 @@
                 "parameters": [
                     {
                         "type": "8ee7293812d612c467b2cbe6555d252d",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     }
                 ],
                 "return": {
@@ -2267,8 +2278,8 @@
                 "parameters": [
                     {
                         "type": "f6c6ac4abc38af967acabc28f28e42b0",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     }
                 ],
                 "return": {
@@ -2285,8 +2296,8 @@
                 "parameters": [
                     {
                         "type": "f6c6ac4abc38af967acabc28f28e42b0",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     }
                 ],
                 "return": {
@@ -2303,8 +2314,8 @@
                 "parameters": [
                     {
                         "type": "f6c6ac4abc38af967acabc28f28e42b0",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     }
                 ],
                 "return": {
@@ -2321,13 +2332,13 @@
                 "parameters": [
                     {
                         "type": "8ee7293812d612c467b2cbe6555d252d",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "8ee7293812d612c467b2cbe6555d252d",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     },
                     {
                         "type": "2b7927ac6886d6f780cffd9e51ebbc49",
@@ -2356,13 +2367,13 @@
                 "parameters": [
                     {
                         "type": "1fd8c01bdca094933f920b41375cfed0",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "1fd8c01bdca094933f920b41375cfed0",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     }
                 ],
                 "return": {
@@ -2378,8 +2389,8 @@
                 "parameters": [
                     {
                         "type": "f6c6ac4abc38af967acabc28f28e42b0",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     }
                 ],
                 "return": {
@@ -2396,13 +2407,13 @@
                 "parameters": [
                     {
                         "type": "832037bcbd004730c7738b05d956e54e",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "832037bcbd004730c7738b05d956e54e",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     }
                 ],
                 "return": {
@@ -2418,8 +2429,8 @@
                 "parameters": [
                     {
                         "type": "f6c6ac4abc38af967acabc28f28e42b0",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "2b7927ac6886d6f780cffd9e51ebbc49",
@@ -2440,13 +2451,13 @@
                 "parameters": [
                     {
                         "type": "ead5740211da1042b7b33218a2baa915",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "f6c6ac4abc38af967acabc28f28e42b0",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     },
                     {
                         "type": "2b7927ac6886d6f780cffd9e51ebbc49",
@@ -2466,13 +2477,13 @@
                 "parameters": [
                     {
                         "type": "ead5740211da1042b7b33218a2baa915",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "f6c6ac4abc38af967acabc28f28e42b0",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     },
                     {
                         "type": "2b7927ac6886d6f780cffd9e51ebbc49",
@@ -2493,8 +2504,8 @@
                 "parameters": [
                     {
                         "type": "eea1fba329979152a19cdd7da0d4c214",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "2b7927ac6886d6f780cffd9e51ebbc49",
@@ -2524,8 +2535,8 @@
                 "parameters": [
                     {
                         "type": "1fd8c01bdca094933f920b41375cfed0",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     }
                 ],
                 "return": {
@@ -2554,8 +2565,8 @@
                 "parameters": [
                     {
                         "type": "724f0b94c416f03c89c16150cf866e00",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     }
                 ],
                 "return": {
@@ -2573,13 +2584,13 @@
                 "parameters": [
                     {
                         "type": "f6c6ac4abc38af967acabc28f28e42b0",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "180a8744499aea612bc5e0ffdcb58c43",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     }
                 ],
                 "return": {
@@ -2596,18 +2607,18 @@
                 "parameters": [
                     {
                         "type": "f6c6ac4abc38af967acabc28f28e42b0",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "180a8744499aea612bc5e0ffdcb58c43",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     },
                     {
                         "type": "1fd8c01bdca094933f920b41375cfed0",
-                        "location": "%rdx",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdx"
                     }
                 ],
                 "return": {
@@ -2624,18 +2635,18 @@
                 "parameters": [
                     {
                         "type": "f6c6ac4abc38af967acabc28f28e42b0",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "180a8744499aea612bc5e0ffdcb58c43",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     },
                     {
                         "type": "1fd8c01bdca094933f920b41375cfed0",
-                        "location": "%rdx",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdx"
                     }
                 ],
                 "return": {
@@ -2652,8 +2663,8 @@
                 "parameters": [
                     {
                         "type": "f6c6ac4abc38af967acabc28f28e42b0",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     }
                 ],
                 "return": {
@@ -2670,13 +2681,13 @@
                 "parameters": [
                     {
                         "type": "376a1ba4ca8c718e3e55c1cbc5a0cfa7",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "0aceb1e0176c9c113dc804b54ce17014",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     },
                     {
                         "type": "2b7927ac6886d6f780cffd9e51ebbc49",
@@ -2696,13 +2707,13 @@
                 "parameters": [
                     {
                         "type": "376a1ba4ca8c718e3e55c1cbc5a0cfa7",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "15aac316b4c8111ac0f06c723801334d",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     }
                 ],
                 "return": {
@@ -2719,13 +2730,13 @@
                 "parameters": [
                     {
                         "type": "a44bf8971dc4a612236c2e4dccc1cd7e",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "a44bf8971dc4a612236c2e4dccc1cd7e",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     }
                 ],
                 "return": {
@@ -2741,8 +2752,8 @@
                 "parameters": [
                     {
                         "type": "f6c6ac4abc38af967acabc28f28e42b0",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     }
                 ],
                 "return": {
@@ -2759,18 +2770,18 @@
                 "parameters": [
                     {
                         "type": "f6c6ac4abc38af967acabc28f28e42b0",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "180a8744499aea612bc5e0ffdcb58c43",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     },
                     {
                         "type": "1fd8c01bdca094933f920b41375cfed0",
-                        "location": "%rdx",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdx"
                     }
                 ],
                 "return": {
@@ -2787,18 +2798,18 @@
                 "parameters": [
                     {
                         "type": "f6c6ac4abc38af967acabc28f28e42b0",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "180a8744499aea612bc5e0ffdcb58c43",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     },
                     {
                         "type": "1fd8c01bdca094933f920b41375cfed0",
-                        "location": "%rdx",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdx"
                     }
                 ],
                 "return": {
@@ -2815,13 +2826,13 @@
                 "parameters": [
                     {
                         "type": "f6c6ac4abc38af967acabc28f28e42b0",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "180a8744499aea612bc5e0ffdcb58c43",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     }
                 ],
                 "return": {
@@ -2838,13 +2849,13 @@
                 "parameters": [
                     {
                         "type": "f6c6ac4abc38af967acabc28f28e42b0",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "180a8744499aea612bc5e0ffdcb58c43",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     }
                 ],
                 "return": {
@@ -2861,8 +2872,8 @@
                 "parameters": [
                     {
                         "type": "0f8384ead0583569a937779835ccef2a",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     }
                 ],
                 "return": {
@@ -2880,8 +2891,8 @@
                 "parameters": [
                     {
                         "type": "0f8384ead0583569a937779835ccef2a",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     }
                 ],
                 "return": {
@@ -2898,8 +2909,8 @@
                 "parameters": [
                     {
                         "type": "0f8384ead0583569a937779835ccef2a",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     }
                 ],
                 "return": {
@@ -2916,8 +2927,8 @@
                 "parameters": [
                     {
                         "type": "0f8384ead0583569a937779835ccef2a",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     }
                 ],
                 "return": {
@@ -2934,8 +2945,8 @@
                 "parameters": [
                     {
                         "type": "0f8384ead0583569a937779835ccef2a",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     }
                 ],
                 "return": {
@@ -2952,8 +2963,8 @@
                 "parameters": [
                     {
                         "type": "0f8384ead0583569a937779835ccef2a",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     }
                 ],
                 "return": {
@@ -2970,13 +2981,13 @@
                 "parameters": [
                     {
                         "type": "0f8384ead0583569a937779835ccef2a",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "4095b705815dc11d0e2c5d2e7b441dd7",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     }
                 ],
                 "return": {
@@ -2993,18 +3004,18 @@
                 "parameters": [
                     {
                         "type": "376a1ba4ca8c718e3e55c1cbc5a0cfa7",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "1fd8c01bdca094933f920b41375cfed0",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     },
                     {
                         "type": "0f8384ead0583569a937779835ccef2a",
-                        "location": "%rdx",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdx"
                     }
                 ],
                 "return": {
@@ -3021,13 +3032,13 @@
                 "parameters": [
                     {
                         "type": "f6c6ac4abc38af967acabc28f28e42b0",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "f6c6ac4abc38af967acabc28f28e42b0",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     }
                 ],
                 "return": {
@@ -3044,8 +3055,8 @@
                 "parameters": [
                     {
                         "type": "eea1fba329979152a19cdd7da0d4c214",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "2b7927ac6886d6f780cffd9e51ebbc49",
@@ -3057,8 +3068,8 @@
                     },
                     {
                         "type": "0f8384ead0583569a937779835ccef2a",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     }
                 ],
                 "return": {
@@ -3074,18 +3085,18 @@
                 "parameters": [
                     {
                         "type": "f6c6ac4abc38af967acabc28f28e42b0",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "f6c6ac4abc38af967acabc28f28e42b0",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     },
                     {
                         "type": "0f8384ead0583569a937779835ccef2a",
-                        "location": "%rdx",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdx"
                     }
                 ],
                 "return": {
@@ -3102,18 +3113,18 @@
                 "parameters": [
                     {
                         "type": "0f8384ead0583569a937779835ccef2a",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "832037bcbd004730c7738b05d956e54e",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     },
                     {
                         "type": "1fd8c01bdca094933f920b41375cfed0",
-                        "location": "%rdx",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdx"
                     }
                 ],
                 "return": {
@@ -3130,13 +3141,13 @@
                 "parameters": [
                     {
                         "type": "0f8384ead0583569a937779835ccef2a",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "8adabc7cf0adb9eadb3e074348317581",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     }
                 ],
                 "return": {
@@ -3153,8 +3164,8 @@
                 "parameters": [
                     {
                         "type": "0f8384ead0583569a937779835ccef2a",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     }
                 ],
                 "return": {
@@ -3171,8 +3182,8 @@
                 "parameters": [
                     {
                         "type": "0f8384ead0583569a937779835ccef2a",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     }
                 ],
                 "return": {
@@ -3200,8 +3211,8 @@
                 "parameters": [
                     {
                         "type": "f6c6ac4abc38af967acabc28f28e42b0",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     }
                 ],
                 "return": {
@@ -3219,8 +3230,8 @@
                 "parameters": [
                     {
                         "type": "f6c6ac4abc38af967acabc28f28e42b0",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     }
                 ],
                 "return": {
@@ -3237,13 +3248,13 @@
                 "parameters": [
                     {
                         "type": "f6c6ac4abc38af967acabc28f28e42b0",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "f6c6ac4abc38af967acabc28f28e42b0",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     }
                 ],
                 "return": {
@@ -3260,8 +3271,8 @@
                 "parameters": [
                     {
                         "type": "0f8384ead0583569a937779835ccef2a",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     }
                 ],
                 "return": {
@@ -3279,13 +3290,13 @@
                 "parameters": [
                     {
                         "type": "0f8384ead0583569a937779835ccef2a",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "376a1ba4ca8c718e3e55c1cbc5a0cfa7",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     }
                 ],
                 "return": {
@@ -3303,18 +3314,18 @@
                 "parameters": [
                     {
                         "type": "0f8384ead0583569a937779835ccef2a",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "376a1ba4ca8c718e3e55c1cbc5a0cfa7",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     },
                     {
                         "type": "1fd8c01bdca094933f920b41375cfed0",
-                        "location": "%rdx",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdx"
                     },
                     {
                         "type": "2b7927ac6886d6f780cffd9e51ebbc49",
@@ -3346,8 +3357,8 @@
                 "parameters": [
                     {
                         "type": "376a1ba4ca8c718e3e55c1cbc5a0cfa7",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     }
                 ],
                 "return": {
@@ -3364,13 +3375,13 @@
                 "parameters": [
                     {
                         "type": "1fd8c01bdca094933f920b41375cfed0",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "type": "0f8384ead0583569a937779835ccef2a",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     }
                 ],
                 "return": {
@@ -3428,8 +3439,8 @@
                 "parameters": [
                     {
                         "type": "f6c6ac4abc38af967acabc28f28e42b0",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     }
                 ],
                 "return": {
@@ -3445,8 +3456,8 @@
                 "parameters": [
                     {
                         "type": "f6c6ac4abc38af967acabc28f28e42b0",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     }
                 ],
                 "return": {
@@ -3474,20 +3485,20 @@
                     {
                         "name": "x",
                         "type": "1fd8c01bdca094933f920b41375cfed0",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "name": "y",
                         "type": "1fd8c01bdca094933f920b41375cfed0",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     },
                     {
                         "name": "func",
                         "type": "b7d258fae565f4c20c64c2b06a99b347",
-                        "location": "%rdx",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdx"
                     }
                 ],
                 "return": {
@@ -3505,14 +3516,14 @@
                     {
                         "name": "x",
                         "type": "1fd8c01bdca094933f920b41375cfed0",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "name": "y",
                         "type": "1fd8c01bdca094933f920b41375cfed0",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     }
                 ],
                 "return": {
@@ -3530,14 +3541,14 @@
                     {
                         "name": "x",
                         "type": "1fd8c01bdca094933f920b41375cfed0",
-                        "location": "%rdi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rdi"
                     },
                     {
                         "name": "y",
                         "type": "1fd8c01bdca094933f920b41375cfed0",
-                        "location": "%rsi",
-                        "direction": "import"
+                        "direction": "import",
+                        "location": "%rsi"
                     }
                 ],
                 "return": {
@@ -3549,6 +3560,127 @@
         }
     ],
     "types": {
+        "1fd8c01bdca094933f920b41375cfed0": {
+            "type": "int",
+            "size": 4,
+            "class": "Integer",
+            "direction": "import"
+        },
+        "832037bcbd004730c7738b05d956e54e": {
+            "type": "long int",
+            "size": 8,
+            "class": "Integer",
+            "direction": "import"
+        },
+        "5c9aaaf36f52e308f9f5b66a32099fc6": {
+            "type": "char",
+            "size": 1,
+            "class": "Integer",
+            "direction": "import"
+        },
+        "365a945dcbe3df0d93892e94b27ac55f": {
+            "name": "atype",
+            "size": 24,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "a",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "offset": 0,
+                    "direction": "export"
+                },
+                {
+                    "name": "b",
+                    "type": "832037bcbd004730c7738b05d956e54e",
+                    "offset": 8,
+                    "direction": "export"
+                },
+                {
+                    "name": "c",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "offset": 16,
+                    "direction": "export"
+                },
+                {
+                    "name": "d",
+                    "type": "5c9aaaf36f52e308f9f5b66a32099fc6",
+                    "offset": 20,
+                    "direction": "export"
+                }
+            ]
+        },
+        "376a1ba4ca8c718e3e55c1cbc5a0cfa7": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "5c9aaaf36f52e308f9f5b66a32099fc6"
+            },
+            "direction": "both"
+        },
+        "904f42901eac4afa007d59e94e1fe24b": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "376a1ba4ca8c718e3e55c1cbc5a0cfa7"
+            },
+            "direction": "both",
+            "name": "argv"
+        },
+        "5f66ab77d11088555799b0da0fbee9bf": {
+            "type": "double",
+            "size": 8,
+            "class": "Float",
+            "direction": "import"
+        },
+        "2510f53e346bdd74cbd7340688aeed47": {
+            "type": "bool",
+            "size": 1,
+            "class": "Integer",
+            "direction": "import"
+        },
+        "308ad8129cac3a0bb414c01987309d1b": {
+            "type": "long double",
+            "size": 16,
+            "class": "Float",
+            "direction": "import"
+        },
+        "59372e71c7835c327df80e8cc6db722b": {
+            "name": "Foo",
+            "size": 16,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "i",
+                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "offset": 0,
+                    "direction": "export"
+                },
+                {
+                    "name": "d",
+                    "type": "5f66ab77d11088555799b0da0fbee9bf",
+                    "offset": 8,
+                    "direction": "export"
+                }
+            ]
+        },
+        "46055b1b77cbb1b96f7796c37ea326ae": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "59372e71c7835c327df80e8cc6db722b"
+            },
+            "direction": "both",
+            "name": "f"
+        },
+        "f89d73568e60860d05c051da731ba3bc": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "1fd8c01bdca094933f920b41375cfed0"
+            },
+            "direction": "both",
+            "name": "x"
+        },
         "3136b53c7788b73670691bd7c934571c": {
             "type": "unknown"
         },
@@ -3635,18 +3767,6 @@
         "a1cb941a0105be277afd9e1b4777f1fc": {
             "type": "ec514c51f44d9931b23d66f84ded4189"
         },
-        "1fd8c01bdca094933f920b41375cfed0": {
-            "type": "int",
-            "size": 4,
-            "class": "Integer",
-            "direction": "import"
-        },
-        "2510f53e346bdd74cbd7340688aeed47": {
-            "type": "bool",
-            "size": 1,
-            "class": "Integer",
-            "direction": "import"
-        },
         "1ef51a4a494b1ea21eedde8031512d68": {
             "name": "type_info",
             "size": 0,
@@ -3664,12 +3784,6 @@
             },
             "direction": "both",
             "name": "_ZNKSt15__exception_ptr13exception_ptr20__cxa_exception_typeEv"
-        },
-        "5c9aaaf36f52e308f9f5b66a32099fc6": {
-            "type": "char",
-            "size": 1,
-            "class": "Integer",
-            "direction": "import"
         },
         "6b23e2362c4169aea8a6f5703c87b7e1": {
             "name": "char_type",
@@ -4066,12 +4180,6 @@
             },
             "direction": "both",
             "name": "_markers"
-        },
-        "832037bcbd004730c7738b05d956e54e": {
-            "type": "long int",
-            "size": 8,
-            "class": "Integer",
-            "direction": "import"
         },
         "53f3605b08deb1382db3e44cb033ec43": {
             "name": "__off_t",
@@ -4733,14 +4841,6 @@
             },
             "direction": "both"
         },
-        "376a1ba4ca8c718e3e55c1cbc5a0cfa7": {
-            "class": "Pointer",
-            "size": 8,
-            "underlying_type": {
-                "type": "5c9aaaf36f52e308f9f5b66a32099fc6"
-            },
-            "direction": "both"
-        },
         "0fb62edbf595ddfd862a73f974ed3b2a": {
             "class": "Pointer",
             "size": 8,
@@ -4878,12 +4978,6 @@
                 "type": "0aceb1e0176c9c113dc804b54ce17014"
             },
             "direction": "both"
-        },
-        "5f66ab77d11088555799b0da0fbee9bf": {
-            "type": "double",
-            "size": 8,
-            "class": "Float",
-            "direction": "import"
         },
         "526a2ebfec1b737688ea2ab681626377": {
             "class": "Pointer",
@@ -5053,12 +5147,6 @@
         "aa6ec65f9cd94edd50a3afcc488bf09c": {
             "name": "lldiv_t",
             "type": "afc9a5495ee29e243c049a349125ebab"
-        },
-        "308ad8129cac3a0bb414c01987309d1b": {
-            "type": "long double",
-            "size": 16,
-            "class": "Float",
-            "direction": "import"
         },
         "6c50d3a67c64cc4cdfbee700b946253a": {
             "type": "long long unsigned int",

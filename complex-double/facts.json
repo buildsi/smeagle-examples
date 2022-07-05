@@ -5,6 +5,18 @@
             "function": {
                 "name": "_Z3fooCeS_",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "c1",
+                        "type": "c431870fc760f3907c508fad72d661b4",
+                        "location": "framebase+8"
+                    },
+                    {
+                        "name": "c2",
+                        "type": "c431870fc760f3907c508fad72d661b4",
+                        "location": "framebase+40"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -17,6 +29,13 @@
             "function": {
                 "name": "test_long_double__Complex",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "c431870fc760f3907c508fad72d661b4",
+                        "location": "framebase+8"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",

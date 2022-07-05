@@ -16,6 +16,13 @@
             "function": {
                 "name": "_Z3foo1A",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "a",
+                        "type": "c035a0328192ad7ec73b5cf5bb3207c0",
+                        "location": "framebase+8"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",

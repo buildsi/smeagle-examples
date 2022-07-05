@@ -30,6 +30,13 @@
             "function": {
                 "name": "test_ptr_ptr_uint_least64_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "55990ca039e0cdbdd9e31572ffefa2d9",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -43,6 +50,13 @@
             "function": {
                 "name": "test_ptr_uint_least64_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "9e7c465149b10691f922ebdc04a55e37",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -56,6 +70,12 @@
             "function": {
                 "name": "test_uint_least64_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "ae3ac55eb567301e100fca21ce368bef"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -69,6 +89,13 @@
             "function": {
                 "name": "test_ptr_ptr_uint_least32_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "159151a4a3b50e700025fdadd56b4968",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -82,6 +109,13 @@
             "function": {
                 "name": "test_ptr_uint_least32_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "7c138aad9da597977d284bef155c4868",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -95,6 +129,12 @@
             "function": {
                 "name": "test_uint_least32_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "21a1264cacdbf5e0fd46aff9b67846a8"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -108,6 +148,13 @@
             "function": {
                 "name": "test_ptr_ptr_uint_least16_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "ac79cf49e435338f588a2a46b4916b98",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -121,6 +168,13 @@
             "function": {
                 "name": "test_ptr_uint_least16_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "c13a42cd0acb06b0b5e1c0d13f78c33a",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -134,6 +188,12 @@
             "function": {
                 "name": "test_uint_least16_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "78f32e14f652278892c69b1bf43d3168"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -147,6 +207,13 @@
             "function": {
                 "name": "test_ptr_ptr_uint_least8_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "5f26bb0a2a6c7152bd376281fd0e4bba",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -160,6 +227,13 @@
             "function": {
                 "name": "test_ptr_uint_least8_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "cf1ab04a492337fdc4114b33e546167e",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -173,6 +247,12 @@
             "function": {
                 "name": "test_uint_least8_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "ca324ffea67a29c4a88a80d17dfbcfe9"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -186,6 +266,13 @@
             "function": {
                 "name": "test_ptr_ptr_uint_fast64_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "ea81276550c2f6873c6855f2115ac06e",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -199,6 +286,13 @@
             "function": {
                 "name": "test_ptr_uint_fast64_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "031924251d7fd7ae58dba5a477937b8e",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -212,6 +306,12 @@
             "function": {
                 "name": "test_uint_fast64_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "eb6eb11649e90705971142d316939f69"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -225,6 +325,13 @@
             "function": {
                 "name": "test_ptr_ptr_uint_fast32_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "8c262f84ec744e220f3bd59ada28754c",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -238,6 +345,13 @@
             "function": {
                 "name": "test_ptr_uint_fast32_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "eaeabe62a810aabff2bb945d3f260028",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -251,6 +365,12 @@
             "function": {
                 "name": "test_uint_fast32_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "a20c83bd99fa3ca484e45a2103efcc6a"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -264,6 +384,13 @@
             "function": {
                 "name": "test_ptr_ptr_uint_fast16_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "95ef945006354af09a4e1fc949550090",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -277,6 +404,13 @@
             "function": {
                 "name": "test_ptr_uint_fast16_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "adf67ccd21d66668cdabb8498eabae47",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -290,6 +424,12 @@
             "function": {
                 "name": "test_uint_fast16_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "5fe5bc80a0785eb975a22286fb3d2528"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -303,6 +443,13 @@
             "function": {
                 "name": "test_ptr_ptr_uint_fast8_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "ea6479df28db8d1811c2bdcbe9a4f299",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -316,6 +463,13 @@
             "function": {
                 "name": "test_ptr_uint_fast8_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "54fbfb714cf6cae14c9842ff1187c0ac",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -329,6 +483,12 @@
             "function": {
                 "name": "test_uint_fast8_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "398807aff325e1363d4d073feb45a171"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -342,6 +502,13 @@
             "function": {
                 "name": "test_ptr_ptr_uint64_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "e2466a623f7fc790d4acd0e4e77b2f1f",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -355,6 +522,13 @@
             "function": {
                 "name": "test_ptr_uint64_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "73958c6a05cb7e79e59139d05d3f255a",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -368,6 +542,12 @@
             "function": {
                 "name": "test_uint64_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "602539e1041821ed49fe876d48c9311c"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -381,6 +561,13 @@
             "function": {
                 "name": "test_ptr_ptr_uint32_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "785a248bc6d2ecd3c7172896b4c5fc3d",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -394,6 +581,13 @@
             "function": {
                 "name": "test_ptr_uint32_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "7cd92f2ed4ad9a749f4474a789250542",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -407,6 +601,12 @@
             "function": {
                 "name": "test_uint32_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "aff25c67015926c625b216d204d2fa01"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -420,6 +620,13 @@
             "function": {
                 "name": "test_ptr_ptr_uint16_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "e3c4df36080bd6d8fbde39a39c49f38f",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -433,6 +640,13 @@
             "function": {
                 "name": "test_ptr_uint16_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "eef9e6f898a3a4223b4b8b36652dfb21",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -446,6 +660,12 @@
             "function": {
                 "name": "test_uint16_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "f5d9745188a3340062c0ab5d44f69620"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -459,6 +679,13 @@
             "function": {
                 "name": "test_ptr_ptr_uint8_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "773e7b3cd32f30ce5d051086b3c007c0",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -472,6 +699,13 @@
             "function": {
                 "name": "test_ptr_uint8_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "c1bffeea7689babab97c157a9725cf76",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -485,6 +719,12 @@
             "function": {
                 "name": "test_uint8_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "3a3e920a05cde64ea2375b4fd1903d23"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -498,6 +738,13 @@
             "function": {
                 "name": "test_ptr_ptr_int_least64_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "a25295078a25d85c8cc0ddd19a8da992",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -511,6 +758,13 @@
             "function": {
                 "name": "test_ptr_int_least64_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "2091bd2dc75af0d6250d4c3c27767fbd",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -524,6 +778,12 @@
             "function": {
                 "name": "test_int_least64_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "824cb75000f3eb556c40dd73f73231c8"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -537,6 +797,13 @@
             "function": {
                 "name": "test_ptr_ptr_int_least32_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "f2e0202e406c2e263b3b01460024fd1a",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -550,6 +817,13 @@
             "function": {
                 "name": "test_ptr_int_least32_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "6f272c60a972c3ec57480ab0ed969d59",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -563,6 +837,12 @@
             "function": {
                 "name": "test_int_least32_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "df0d3ed836023bfae19cae94194ab50f"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -576,6 +856,13 @@
             "function": {
                 "name": "test_ptr_ptr_int_least16_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "0bbcec15fd2ba2dfadb37f9ce2dbd410",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -589,6 +876,13 @@
             "function": {
                 "name": "test_ptr_int_least16_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "43bc70d433414603ec5dc1c7ab77e03e",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -602,6 +896,12 @@
             "function": {
                 "name": "test_int_least16_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "c62ecf646716be895ba461dea4a4efb7"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -615,6 +915,13 @@
             "function": {
                 "name": "test_ptr_ptr_int_least8_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "ebb4addf4c39e8c56e8ef4058b9ace34",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -628,6 +935,13 @@
             "function": {
                 "name": "test_ptr_int_least8_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "e7d5cafbd2d960f6354ded2101dc2a87",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -641,6 +955,12 @@
             "function": {
                 "name": "test_int_least8_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "21e6e4e2747002cb1c724fdeceda2434"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -654,6 +974,13 @@
             "function": {
                 "name": "test_ptr_ptr_int_fast64_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "27616b21e273e5a1f32474792bde0a2d",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -667,6 +994,13 @@
             "function": {
                 "name": "test_ptr_int_fast64_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "1a3c07715b41abc6b1bcadd805de3616",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -680,6 +1014,12 @@
             "function": {
                 "name": "test_int_fast64_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "b18ead685607f739a05783571c7f3e58"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -693,6 +1033,13 @@
             "function": {
                 "name": "test_ptr_ptr_int_fast32_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "65c0a4438e7ade29da1c8a472c17b901",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -706,6 +1053,13 @@
             "function": {
                 "name": "test_ptr_int_fast32_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "8ced5505e7e27918ac76ae8cf7e48068",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -719,6 +1073,12 @@
             "function": {
                 "name": "test_int_fast32_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "a3070ac41d788988829f57fc1ca33a8b"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -732,6 +1092,13 @@
             "function": {
                 "name": "test_ptr_ptr_int_fast16_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "16baa9e32aea126352f38b7eee8f47af",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -745,6 +1112,13 @@
             "function": {
                 "name": "test_ptr_int_fast16_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "3ceadec5a47790afc3492377a1a4e090",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -758,6 +1132,12 @@
             "function": {
                 "name": "test_int_fast16_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "6129a8fb00c958a954db9faf4b11be4f"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -771,6 +1151,13 @@
             "function": {
                 "name": "test_ptr_ptr_int_fast8_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "1c30abd427a21f6c560dc8b62e5ad7e4",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -784,6 +1171,13 @@
             "function": {
                 "name": "test_ptr_int_fast8_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "e44f0d40a965212388591f58a38c671d",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -797,6 +1191,12 @@
             "function": {
                 "name": "test_int_fast8_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "512e42e84cc97f3693ae75c9e6cfc525"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -810,6 +1210,13 @@
             "function": {
                 "name": "test_ptr_ptr_int64_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "5156ca06e93d208dd5dd4a855d6a556c",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -823,6 +1230,13 @@
             "function": {
                 "name": "test_ptr_int64_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "4d6535ef75172570336d136420ed8565",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -836,6 +1250,12 @@
             "function": {
                 "name": "test_int64_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "cda0d033ecbe58d2aa09b585e0c6582b"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -849,6 +1269,13 @@
             "function": {
                 "name": "test_ptr_ptr_int32_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "c12dc7385022a4aaa7ea9a963e447406",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -862,6 +1289,13 @@
             "function": {
                 "name": "test_ptr_int32_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "66bb5a1b6ec5bdac783dd0e3be5de263",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -875,6 +1309,12 @@
             "function": {
                 "name": "test_int32_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "89ffd45336a54ba23a404831d7ea9096"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -888,6 +1328,13 @@
             "function": {
                 "name": "test_ptr_ptr_int16_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "3872e7ff60943077f7c0362981192959",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -901,6 +1348,13 @@
             "function": {
                 "name": "test_ptr_int16_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "f5d46f3256d63ba677cab5dcb5db6a9b",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -914,6 +1368,12 @@
             "function": {
                 "name": "test_int16_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "b71607ee357280fd36c5e13fc772cd9d"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -927,6 +1387,13 @@
             "function": {
                 "name": "test_ptr_ptr_int8_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "fd1003063268f9d874294e5db9a42a3b",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -940,6 +1407,13 @@
             "function": {
                 "name": "test_ptr_int8_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "72e259c45fa5e60a80098f04f1049c03",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -953,6 +1427,12 @@
             "function": {
                 "name": "test_int8_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "d11fd9741c2e2735ce84fe6a70dd969c"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -966,6 +1446,13 @@
             "function": {
                 "name": "test_ptr_ptr_uintptr_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "aa8044ee7578e37448aef6d29db88f60",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -979,6 +1466,13 @@
             "function": {
                 "name": "test_ptr_uintptr_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "631abdf7f7b1c1ba77534509a6efbc6c",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -992,6 +1486,12 @@
             "function": {
                 "name": "test_uintptr_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "b0a2cd94793a6d1c677d8eeedee11233"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1005,6 +1505,13 @@
             "function": {
                 "name": "test_ptr_ptr_intptr_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "0e83dfcd6cc6ff7361967996d0928301",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1018,6 +1525,13 @@
             "function": {
                 "name": "test_ptr_intptr_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "4a878163b42c7f86a38fa8d70f7397f6",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1031,6 +1545,12 @@
             "function": {
                 "name": "test_intptr_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "d2424a276621a682be94e762cf27f248"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1044,6 +1564,13 @@
             "function": {
                 "name": "test_ptr_ptr_uintmax_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "cdc95e7e4c4a4fa25259515127690597",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1057,6 +1584,13 @@
             "function": {
                 "name": "test_ptr_uintmax_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "a3d2e93f927df3e65ee9e49cf23b2781",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1070,6 +1604,12 @@
             "function": {
                 "name": "test_uintmax_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "7aaa813c12351fd5118d99bfd0ff8aa2"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1083,6 +1623,13 @@
             "function": {
                 "name": "test_ptr_ptr_intmax_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "daa6dbe3bbb8d8e0890d2cd9f3313ed2",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1096,6 +1643,13 @@
             "function": {
                 "name": "test_ptr_intmax_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "95744ab4f8d90e9de3effb0c8443e9b7",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1109,6 +1663,12 @@
             "function": {
                 "name": "test_intmax_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "b913953d3cc05314dd43fcb946de86c8"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1122,6 +1682,13 @@
             "function": {
                 "name": "test_ptr_ptr_size_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "f04266c8cf6fe766f02802b2e8c0c70e",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1135,6 +1702,13 @@
             "function": {
                 "name": "test_ptr_size_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "c211280ec644f43c2434c15f718c2e00",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1148,6 +1722,12 @@
             "function": {
                 "name": "test_size_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "2b7927ac6886d6f780cffd9e51ebbc49"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1161,6 +1741,13 @@
             "function": {
                 "name": "test_ptr_ptr_char32_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "16ce07b5fd3973b486b45cc2b7fc2c9a",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1174,6 +1761,13 @@
             "function": {
                 "name": "test_ptr_char32_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "e0912c1e28c27f1826879abf4a680f79",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1187,6 +1781,13 @@
             "function": {
                 "name": "test_char32_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "6f95ead9e989b4598d6e12d972a96a88",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1200,6 +1801,13 @@
             "function": {
                 "name": "test_ptr_ptr_char16_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "6051fdb67d2ab3dc2be69b2e8d527b7e",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1213,6 +1821,13 @@
             "function": {
                 "name": "test_ptr_char16_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "17a896308fbfdcfc1326395b9cc2595e",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1226,6 +1841,13 @@
             "function": {
                 "name": "test_char16_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "2d6a8026ff4ab4f911c9237f17607196",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1239,6 +1861,13 @@
             "function": {
                 "name": "test_ptr_ptr_wchar_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "054ca8ada375204777504505531cf128",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1252,6 +1881,13 @@
             "function": {
                 "name": "test_ptr_wchar_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "12b3efd7e32ca9c6a56b196d7360d4fe",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1265,6 +1901,13 @@
             "function": {
                 "name": "test_wchar_t",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "15aac316b4c8111ac0f06c723801334d",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1278,6 +1921,13 @@
             "function": {
                 "name": "test_ptr_ptr_long_double__Complex",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "0ce871887e04c27c0c189c0932db0562",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1291,6 +1941,13 @@
             "function": {
                 "name": "test_ptr_long_double__Complex",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "b68f3c46bf953d7581ac7458ee208545",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1304,6 +1961,13 @@
             "function": {
                 "name": "test_long_double__Complex",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "c431870fc760f3907c508fad72d661b4",
+                        "location": "framebase+8"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1317,6 +1981,13 @@
             "function": {
                 "name": "test_ptr_ptr_double__Complex",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "8db215b93cd9b09de8d703e6b62f2581",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1330,6 +2001,13 @@
             "function": {
                 "name": "test_ptr_double__Complex",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "93b5598dfe50d78199b1a81460090609",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1343,6 +2021,13 @@
             "function": {
                 "name": "test_double__Complex",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "9eb6b166561b8985e3296616cde50464",
+                        "location": "framebase+8"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1356,6 +2041,13 @@
             "function": {
                 "name": "test_ptr_ptr_float__Complex",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "a53cef9229471232f4822b2f1037b79e",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1369,6 +2061,13 @@
             "function": {
                 "name": "test_ptr_float__Complex",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "410cf44261c440850983617617748484",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1382,6 +2081,13 @@
             "function": {
                 "name": "test_float__Complex",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "c36ad66c4ad0c427b0051ec0a7a92553",
+                        "location": "framebase+8"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1395,6 +2101,13 @@
             "function": {
                 "name": "test_ptr_ptr_long_double",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "ad0b03d6f65b418a5a6c52250a29eacf",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1408,6 +2121,13 @@
             "function": {
                 "name": "test_ptr_long_double",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "3f9ad876978ecdcf1f14a754ec8b136e",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1421,6 +2141,13 @@
             "function": {
                 "name": "test_long_double",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "308ad8129cac3a0bb414c01987309d1b",
+                        "location": "framebase+8"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1434,6 +2161,13 @@
             "function": {
                 "name": "test_ptr_ptr_double",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "dcd3ab44e87dd0c52a1ce1d43fd8476a",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1447,6 +2181,13 @@
             "function": {
                 "name": "test_ptr_double",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "2ccb2ac5971e611b2426427059564122",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1460,6 +2201,13 @@
             "function": {
                 "name": "test_double",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "5f66ab77d11088555799b0da0fbee9bf",
+                        "location": "%xmm0"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1473,6 +2221,13 @@
             "function": {
                 "name": "test_ptr_ptr_float",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "d8657b5fb16f6433d39a927062a91107",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1486,6 +2241,13 @@
             "function": {
                 "name": "test_ptr_float",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "6abb7eb291fca1b8fcad6acf152bb3e1",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1499,6 +2261,13 @@
             "function": {
                 "name": "test_float",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "65548ffbcaadd70764058ff4b5097cfb",
+                        "location": "%xmm0"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1512,6 +2281,13 @@
             "function": {
                 "name": "test_ptr_ptr_unsigned_long_long",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "a8ce1202bfc2e62b1cbb8eea35124d1b",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1525,6 +2301,13 @@
             "function": {
                 "name": "test_ptr_unsigned_long_long",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "d798684ec7310f86a6fb1029af5941cb",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1538,6 +2321,13 @@
             "function": {
                 "name": "test_unsigned_long_long",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "6c50d3a67c64cc4cdfbee700b946253a",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1551,6 +2341,13 @@
             "function": {
                 "name": "test_ptr_ptr_unsigned_long",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "347226b69fba80d75453b8bfca5cc402",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1564,6 +2361,13 @@
             "function": {
                 "name": "test_ptr_unsigned_long",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "241cee07b415998dfa7f2303e41486a2",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1577,6 +2381,13 @@
             "function": {
                 "name": "test_unsigned_long",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "6d168f46b7d9e8b96a1ff9b171e0ad48",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1590,6 +2401,13 @@
             "function": {
                 "name": "test_ptr_ptr_unsigned_int",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "354bf9cd5c5bdca77bceb2a95a8a0f8e",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1603,6 +2421,13 @@
             "function": {
                 "name": "test_ptr_unsigned_int",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "a4417b56e3dd27afe77473a43787752a",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1616,6 +2441,13 @@
             "function": {
                 "name": "test_unsigned_int",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "724f0b94c416f03c89c16150cf866e00",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1629,6 +2461,13 @@
             "function": {
                 "name": "test_ptr_ptr_unsigned_short",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "be812867244c0e6b2d9362050a86b1ec",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1642,6 +2481,13 @@
             "function": {
                 "name": "test_ptr_unsigned_short",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "1494a6f1617fb0cd644dd5503516e752",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1655,6 +2501,13 @@
             "function": {
                 "name": "test_unsigned_short",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "251ba5521033493f21e959542089468c",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1668,6 +2521,13 @@
             "function": {
                 "name": "test_ptr_ptr_unsigned_char",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "59104e0a4cfe63757fb7062e552938de",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1681,6 +2541,13 @@
             "function": {
                 "name": "test_ptr_unsigned_char",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "0347f3da9129e423bb535f80fbe3b770",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1694,6 +2561,13 @@
             "function": {
                 "name": "test_unsigned_char",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "bed98a955ed036318ec3b264a9cf3575",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1707,6 +2581,13 @@
             "function": {
                 "name": "test_ptr_ptr_unsigned",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "354bf9cd5c5bdca77bceb2a95a8a0f8e",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1720,6 +2601,13 @@
             "function": {
                 "name": "test_ptr_unsigned",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "a4417b56e3dd27afe77473a43787752a",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1733,6 +2621,13 @@
             "function": {
                 "name": "test_unsigned",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "724f0b94c416f03c89c16150cf866e00",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1746,6 +2641,13 @@
             "function": {
                 "name": "test_ptr_ptr_signed_long_long",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "9ae76b67966de499af4ff2fbfec59d49",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1759,6 +2661,13 @@
             "function": {
                 "name": "test_ptr_signed_long_long",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "60b3cd1e284b1ad79e0e9781cf7a1534",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1772,6 +2681,13 @@
             "function": {
                 "name": "test_signed_long_long",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "a44bf8971dc4a612236c2e4dccc1cd7e",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1785,6 +2701,13 @@
             "function": {
                 "name": "test_ptr_ptr_signed_long",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "350a3b1a1a4fa38fade707ac3fbf3be7",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1798,6 +2721,13 @@
             "function": {
                 "name": "test_ptr_signed_long",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "102db67385972128dbcc1304fde8d8b9",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1811,6 +2741,13 @@
             "function": {
                 "name": "test_signed_long",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "832037bcbd004730c7738b05d956e54e",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1824,6 +2761,13 @@
             "function": {
                 "name": "test_ptr_ptr_signed_int",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "7c139f9fdae8d3bea96c198db7e82da2",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1837,6 +2781,13 @@
             "function": {
                 "name": "test_ptr_signed_int",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "aacd57e83b8b686422065a7059344b6c",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1850,6 +2801,13 @@
             "function": {
                 "name": "test_signed_int",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1863,6 +2821,13 @@
             "function": {
                 "name": "test_ptr_ptr_signed_short",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "73848a6617ba9c98e1771a2c4739c337",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1876,6 +2841,13 @@
             "function": {
                 "name": "test_ptr_signed_short",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "f67c0ffe52283d47f636a2b20e3c76aa",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1889,6 +2861,13 @@
             "function": {
                 "name": "test_signed_short",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "cb0dd2f169dfa3b7b6cd32e3a051de77",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1902,6 +2881,13 @@
             "function": {
                 "name": "test_ptr_ptr_signed_char",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "7ab9ea4aaf266a1a8d5f4bc24dd2c3d4",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1915,6 +2901,13 @@
             "function": {
                 "name": "test_ptr_signed_char",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "ee8a2d8d17c879f7bfaffdbff2fd42b5",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1928,6 +2921,13 @@
             "function": {
                 "name": "test_signed_char",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "56654bba3a13771fb5aa97f95f2faf7f",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1941,6 +2941,13 @@
             "function": {
                 "name": "test_ptr_ptr_signed",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "7c139f9fdae8d3bea96c198db7e82da2",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1954,6 +2961,13 @@
             "function": {
                 "name": "test_ptr_signed",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "aacd57e83b8b686422065a7059344b6c",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1967,6 +2981,13 @@
             "function": {
                 "name": "test_signed",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1980,6 +3001,13 @@
             "function": {
                 "name": "test_ptr_ptr_long_long",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "9ae76b67966de499af4ff2fbfec59d49",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1993,6 +3021,13 @@
             "function": {
                 "name": "test_ptr_long_long",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "60b3cd1e284b1ad79e0e9781cf7a1534",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -2006,6 +3041,13 @@
             "function": {
                 "name": "test_long_long",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "a44bf8971dc4a612236c2e4dccc1cd7e",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -2019,6 +3061,13 @@
             "function": {
                 "name": "test_ptr_ptr_long",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "350a3b1a1a4fa38fade707ac3fbf3be7",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -2032,6 +3081,13 @@
             "function": {
                 "name": "test_ptr_long",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "102db67385972128dbcc1304fde8d8b9",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -2045,6 +3101,13 @@
             "function": {
                 "name": "test_long",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "832037bcbd004730c7738b05d956e54e",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -2058,6 +3121,13 @@
             "function": {
                 "name": "test_ptr_ptr_int",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "7c139f9fdae8d3bea96c198db7e82da2",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -2071,6 +3141,13 @@
             "function": {
                 "name": "test_ptr_int",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "aacd57e83b8b686422065a7059344b6c",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -2084,6 +3161,13 @@
             "function": {
                 "name": "test_int",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -2097,6 +3181,13 @@
             "function": {
                 "name": "test_ptr_ptr_short",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "73848a6617ba9c98e1771a2c4739c337",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -2110,6 +3201,13 @@
             "function": {
                 "name": "test_ptr_short",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "f67c0ffe52283d47f636a2b20e3c76aa",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -2123,6 +3221,13 @@
             "function": {
                 "name": "test_short",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "cb0dd2f169dfa3b7b6cd32e3a051de77",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -2136,6 +3241,13 @@
             "function": {
                 "name": "test_ptr_ptr_char",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "7c13bd66a351ed221de5e197c4cb781f",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -2149,6 +3261,13 @@
             "function": {
                 "name": "test_ptr_char",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "f4b20b8ba638f71a9bf9b67e508f6126",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -2162,6 +3281,13 @@
             "function": {
                 "name": "test_char",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "5c9aaaf36f52e308f9f5b66a32099fc6",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -2175,6 +3301,13 @@
             "function": {
                 "name": "test_ptr_ptr_bool",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "5a3e030a1dece2457090ff855002df73",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -2188,6 +3321,13 @@
             "function": {
                 "name": "test_ptr_bool",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "d7374ebe77c1a756455e6cb9440b4cd4",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -2201,6 +3341,13 @@
             "function": {
                 "name": "test_bool",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "2510f53e346bdd74cbd7340688aeed47",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",

@@ -5,6 +5,13 @@
             "function": {
                 "name": "_Z3barP3Foo",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "f",
+                        "type": "384ea1626c8e0d8d4589fa64588bc8cb",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "type": "14e6578350f8599a5ff38bbbca7ff51b",
                     "direction": "export"
@@ -15,6 +22,26 @@
             "function": {
                 "name": "_Z3foo3Foo",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "f",
+                        "type": {
+                            "name": "Foo",
+                            "size": 8,
+                            "class": "Struct",
+                            "fields": [
+                                {
+                                    "name": "f",
+                                    "type": "384ea1626c8e0d8d4589fa64588bc8cb",
+                                    "offset": 0,
+                                    "location": "%rdi",
+                                    "direction": "export"
+                                }
+                            ],
+                            "direction": "import"
+                        }
+                    }
+                ],
                 "return": {
                     "type": "1fd8c01bdca094933f920b41375cfed0",
                     "direction": "export",

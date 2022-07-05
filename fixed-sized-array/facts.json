@@ -26,6 +26,13 @@
             "function": {
                 "name": "_Z30function_with_fixed_size_arrayPi",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "array",
+                        "type": "618a270d72b630eda232c57eaa87aaf9",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",

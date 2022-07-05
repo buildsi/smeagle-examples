@@ -5,6 +5,23 @@
             "function": {
                 "name": "_Z3fooiPcPS_",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "a",
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdi"
+                    },
+                    {
+                        "name": "b",
+                        "type": "d42a3591ca87c7985275aaf158810558",
+                        "location": "%rsi"
+                    },
+                    {
+                        "name": "c",
+                        "type": "856a0a2fb6e449f21514b1e48dfec94f",
+                        "location": "%rdx"
+                    }
+                ],
                 "return": {
                     "type": "832037bcbd004730c7738b05d956e54e",
                     "direction": "export",

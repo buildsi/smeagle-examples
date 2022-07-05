@@ -17,6 +17,13 @@
             "function": {
                 "name": "_Z3fooPPi",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "7c139f9fdae8d3bea96c198db7e82da2",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",

@@ -5,6 +5,82 @@
             "function": {
                 "name": "_Z4func1AP1B1C1D",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "a",
+                        "type": {
+                            "name": "A",
+                            "size": 4,
+                            "class": "Struct",
+                            "fields": [
+                                {
+                                    "name": "x",
+                                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                                    "offset": 0,
+                                    "location": "%rdi",
+                                    "direction": "export"
+                                }
+                            ],
+                            "direction": "import"
+                        }
+                    },
+                    {
+                        "name": "b",
+                        "type": "b8ec14a2fb4b5bdb7f22295766092107",
+                        "location": "%rsi"
+                    },
+                    {
+                        "name": "c",
+                        "type": {
+                            "name": "C",
+                            "size": 4,
+                            "class": "Struct",
+                            "fields": [
+                                {
+                                    "name": "z",
+                                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                                    "offset": 0,
+                                    "location": "%rdx",
+                                    "direction": "export"
+                                }
+                            ],
+                            "direction": "import"
+                        }
+                    },
+                    {
+                        "name": "d",
+                        "type": {
+                            "name": "D",
+                            "size": 16,
+                            "class": "Struct",
+                            "fields": [
+                                {
+                                    "name": "unknown",
+                                    "type": "dc1f9a49c2ed8309466e8e6037fccb15",
+                                    "offset": 0
+                                },
+                                {
+                                    "name": "unknown",
+                                    "type": "323bd81e5555e2ad8310e079339c2690",
+                                    "offset": 4
+                                },
+                                {
+                                    "name": "unknown",
+                                    "type": "f56914f3c6709c95fcffa2b6b6d61995",
+                                    "offset": 8
+                                },
+                                {
+                                    "name": "d",
+                                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                                    "offset": 12,
+                                    "location": "%rcx",
+                                    "direction": "export"
+                                }
+                            ],
+                            "direction": "import"
+                        }
+                    }
+                ],
                 "return": {
                     "type": "1fd8c01bdca094933f920b41375cfed0",
                     "direction": "export",

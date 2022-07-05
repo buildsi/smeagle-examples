@@ -5,6 +5,13 @@
             "function": {
                 "name": "_Z3buxP3Bux",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "b",
+                        "type": "25d2f23fc23bd5fd07b36357152f4f73",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -17,6 +24,26 @@
             "function": {
                 "name": "_Z3bux3Bux",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "b",
+                        "type": {
+                            "name": "Bux",
+                            "size": 8,
+                            "class": "Struct",
+                            "fields": [
+                                {
+                                    "name": "b",
+                                    "type": "c17c8b864121015592ffd28d8c9dc27c",
+                                    "offset": 0,
+                                    "location": "%rdi",
+                                    "direction": "export"
+                                }
+                            ],
+                            "direction": "import"
+                        }
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -29,6 +56,13 @@
             "function": {
                 "name": "_Z3baxP3Bax",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "b",
+                        "type": "10c742e70e405a9eeda4ccaf5a54df40",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -41,6 +75,26 @@
             "function": {
                 "name": "_Z3bax3Bax",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "b",
+                        "type": {
+                            "name": "Bax",
+                            "size": 8,
+                            "class": "Struct",
+                            "fields": [
+                                {
+                                    "name": "b",
+                                    "type": "8e24f4b1328368b9abd6de03cc69f22c",
+                                    "offset": 0,
+                                    "location": "%rdi",
+                                    "direction": "export"
+                                }
+                            ],
+                            "direction": "import"
+                        }
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -53,6 +107,13 @@
             "function": {
                 "name": "_Z3bazP3Baz",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "b",
+                        "type": "c17c8b864121015592ffd28d8c9dc27c",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -65,6 +126,26 @@
             "function": {
                 "name": "_Z3baz3Baz",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "b",
+                        "type": {
+                            "name": "Baz",
+                            "size": 8,
+                            "class": "Struct",
+                            "fields": [
+                                {
+                                    "name": "f",
+                                    "type": "8f18eb22709ad8a8b9804bbfbe743889",
+                                    "offset": 0,
+                                    "location": "%rdi",
+                                    "direction": "export"
+                                }
+                            ],
+                            "direction": "import"
+                        }
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -77,6 +158,13 @@
             "function": {
                 "name": "_Z3barP3Bar",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "b",
+                        "type": "8e24f4b1328368b9abd6de03cc69f22c",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -89,6 +177,24 @@
             "function": {
                 "name": "_Z3bar3Bar",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "b",
+                        "type": {
+                            "name": "Bar",
+                            "size": 4,
+                            "class": "Struct",
+                            "fields": [
+                                {
+                                    "name": "f",
+                                    "type": "d32b086ab17909cb8eaf3d2c473c2b55",
+                                    "offset": 0
+                                }
+                            ],
+                            "direction": "import"
+                        }
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -101,6 +207,26 @@
             "function": {
                 "name": "_Z3foo3Foo",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "f",
+                        "type": {
+                            "name": "Foo",
+                            "size": 4,
+                            "class": "Struct",
+                            "fields": [
+                                {
+                                    "name": "x",
+                                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                                    "offset": 0,
+                                    "location": "%rdi",
+                                    "direction": "export"
+                                }
+                            ],
+                            "direction": "import"
+                        }
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",

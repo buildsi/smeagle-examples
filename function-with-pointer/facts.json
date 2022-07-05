@@ -5,6 +5,13 @@
             "function": {
                 "name": "_Z3fooPi",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "aacd57e83b8b686422065a7059344b6c",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "type": "1fd8c01bdca094933f920b41375cfed0",
                     "direction": "export",

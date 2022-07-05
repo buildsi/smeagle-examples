@@ -19,6 +19,16 @@
             "function": {
                 "name": "_ZNSt15__exception_ptr13exception_ptrC4EPv",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "8ba0a52b84077c466ff7b91a562f95e0",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "388436edda46ea0e13c3c02b76de9286",
+                        "location": "%rsi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -31,6 +41,12 @@
             "function": {
                 "name": "_ZNSt15__exception_ptr13exception_ptr9_M_addrefEv",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "8ba0a52b84077c466ff7b91a562f95e0",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -43,6 +59,12 @@
             "function": {
                 "name": "_ZNSt15__exception_ptr13exception_ptr10_M_releaseEv",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "8ba0a52b84077c466ff7b91a562f95e0",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -55,6 +77,12 @@
             "function": {
                 "name": "_ZNKSt15__exception_ptr13exception_ptr6_M_getEv",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "fc0822e61edbcceb38aa9a8ee5c07aa3",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "type": "b17e7ae2c351f7b391dc2b61f7662a82",
                     "direction": "export",
@@ -66,6 +94,12 @@
             "function": {
                 "name": "_ZNSt15__exception_ptr13exception_ptrC4Ev",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "8ba0a52b84077c466ff7b91a562f95e0",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -78,6 +112,15 @@
             "function": {
                 "name": "_ZNSt15__exception_ptr13exception_ptrC4ERKS0_",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "8ba0a52b84077c466ff7b91a562f95e0",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "dfea585dfb2304c51ccb8043ec4f6763"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -90,6 +133,15 @@
             "function": {
                 "name": "_ZNSt15__exception_ptr13exception_ptrC4EDn",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "8ba0a52b84077c466ff7b91a562f95e0",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "0feae1ef9c774483925f15d607c3cfa9"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -102,6 +154,15 @@
             "function": {
                 "name": "_ZNSt15__exception_ptr13exception_ptrC4EOS0_",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "8ba0a52b84077c466ff7b91a562f95e0",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "81884bd8adefb940f5574d72a08cbc08"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -114,6 +175,15 @@
             "function": {
                 "name": "_ZNSt15__exception_ptr13exception_ptraSERKS0_",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "8ba0a52b84077c466ff7b91a562f95e0",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "dfea585dfb2304c51ccb8043ec4f6763"
+                    }
+                ],
                 "return": {
                     "type": "81884bd8adefb940f5574d72a08cbc08",
                     "direction": "export"
@@ -124,6 +194,15 @@
             "function": {
                 "name": "_ZNSt15__exception_ptr13exception_ptraSEOS0_",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "8ba0a52b84077c466ff7b91a562f95e0",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "81884bd8adefb940f5574d72a08cbc08"
+                    }
+                ],
                 "return": {
                     "type": "81884bd8adefb940f5574d72a08cbc08",
                     "direction": "export"
@@ -134,6 +213,16 @@
             "function": {
                 "name": "_ZNSt15__exception_ptr13exception_ptrD4Ev",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "8ba0a52b84077c466ff7b91a562f95e0",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rsi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -146,6 +235,15 @@
             "function": {
                 "name": "_ZNSt15__exception_ptr13exception_ptr4swapERS0_",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "8ba0a52b84077c466ff7b91a562f95e0",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "81884bd8adefb940f5574d72a08cbc08"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -158,6 +256,12 @@
             "function": {
                 "name": "_ZNKSt15__exception_ptr13exception_ptrcvbEv",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "fc0822e61edbcceb38aa9a8ee5c07aa3",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "type": "2510f53e346bdd74cbd7340688aeed47",
                     "direction": "export",
@@ -169,6 +273,12 @@
             "function": {
                 "name": "_ZNKSt15__exception_ptr13exception_ptr20__cxa_exception_typeEv",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "fc0822e61edbcceb38aa9a8ee5c07aa3",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "type": "a35376d9a461cc3636b4421b001c6a64",
                     "direction": "export",
@@ -180,6 +290,25 @@
             "function": {
                 "name": "_ZSt17rethrow_exceptionNSt15__exception_ptr13exception_ptrE",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": {
+                            "name": "exception_ptr",
+                            "size": 8,
+                            "class": "Class",
+                            "fields": [
+                                {
+                                    "name": "_M_exception_object",
+                                    "type": "dffa392622ec9fc2975319f5b5cb37f4",
+                                    "offset": 0,
+                                    "location": "%rdi",
+                                    "direction": "import"
+                                }
+                            ],
+                            "direction": "import"
+                        }
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -192,6 +321,14 @@
             "function": {
                 "name": "_ZNSt11char_traitsIcE6assignERcRKc",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "b0e23a231b97d5eafb2192d2b6828116"
+                    },
+                    {
+                        "type": "a5f9c986dfdb15dd5040211afed48aae"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -204,6 +341,14 @@
             "function": {
                 "name": "_ZNSt11char_traitsIcE2eqERKcS2_",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "a5f9c986dfdb15dd5040211afed48aae"
+                    },
+                    {
+                        "type": "a5f9c986dfdb15dd5040211afed48aae"
+                    }
+                ],
                 "return": {
                     "type": "2510f53e346bdd74cbd7340688aeed47",
                     "direction": "export",
@@ -215,6 +360,14 @@
             "function": {
                 "name": "_ZNSt11char_traitsIcE2ltERKcS2_",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "a5f9c986dfdb15dd5040211afed48aae"
+                    },
+                    {
+                        "type": "a5f9c986dfdb15dd5040211afed48aae"
+                    }
+                ],
                 "return": {
                     "type": "2510f53e346bdd74cbd7340688aeed47",
                     "direction": "export",
@@ -226,6 +379,19 @@
             "function": {
                 "name": "_ZNSt11char_traitsIcE7compareEPKcS2_m",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "ca5729ac088a3307e1f805fb1589ada6",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "ca5729ac088a3307e1f805fb1589ada6",
+                        "location": "%rsi"
+                    },
+                    {
+                        "type": "2b7927ac6886d6f780cffd9e51ebbc49"
+                    }
+                ],
                 "return": {
                     "type": "1fd8c01bdca094933f920b41375cfed0",
                     "direction": "export",
@@ -237,6 +403,12 @@
             "function": {
                 "name": "_ZNSt11char_traitsIcE6lengthEPKc",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "ca5729ac088a3307e1f805fb1589ada6",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "type": "2b7927ac6886d6f780cffd9e51ebbc49",
                     "direction": "export"
@@ -247,6 +419,18 @@
             "function": {
                 "name": "_ZNSt11char_traitsIcE4findEPKcmRS1_",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "ca5729ac088a3307e1f805fb1589ada6",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "2b7927ac6886d6f780cffd9e51ebbc49"
+                    },
+                    {
+                        "type": "a5f9c986dfdb15dd5040211afed48aae"
+                    }
+                ],
                 "return": {
                     "type": "0027a5e2e7d2f2534c89305478114c83",
                     "direction": "export",
@@ -258,6 +442,19 @@
             "function": {
                 "name": "_ZNSt11char_traitsIcE4moveEPcPKcm",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "447172233d8b0ec7b817f21b3e5ba3c1",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "ca5729ac088a3307e1f805fb1589ada6",
+                        "location": "%rsi"
+                    },
+                    {
+                        "type": "2b7927ac6886d6f780cffd9e51ebbc49"
+                    }
+                ],
                 "return": {
                     "type": "0169f8606c55d1057bcb51402116ad02",
                     "direction": "export",
@@ -269,6 +466,19 @@
             "function": {
                 "name": "_ZNSt11char_traitsIcE4copyEPcPKcm",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "447172233d8b0ec7b817f21b3e5ba3c1",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "ca5729ac088a3307e1f805fb1589ada6",
+                        "location": "%rsi"
+                    },
+                    {
+                        "type": "2b7927ac6886d6f780cffd9e51ebbc49"
+                    }
+                ],
                 "return": {
                     "type": "9e9327a8e4aa594fc7dc448a5b1b2856",
                     "direction": "export",
@@ -280,6 +490,18 @@
             "function": {
                 "name": "_ZNSt11char_traitsIcE6assignEPcmc",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "447172233d8b0ec7b817f21b3e5ba3c1",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "2b7927ac6886d6f780cffd9e51ebbc49"
+                    },
+                    {
+                        "type": "6b23e2362c4169aea8a6f5703c87b7e1"
+                    }
+                ],
                 "return": {
                     "type": "e786241aded275e50d173b18893158a1",
                     "direction": "export",
@@ -291,6 +513,11 @@
             "function": {
                 "name": "_ZNSt11char_traitsIcE12to_char_typeERKi",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "dcd09985c76a8f83e2c404735df09aac"
+                    }
+                ],
                 "return": {
                     "type": "6b23e2362c4169aea8a6f5703c87b7e1",
                     "direction": "export"
@@ -301,6 +528,11 @@
             "function": {
                 "name": "_ZNSt11char_traitsIcE11to_int_typeERKc",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "a5f9c986dfdb15dd5040211afed48aae"
+                    }
+                ],
                 "return": {
                     "type": "81679904b25f5e0b5877686f0d82370a",
                     "direction": "export"
@@ -311,6 +543,14 @@
             "function": {
                 "name": "_ZNSt11char_traitsIcE11eq_int_typeERKiS2_",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "dcd09985c76a8f83e2c404735df09aac"
+                    },
+                    {
+                        "type": "dcd09985c76a8f83e2c404735df09aac"
+                    }
+                ],
                 "return": {
                     "type": "2510f53e346bdd74cbd7340688aeed47",
                     "direction": "export",
@@ -332,6 +572,11 @@
             "function": {
                 "name": "_ZNSt11char_traitsIcE7not_eofERKi",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "dcd09985c76a8f83e2c404735df09aac"
+                    }
+                ],
                 "return": {
                     "type": "81679904b25f5e0b5877686f0d82370a",
                     "direction": "export"
@@ -342,6 +587,12 @@
             "function": {
                 "name": "_ZNSt8ios_base4InitC4Ev",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "111b10927badb7f5b91e911e0cabb201",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -354,6 +605,16 @@
             "function": {
                 "name": "_ZNSt8ios_base4InitD4Ev",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "111b10927badb7f5b91e911e0cabb201",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rsi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -366,6 +627,15 @@
             "function": {
                 "name": "_ZNSt8ios_base4InitC4ERKS0_",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "111b10927badb7f5b91e911e0cabb201",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "b94d50401440b488c90959f03595fb3d"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -378,6 +648,15 @@
             "function": {
                 "name": "_ZNSt8ios_base4InitaSERKS0_",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "111b10927badb7f5b91e911e0cabb201",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "b94d50401440b488c90959f03595fb3d"
+                    }
+                ],
                 "return": {
                     "type": "935aa230580690480b12293a4706b92b",
                     "direction": "export"
@@ -388,6 +667,16 @@
             "function": {
                 "name": "_ZNSolsEi",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "51fcc1cfb4e58bd358f6ef8fae446a44",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rsi"
+                    }
+                ],
                 "return": {
                     "type": "41b023e7905bece5f40538a8e77af0d4",
                     "direction": "export"
@@ -398,6 +687,15 @@
             "function": {
                 "name": "_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_c",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "41b023e7905bece5f40538a8e77af0d4"
+                    },
+                    {
+                        "type": "5c9aaaf36f52e308f9f5b66a32099fc6",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "type": "41b023e7905bece5f40538a8e77af0d4",
                     "direction": "export"
@@ -408,6 +706,15 @@
             "function": {
                 "name": "_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "41b023e7905bece5f40538a8e77af0d4"
+                    },
+                    {
+                        "type": "dc39001171cfdeaf8459443e8ad52c66",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "type": "41b023e7905bece5f40538a8e77af0d4",
                     "direction": "export"
@@ -418,6 +725,12 @@
             "function": {
                 "name": "btowc",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "type": "fc138e2285033694bfd9b69aeae9b625",
                     "direction": "export"
@@ -428,6 +741,12 @@
             "function": {
                 "name": "fgetwc",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "d8114e4e50662c7e4cf2019710305440",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "type": "fc138e2285033694bfd9b69aeae9b625",
                     "direction": "export"
@@ -438,6 +757,20 @@
             "function": {
                 "name": "fgetws",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "25de874593d98d515336645a595ac2f7",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rsi"
+                    },
+                    {
+                        "type": "d8114e4e50662c7e4cf2019710305440",
+                        "location": "%rdx"
+                    }
+                ],
                 "return": {
                     "type": "2432a21c53079e9fa940ecb21e5949d6",
                     "direction": "export",
@@ -449,6 +782,16 @@
             "function": {
                 "name": "fputwc",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "15aac316b4c8111ac0f06c723801334d",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "d8114e4e50662c7e4cf2019710305440",
+                        "location": "%rsi"
+                    }
+                ],
                 "return": {
                     "type": "fc138e2285033694bfd9b69aeae9b625",
                     "direction": "export"
@@ -459,6 +802,16 @@
             "function": {
                 "name": "fputws",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "b238763ee9b3b30d2070d1e039051b55",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "d8114e4e50662c7e4cf2019710305440",
+                        "location": "%rsi"
+                    }
+                ],
                 "return": {
                     "type": "1fd8c01bdca094933f920b41375cfed0",
                     "direction": "export",
@@ -470,6 +823,16 @@
             "function": {
                 "name": "fwide",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "d8114e4e50662c7e4cf2019710305440",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rsi"
+                    }
+                ],
                 "return": {
                     "type": "1fd8c01bdca094933f920b41375cfed0",
                     "direction": "export",
@@ -481,6 +844,16 @@
             "function": {
                 "name": "fwprintf",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "d8114e4e50662c7e4cf2019710305440",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "b238763ee9b3b30d2070d1e039051b55",
+                        "location": "%rsi"
+                    }
+                ],
                 "return": {
                     "type": "1fd8c01bdca094933f920b41375cfed0",
                     "direction": "export",
@@ -492,6 +865,12 @@
             "function": {
                 "name": "getwc",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "d8114e4e50662c7e4cf2019710305440",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "type": "fc138e2285033694bfd9b69aeae9b625",
                     "direction": "export"
@@ -512,6 +891,19 @@
             "function": {
                 "name": "mbrlen",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "dc39001171cfdeaf8459443e8ad52c66",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "2b7927ac6886d6f780cffd9e51ebbc49"
+                    },
+                    {
+                        "type": "700afeb724bf6ce5d663cbad42d5295f",
+                        "location": "%rsi"
+                    }
+                ],
                 "return": {
                     "type": "2b7927ac6886d6f780cffd9e51ebbc49",
                     "direction": "export"
@@ -522,6 +914,23 @@
             "function": {
                 "name": "mbrtowc",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "25de874593d98d515336645a595ac2f7",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "dc39001171cfdeaf8459443e8ad52c66",
+                        "location": "%rsi"
+                    },
+                    {
+                        "type": "2b7927ac6886d6f780cffd9e51ebbc49"
+                    },
+                    {
+                        "type": "700afeb724bf6ce5d663cbad42d5295f",
+                        "location": "%rdx"
+                    }
+                ],
                 "return": {
                     "type": "2b7927ac6886d6f780cffd9e51ebbc49",
                     "direction": "export"
@@ -532,6 +941,12 @@
             "function": {
                 "name": "mbsinit",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "52899dffe358591c4c1191c59e6af21f",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "type": "1fd8c01bdca094933f920b41375cfed0",
                     "direction": "export",
@@ -543,6 +958,23 @@
             "function": {
                 "name": "mbsrtowcs",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "25de874593d98d515336645a595ac2f7",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "6d8d1bab8fbfa6b204472f5daaaebeac",
+                        "location": "%rsi"
+                    },
+                    {
+                        "type": "2b7927ac6886d6f780cffd9e51ebbc49"
+                    },
+                    {
+                        "type": "700afeb724bf6ce5d663cbad42d5295f",
+                        "location": "%rdx"
+                    }
+                ],
                 "return": {
                     "type": "2b7927ac6886d6f780cffd9e51ebbc49",
                     "direction": "export"
@@ -553,6 +985,16 @@
             "function": {
                 "name": "putwc",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "15aac316b4c8111ac0f06c723801334d",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "d8114e4e50662c7e4cf2019710305440",
+                        "location": "%rsi"
+                    }
+                ],
                 "return": {
                     "type": "fc138e2285033694bfd9b69aeae9b625",
                     "direction": "export"
@@ -563,6 +1005,12 @@
             "function": {
                 "name": "putwchar",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "15aac316b4c8111ac0f06c723801334d",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "type": "fc138e2285033694bfd9b69aeae9b625",
                     "direction": "export"
@@ -573,6 +1021,19 @@
             "function": {
                 "name": "swprintf",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "25de874593d98d515336645a595ac2f7",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "2b7927ac6886d6f780cffd9e51ebbc49"
+                    },
+                    {
+                        "type": "b238763ee9b3b30d2070d1e039051b55",
+                        "location": "%rsi"
+                    }
+                ],
                 "return": {
                     "type": "1fd8c01bdca094933f920b41375cfed0",
                     "direction": "export",
@@ -584,6 +1045,15 @@
             "function": {
                 "name": "ungetwc",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "fc138e2285033694bfd9b69aeae9b625"
+                    },
+                    {
+                        "type": "d8114e4e50662c7e4cf2019710305440",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "type": "fc138e2285033694bfd9b69aeae9b625",
                     "direction": "export"
@@ -594,6 +1064,20 @@
             "function": {
                 "name": "vfwprintf",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "d8114e4e50662c7e4cf2019710305440",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "b238763ee9b3b30d2070d1e039051b55",
+                        "location": "%rsi"
+                    },
+                    {
+                        "type": "14573488c13395a2d58b403c12f0c646",
+                        "location": "%rdx"
+                    }
+                ],
                 "return": {
                     "type": "1fd8c01bdca094933f920b41375cfed0",
                     "direction": "export",
@@ -605,6 +1089,23 @@
             "function": {
                 "name": "vswprintf",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "25de874593d98d515336645a595ac2f7",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "2b7927ac6886d6f780cffd9e51ebbc49"
+                    },
+                    {
+                        "type": "b238763ee9b3b30d2070d1e039051b55",
+                        "location": "%rsi"
+                    },
+                    {
+                        "type": "14573488c13395a2d58b403c12f0c646",
+                        "location": "%rdx"
+                    }
+                ],
                 "return": {
                     "type": "1fd8c01bdca094933f920b41375cfed0",
                     "direction": "export",
@@ -616,6 +1117,16 @@
             "function": {
                 "name": "vwprintf",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "b238763ee9b3b30d2070d1e039051b55",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "14573488c13395a2d58b403c12f0c646",
+                        "location": "%rsi"
+                    }
+                ],
                 "return": {
                     "type": "1fd8c01bdca094933f920b41375cfed0",
                     "direction": "export",
@@ -627,6 +1138,20 @@
             "function": {
                 "name": "wcrtomb",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "27dfad7ba35fd5894e7222cb6ce69da6",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "15aac316b4c8111ac0f06c723801334d",
+                        "location": "%rsi"
+                    },
+                    {
+                        "type": "700afeb724bf6ce5d663cbad42d5295f",
+                        "location": "%rdx"
+                    }
+                ],
                 "return": {
                     "type": "2b7927ac6886d6f780cffd9e51ebbc49",
                     "direction": "export"
@@ -637,6 +1162,16 @@
             "function": {
                 "name": "wcscat",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "25de874593d98d515336645a595ac2f7",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "b238763ee9b3b30d2070d1e039051b55",
+                        "location": "%rsi"
+                    }
+                ],
                 "return": {
                     "type": "1cae7ce579e996b2924ffd05f1643a81",
                     "direction": "export",
@@ -648,6 +1183,16 @@
             "function": {
                 "name": "wcscmp",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "b238763ee9b3b30d2070d1e039051b55",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "b238763ee9b3b30d2070d1e039051b55",
+                        "location": "%rsi"
+                    }
+                ],
                 "return": {
                     "type": "1fd8c01bdca094933f920b41375cfed0",
                     "direction": "export",
@@ -659,6 +1204,16 @@
             "function": {
                 "name": "wcscoll",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "b238763ee9b3b30d2070d1e039051b55",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "b238763ee9b3b30d2070d1e039051b55",
+                        "location": "%rsi"
+                    }
+                ],
                 "return": {
                     "type": "1fd8c01bdca094933f920b41375cfed0",
                     "direction": "export",
@@ -670,6 +1225,16 @@
             "function": {
                 "name": "wcscpy",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "25de874593d98d515336645a595ac2f7",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "b238763ee9b3b30d2070d1e039051b55",
+                        "location": "%rsi"
+                    }
+                ],
                 "return": {
                     "type": "f44d6ae0437defba2cd0f93b265387f8",
                     "direction": "export",
@@ -681,6 +1246,16 @@
             "function": {
                 "name": "wcscspn",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "b238763ee9b3b30d2070d1e039051b55",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "b238763ee9b3b30d2070d1e039051b55",
+                        "location": "%rsi"
+                    }
+                ],
                 "return": {
                     "type": "2b7927ac6886d6f780cffd9e51ebbc49",
                     "direction": "export"
@@ -691,6 +1266,23 @@
             "function": {
                 "name": "wcsftime",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "25de874593d98d515336645a595ac2f7",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "2b7927ac6886d6f780cffd9e51ebbc49"
+                    },
+                    {
+                        "type": "b238763ee9b3b30d2070d1e039051b55",
+                        "location": "%rsi"
+                    },
+                    {
+                        "type": "c0b2857cff6a6c4e88d2677d228c4dcf",
+                        "location": "%rdx"
+                    }
+                ],
                 "return": {
                     "type": "2b7927ac6886d6f780cffd9e51ebbc49",
                     "direction": "export"
@@ -701,6 +1293,12 @@
             "function": {
                 "name": "wcslen",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "b238763ee9b3b30d2070d1e039051b55",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "type": "2b7927ac6886d6f780cffd9e51ebbc49",
                     "direction": "export"
@@ -711,6 +1309,19 @@
             "function": {
                 "name": "wcsncat",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "25de874593d98d515336645a595ac2f7",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "b238763ee9b3b30d2070d1e039051b55",
+                        "location": "%rsi"
+                    },
+                    {
+                        "type": "2b7927ac6886d6f780cffd9e51ebbc49"
+                    }
+                ],
                 "return": {
                     "type": "a16501933a980879d1db40b17a986f02",
                     "direction": "export",
@@ -722,6 +1333,19 @@
             "function": {
                 "name": "wcsncmp",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "b238763ee9b3b30d2070d1e039051b55",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "b238763ee9b3b30d2070d1e039051b55",
+                        "location": "%rsi"
+                    },
+                    {
+                        "type": "2b7927ac6886d6f780cffd9e51ebbc49"
+                    }
+                ],
                 "return": {
                     "type": "1fd8c01bdca094933f920b41375cfed0",
                     "direction": "export",
@@ -733,6 +1357,19 @@
             "function": {
                 "name": "wcsncpy",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "25de874593d98d515336645a595ac2f7",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "b238763ee9b3b30d2070d1e039051b55",
+                        "location": "%rsi"
+                    },
+                    {
+                        "type": "2b7927ac6886d6f780cffd9e51ebbc49"
+                    }
+                ],
                 "return": {
                     "type": "6d4c69cc99c2008b5fec0d3f3837a971",
                     "direction": "export",
@@ -744,6 +1381,23 @@
             "function": {
                 "name": "wcsrtombs",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "27dfad7ba35fd5894e7222cb6ce69da6",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "83015108e213e24a47318d78f4472053",
+                        "location": "%rsi"
+                    },
+                    {
+                        "type": "2b7927ac6886d6f780cffd9e51ebbc49"
+                    },
+                    {
+                        "type": "700afeb724bf6ce5d663cbad42d5295f",
+                        "location": "%rdx"
+                    }
+                ],
                 "return": {
                     "type": "2b7927ac6886d6f780cffd9e51ebbc49",
                     "direction": "export"
@@ -754,6 +1408,16 @@
             "function": {
                 "name": "wcsspn",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "b238763ee9b3b30d2070d1e039051b55",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "b238763ee9b3b30d2070d1e039051b55",
+                        "location": "%rsi"
+                    }
+                ],
                 "return": {
                     "type": "2b7927ac6886d6f780cffd9e51ebbc49",
                     "direction": "export"
@@ -764,6 +1428,16 @@
             "function": {
                 "name": "wcstod",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "b238763ee9b3b30d2070d1e039051b55",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "c059c82562ace922e6159bfcb06941f7",
+                        "location": "%rsi"
+                    }
+                ],
                 "return": {
                     "type": "5f66ab77d11088555799b0da0fbee9bf",
                     "direction": "export",
@@ -775,6 +1449,16 @@
             "function": {
                 "name": "wcstof",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "b238763ee9b3b30d2070d1e039051b55",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "c059c82562ace922e6159bfcb06941f7",
+                        "location": "%rsi"
+                    }
+                ],
                 "return": {
                     "type": "65548ffbcaadd70764058ff4b5097cfb",
                     "direction": "export",
@@ -786,6 +1470,20 @@
             "function": {
                 "name": "wcstok",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "25de874593d98d515336645a595ac2f7",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "b238763ee9b3b30d2070d1e039051b55",
+                        "location": "%rsi"
+                    },
+                    {
+                        "type": "c059c82562ace922e6159bfcb06941f7",
+                        "location": "%rdx"
+                    }
+                ],
                 "return": {
                     "type": "0853640b918442c5b79da250ae522186",
                     "direction": "export",
@@ -797,6 +1495,20 @@
             "function": {
                 "name": "wcstol",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "b238763ee9b3b30d2070d1e039051b55",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "c059c82562ace922e6159bfcb06941f7",
+                        "location": "%rsi"
+                    },
+                    {
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdx"
+                    }
+                ],
                 "return": {
                     "type": "832037bcbd004730c7738b05d956e54e",
                     "direction": "export",
@@ -808,6 +1520,20 @@
             "function": {
                 "name": "wcstoul",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "b238763ee9b3b30d2070d1e039051b55",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "c059c82562ace922e6159bfcb06941f7",
+                        "location": "%rsi"
+                    },
+                    {
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdx"
+                    }
+                ],
                 "return": {
                     "type": "6d168f46b7d9e8b96a1ff9b171e0ad48",
                     "direction": "export",
@@ -819,6 +1545,19 @@
             "function": {
                 "name": "wcsxfrm",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "25de874593d98d515336645a595ac2f7",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "b238763ee9b3b30d2070d1e039051b55",
+                        "location": "%rsi"
+                    },
+                    {
+                        "type": "2b7927ac6886d6f780cffd9e51ebbc49"
+                    }
+                ],
                 "return": {
                     "type": "2b7927ac6886d6f780cffd9e51ebbc49",
                     "direction": "export"
@@ -829,6 +1568,11 @@
             "function": {
                 "name": "wctob",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "fc138e2285033694bfd9b69aeae9b625"
+                    }
+                ],
                 "return": {
                     "type": "1fd8c01bdca094933f920b41375cfed0",
                     "direction": "export",
@@ -840,6 +1584,19 @@
             "function": {
                 "name": "wmemcmp",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "b238763ee9b3b30d2070d1e039051b55",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "b238763ee9b3b30d2070d1e039051b55",
+                        "location": "%rsi"
+                    },
+                    {
+                        "type": "2b7927ac6886d6f780cffd9e51ebbc49"
+                    }
+                ],
                 "return": {
                     "type": "1fd8c01bdca094933f920b41375cfed0",
                     "direction": "export",
@@ -851,6 +1608,19 @@
             "function": {
                 "name": "wmemcpy",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "25de874593d98d515336645a595ac2f7",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "b238763ee9b3b30d2070d1e039051b55",
+                        "location": "%rsi"
+                    },
+                    {
+                        "type": "2b7927ac6886d6f780cffd9e51ebbc49"
+                    }
+                ],
                 "return": {
                     "type": "dbf42c6a9e4f16ced3d2dd9e5fe8af69",
                     "direction": "export",
@@ -862,6 +1632,19 @@
             "function": {
                 "name": "wmemmove",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "25de874593d98d515336645a595ac2f7",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "b238763ee9b3b30d2070d1e039051b55",
+                        "location": "%rsi"
+                    },
+                    {
+                        "type": "2b7927ac6886d6f780cffd9e51ebbc49"
+                    }
+                ],
                 "return": {
                     "type": "690e798c1facb1d3482b37fbe671cac5",
                     "direction": "export",
@@ -873,6 +1656,19 @@
             "function": {
                 "name": "wmemset",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "25de874593d98d515336645a595ac2f7",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "15aac316b4c8111ac0f06c723801334d",
+                        "location": "%rsi"
+                    },
+                    {
+                        "type": "2b7927ac6886d6f780cffd9e51ebbc49"
+                    }
+                ],
                 "return": {
                     "type": "5e6c211ab80e6cd35ac927500c374a0b",
                     "direction": "export",
@@ -884,6 +1680,12 @@
             "function": {
                 "name": "wprintf",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "b238763ee9b3b30d2070d1e039051b55",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "type": "1fd8c01bdca094933f920b41375cfed0",
                     "direction": "export",
@@ -895,6 +1697,16 @@
             "function": {
                 "name": "wcschr",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "b238763ee9b3b30d2070d1e039051b55",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "15aac316b4c8111ac0f06c723801334d",
+                        "location": "%rsi"
+                    }
+                ],
                 "return": {
                     "type": "a483db3bf5d9aa9b84c678459c2d5bb0",
                     "direction": "export",
@@ -906,6 +1718,16 @@
             "function": {
                 "name": "wcschr",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "25de874593d98d515336645a595ac2f7",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "15aac316b4c8111ac0f06c723801334d",
+                        "location": "%rsi"
+                    }
+                ],
                 "return": {
                     "type": "89d251ffedb17b8cc88c17d26a88ef90",
                     "direction": "export",
@@ -917,6 +1739,16 @@
             "function": {
                 "name": "wcspbrk",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "b238763ee9b3b30d2070d1e039051b55",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "b238763ee9b3b30d2070d1e039051b55",
+                        "location": "%rsi"
+                    }
+                ],
                 "return": {
                     "type": "c321efb84cc8114ebec752f7fea57fb5",
                     "direction": "export",
@@ -928,6 +1760,16 @@
             "function": {
                 "name": "wcspbrk",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "25de874593d98d515336645a595ac2f7",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "b238763ee9b3b30d2070d1e039051b55",
+                        "location": "%rsi"
+                    }
+                ],
                 "return": {
                     "type": "1fd2292101b5dffe3a1b5362f8f75cb4",
                     "direction": "export",
@@ -939,6 +1781,16 @@
             "function": {
                 "name": "wcsrchr",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "b238763ee9b3b30d2070d1e039051b55",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "15aac316b4c8111ac0f06c723801334d",
+                        "location": "%rsi"
+                    }
+                ],
                 "return": {
                     "type": "3b34e803852de99cbdae082e05c61c6b",
                     "direction": "export",
@@ -950,6 +1802,16 @@
             "function": {
                 "name": "wcsrchr",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "25de874593d98d515336645a595ac2f7",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "15aac316b4c8111ac0f06c723801334d",
+                        "location": "%rsi"
+                    }
+                ],
                 "return": {
                     "type": "0e7f8e49ac307d158aa705462aac84ac",
                     "direction": "export",
@@ -961,6 +1823,16 @@
             "function": {
                 "name": "wcsstr",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "b238763ee9b3b30d2070d1e039051b55",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "b238763ee9b3b30d2070d1e039051b55",
+                        "location": "%rsi"
+                    }
+                ],
                 "return": {
                     "type": "0ec99ec0cd05f38dbd33fd8cdf69999f",
                     "direction": "export",
@@ -972,6 +1844,16 @@
             "function": {
                 "name": "wcsstr",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "25de874593d98d515336645a595ac2f7",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "b238763ee9b3b30d2070d1e039051b55",
+                        "location": "%rsi"
+                    }
+                ],
                 "return": {
                     "type": "e101c8aa8af4c0128c5cbf317757f7b7",
                     "direction": "export",
@@ -983,6 +1865,19 @@
             "function": {
                 "name": "wmemchr",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "b238763ee9b3b30d2070d1e039051b55",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "15aac316b4c8111ac0f06c723801334d",
+                        "location": "%rsi"
+                    },
+                    {
+                        "type": "2b7927ac6886d6f780cffd9e51ebbc49"
+                    }
+                ],
                 "return": {
                     "type": "d63103299dd9c71bdf2c58b867075bf2",
                     "direction": "export",
@@ -994,6 +1889,19 @@
             "function": {
                 "name": "wmemchr",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "25de874593d98d515336645a595ac2f7",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "15aac316b4c8111ac0f06c723801334d",
+                        "location": "%rsi"
+                    },
+                    {
+                        "type": "2b7927ac6886d6f780cffd9e51ebbc49"
+                    }
+                ],
                 "return": {
                     "type": "9f80d32f8a48428d273305fc068c35d9",
                     "direction": "export",
@@ -1005,6 +1913,16 @@
             "function": {
                 "name": "_ZN9__gnu_cxx3divExx",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "a44bf8971dc4a612236c2e4dccc1cd7e",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "a44bf8971dc4a612236c2e4dccc1cd7e",
+                        "location": "%rsi"
+                    }
+                ],
                 "return": {
                     "type": "829026bb13146ca5d6c52a6b642123dd",
                     "direction": "export"
@@ -1015,6 +1933,16 @@
             "function": {
                 "name": "wcstold",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "b238763ee9b3b30d2070d1e039051b55",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "c059c82562ace922e6159bfcb06941f7",
+                        "location": "%rsi"
+                    }
+                ],
                 "return": {
                     "type": "308ad8129cac3a0bb414c01987309d1b",
                     "direction": "export",
@@ -1026,6 +1954,20 @@
             "function": {
                 "name": "wcstoll",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "b238763ee9b3b30d2070d1e039051b55",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "c059c82562ace922e6159bfcb06941f7",
+                        "location": "%rsi"
+                    },
+                    {
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdx"
+                    }
+                ],
                 "return": {
                     "type": "a44bf8971dc4a612236c2e4dccc1cd7e",
                     "direction": "export",
@@ -1037,6 +1979,20 @@
             "function": {
                 "name": "wcstoull",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "b238763ee9b3b30d2070d1e039051b55",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "c059c82562ace922e6159bfcb06941f7",
+                        "location": "%rsi"
+                    },
+                    {
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdx"
+                    }
+                ],
                 "return": {
                     "type": "6c50d3a67c64cc4cdfbee700b946253a",
                     "direction": "export",
@@ -1048,6 +2004,16 @@
             "function": {
                 "name": "setlocale",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "dc39001171cfdeaf8459443e8ad52c66",
+                        "location": "%rsi"
+                    }
+                ],
                 "return": {
                     "type": "d39079a334be76efa8ae1cb45c8fb9aa",
                     "direction": "export",
@@ -1070,6 +2036,12 @@
             "function": {
                 "name": "atexit",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "bc3f1f18b235ed5338a3ee603260ba54",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "type": "1fd8c01bdca094933f920b41375cfed0",
                     "direction": "export",
@@ -1081,6 +2053,12 @@
             "function": {
                 "name": "at_quick_exit",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "bc3f1f18b235ed5338a3ee603260ba54",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "type": "1fd8c01bdca094933f920b41375cfed0",
                     "direction": "export",
@@ -1092,6 +2070,12 @@
             "function": {
                 "name": "atof",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "dc39001171cfdeaf8459443e8ad52c66",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "type": "5f66ab77d11088555799b0da0fbee9bf",
                     "direction": "export",
@@ -1103,6 +2087,12 @@
             "function": {
                 "name": "atoi",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "dc39001171cfdeaf8459443e8ad52c66",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "type": "1fd8c01bdca094933f920b41375cfed0",
                     "direction": "export",
@@ -1114,6 +2104,12 @@
             "function": {
                 "name": "atol",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "dc39001171cfdeaf8459443e8ad52c66",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "type": "832037bcbd004730c7738b05d956e54e",
                     "direction": "export",
@@ -1125,6 +2121,25 @@
             "function": {
                 "name": "bsearch",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "bc3f1f18b235ed5338a3ee603260ba54",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "bc3f1f18b235ed5338a3ee603260ba54",
+                        "location": "%rsi"
+                    },
+                    {
+                        "type": "2b7927ac6886d6f780cffd9e51ebbc49"
+                    },
+                    {
+                        "type": "2b7927ac6886d6f780cffd9e51ebbc49"
+                    },
+                    {
+                        "type": "6c0ffb49ee4b7735f0486848e7b64fdd"
+                    }
+                ],
                 "return": {
                     "type": "bcd520a7d62f0228ed10658b6630c91a",
                     "direction": "export",
@@ -1136,6 +2151,16 @@
             "function": {
                 "name": "div",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rsi"
+                    }
+                ],
                 "return": {
                     "type": "a51a5ee93752f58dadf4b1c8d68f1716",
                     "direction": "export"
@@ -1146,6 +2171,12 @@
             "function": {
                 "name": "getenv",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "dc39001171cfdeaf8459443e8ad52c66",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "type": "0b4d304385eb340d78cd2574b5753f47",
                     "direction": "export",
@@ -1157,6 +2188,16 @@
             "function": {
                 "name": "ldiv",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "832037bcbd004730c7738b05d956e54e",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "832037bcbd004730c7738b05d956e54e",
+                        "location": "%rsi"
+                    }
+                ],
                 "return": {
                     "type": "3d1091fceb10bf75a9ea3b3f17c11ae0",
                     "direction": "export"
@@ -1167,6 +2208,15 @@
             "function": {
                 "name": "mblen",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "dc39001171cfdeaf8459443e8ad52c66",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "2b7927ac6886d6f780cffd9e51ebbc49"
+                    }
+                ],
                 "return": {
                     "type": "1fd8c01bdca094933f920b41375cfed0",
                     "direction": "export",
@@ -1178,6 +2228,19 @@
             "function": {
                 "name": "mbstowcs",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "25de874593d98d515336645a595ac2f7",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "dc39001171cfdeaf8459443e8ad52c66",
+                        "location": "%rsi"
+                    },
+                    {
+                        "type": "2b7927ac6886d6f780cffd9e51ebbc49"
+                    }
+                ],
                 "return": {
                     "type": "2b7927ac6886d6f780cffd9e51ebbc49",
                     "direction": "export"
@@ -1188,6 +2251,19 @@
             "function": {
                 "name": "mbtowc",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "25de874593d98d515336645a595ac2f7",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "dc39001171cfdeaf8459443e8ad52c66",
+                        "location": "%rsi"
+                    },
+                    {
+                        "type": "2b7927ac6886d6f780cffd9e51ebbc49"
+                    }
+                ],
                 "return": {
                     "type": "1fd8c01bdca094933f920b41375cfed0",
                     "direction": "export",
@@ -1199,6 +2275,21 @@
             "function": {
                 "name": "qsort",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "388436edda46ea0e13c3c02b76de9286",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "2b7927ac6886d6f780cffd9e51ebbc49"
+                    },
+                    {
+                        "type": "2b7927ac6886d6f780cffd9e51ebbc49"
+                    },
+                    {
+                        "type": "6c0ffb49ee4b7735f0486848e7b64fdd"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1211,6 +2302,12 @@
             "function": {
                 "name": "quick_exit",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1234,6 +2331,12 @@
             "function": {
                 "name": "srand",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "724f0b94c416f03c89c16150cf866e00",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1246,6 +2349,16 @@
             "function": {
                 "name": "strtod",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "dc39001171cfdeaf8459443e8ad52c66",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "405495cd5571d26ecac20baa12881d73",
+                        "location": "%rsi"
+                    }
+                ],
                 "return": {
                     "type": "5f66ab77d11088555799b0da0fbee9bf",
                     "direction": "export",
@@ -1257,6 +2370,20 @@
             "function": {
                 "name": "strtol",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "dc39001171cfdeaf8459443e8ad52c66",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "405495cd5571d26ecac20baa12881d73",
+                        "location": "%rsi"
+                    },
+                    {
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdx"
+                    }
+                ],
                 "return": {
                     "type": "832037bcbd004730c7738b05d956e54e",
                     "direction": "export",
@@ -1268,6 +2395,20 @@
             "function": {
                 "name": "strtoul",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "dc39001171cfdeaf8459443e8ad52c66",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "405495cd5571d26ecac20baa12881d73",
+                        "location": "%rsi"
+                    },
+                    {
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdx"
+                    }
+                ],
                 "return": {
                     "type": "6d168f46b7d9e8b96a1ff9b171e0ad48",
                     "direction": "export",
@@ -1279,6 +2420,12 @@
             "function": {
                 "name": "system",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "dc39001171cfdeaf8459443e8ad52c66",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "type": "1fd8c01bdca094933f920b41375cfed0",
                     "direction": "export",
@@ -1290,6 +2437,19 @@
             "function": {
                 "name": "wcstombs",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "27dfad7ba35fd5894e7222cb6ce69da6",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "b238763ee9b3b30d2070d1e039051b55",
+                        "location": "%rsi"
+                    },
+                    {
+                        "type": "2b7927ac6886d6f780cffd9e51ebbc49"
+                    }
+                ],
                 "return": {
                     "type": "2b7927ac6886d6f780cffd9e51ebbc49",
                     "direction": "export"
@@ -1300,6 +2460,16 @@
             "function": {
                 "name": "wctomb",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "27dfad7ba35fd5894e7222cb6ce69da6",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "15aac316b4c8111ac0f06c723801334d",
+                        "location": "%rsi"
+                    }
+                ],
                 "return": {
                     "type": "1fd8c01bdca094933f920b41375cfed0",
                     "direction": "export",
@@ -1311,6 +2481,16 @@
             "function": {
                 "name": "lldiv",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "a44bf8971dc4a612236c2e4dccc1cd7e",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "a44bf8971dc4a612236c2e4dccc1cd7e",
+                        "location": "%rsi"
+                    }
+                ],
                 "return": {
                     "type": "829026bb13146ca5d6c52a6b642123dd",
                     "direction": "export"
@@ -1321,6 +2501,12 @@
             "function": {
                 "name": "atoll",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "dc39001171cfdeaf8459443e8ad52c66",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "type": "a44bf8971dc4a612236c2e4dccc1cd7e",
                     "direction": "export",
@@ -1332,6 +2518,20 @@
             "function": {
                 "name": "strtoll",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "dc39001171cfdeaf8459443e8ad52c66",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "405495cd5571d26ecac20baa12881d73",
+                        "location": "%rsi"
+                    },
+                    {
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdx"
+                    }
+                ],
                 "return": {
                     "type": "a44bf8971dc4a612236c2e4dccc1cd7e",
                     "direction": "export",
@@ -1343,6 +2543,20 @@
             "function": {
                 "name": "strtoull",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "dc39001171cfdeaf8459443e8ad52c66",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "405495cd5571d26ecac20baa12881d73",
+                        "location": "%rsi"
+                    },
+                    {
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdx"
+                    }
+                ],
                 "return": {
                     "type": "6c50d3a67c64cc4cdfbee700b946253a",
                     "direction": "export",
@@ -1354,6 +2568,16 @@
             "function": {
                 "name": "strtof",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "dc39001171cfdeaf8459443e8ad52c66",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "405495cd5571d26ecac20baa12881d73",
+                        "location": "%rsi"
+                    }
+                ],
                 "return": {
                     "type": "65548ffbcaadd70764058ff4b5097cfb",
                     "direction": "export",
@@ -1365,6 +2589,16 @@
             "function": {
                 "name": "strtold",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "dc39001171cfdeaf8459443e8ad52c66",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "405495cd5571d26ecac20baa12881d73",
+                        "location": "%rsi"
+                    }
+                ],
                 "return": {
                     "type": "308ad8129cac3a0bb414c01987309d1b",
                     "direction": "export",
@@ -1376,6 +2610,12 @@
             "function": {
                 "name": "clearerr",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "2265d4235387f9ab40f88a550f0c18f6",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1388,6 +2628,12 @@
             "function": {
                 "name": "fclose",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "2265d4235387f9ab40f88a550f0c18f6",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "type": "1fd8c01bdca094933f920b41375cfed0",
                     "direction": "export",
@@ -1399,6 +2645,12 @@
             "function": {
                 "name": "feof",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "2265d4235387f9ab40f88a550f0c18f6",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "type": "1fd8c01bdca094933f920b41375cfed0",
                     "direction": "export",
@@ -1410,6 +2662,12 @@
             "function": {
                 "name": "ferror",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "2265d4235387f9ab40f88a550f0c18f6",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "type": "1fd8c01bdca094933f920b41375cfed0",
                     "direction": "export",
@@ -1421,6 +2679,12 @@
             "function": {
                 "name": "fflush",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "2265d4235387f9ab40f88a550f0c18f6",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "type": "1fd8c01bdca094933f920b41375cfed0",
                     "direction": "export",
@@ -1432,6 +2696,12 @@
             "function": {
                 "name": "fgetc",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "2265d4235387f9ab40f88a550f0c18f6",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "type": "1fd8c01bdca094933f920b41375cfed0",
                     "direction": "export",
@@ -1443,6 +2713,16 @@
             "function": {
                 "name": "fgetpos",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "2265d4235387f9ab40f88a550f0c18f6",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "df61989ad3ab46cf6544d18ade441220",
+                        "location": "%rsi"
+                    }
+                ],
                 "return": {
                     "type": "1fd8c01bdca094933f920b41375cfed0",
                     "direction": "export",
@@ -1454,6 +2734,20 @@
             "function": {
                 "name": "fgets",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "27dfad7ba35fd5894e7222cb6ce69da6",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rsi"
+                    },
+                    {
+                        "type": "2265d4235387f9ab40f88a550f0c18f6",
+                        "location": "%rdx"
+                    }
+                ],
                 "return": {
                     "type": "1790217c9fa1a173ce55a72846f731df",
                     "direction": "export",
@@ -1465,6 +2759,16 @@
             "function": {
                 "name": "fopen",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "dc39001171cfdeaf8459443e8ad52c66",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "dc39001171cfdeaf8459443e8ad52c66",
+                        "location": "%rsi"
+                    }
+                ],
                 "return": {
                     "type": "d98c1ae3baec31a87a75ffc79b423100",
                     "direction": "export",
@@ -1476,6 +2780,22 @@
             "function": {
                 "name": "fread",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "388436edda46ea0e13c3c02b76de9286",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "2b7927ac6886d6f780cffd9e51ebbc49"
+                    },
+                    {
+                        "type": "2b7927ac6886d6f780cffd9e51ebbc49"
+                    },
+                    {
+                        "type": "2265d4235387f9ab40f88a550f0c18f6",
+                        "location": "%rsi"
+                    }
+                ],
                 "return": {
                     "type": "2b7927ac6886d6f780cffd9e51ebbc49",
                     "direction": "export"
@@ -1486,6 +2806,20 @@
             "function": {
                 "name": "freopen",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "dc39001171cfdeaf8459443e8ad52c66",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "dc39001171cfdeaf8459443e8ad52c66",
+                        "location": "%rsi"
+                    },
+                    {
+                        "type": "2265d4235387f9ab40f88a550f0c18f6",
+                        "location": "%rdx"
+                    }
+                ],
                 "return": {
                     "type": "81fc0ad2f94c3df2aa7e61a7e0e6276c",
                     "direction": "export",
@@ -1497,6 +2831,20 @@
             "function": {
                 "name": "fseek",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "2265d4235387f9ab40f88a550f0c18f6",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "832037bcbd004730c7738b05d956e54e",
+                        "location": "%rsi"
+                    },
+                    {
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdx"
+                    }
+                ],
                 "return": {
                     "type": "1fd8c01bdca094933f920b41375cfed0",
                     "direction": "export",
@@ -1508,6 +2856,16 @@
             "function": {
                 "name": "fsetpos",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "2265d4235387f9ab40f88a550f0c18f6",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "3cfa91579bffb5177af068d6df6b7934",
+                        "location": "%rsi"
+                    }
+                ],
                 "return": {
                     "type": "1fd8c01bdca094933f920b41375cfed0",
                     "direction": "export",
@@ -1519,6 +2877,12 @@
             "function": {
                 "name": "ftell",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "2265d4235387f9ab40f88a550f0c18f6",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "type": "832037bcbd004730c7738b05d956e54e",
                     "direction": "export",
@@ -1530,6 +2894,12 @@
             "function": {
                 "name": "getc",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "2265d4235387f9ab40f88a550f0c18f6",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "type": "1fd8c01bdca094933f920b41375cfed0",
                     "direction": "export",
@@ -1552,6 +2922,12 @@
             "function": {
                 "name": "perror",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "dc39001171cfdeaf8459443e8ad52c66",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1564,6 +2940,12 @@
             "function": {
                 "name": "remove",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "dc39001171cfdeaf8459443e8ad52c66",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "type": "1fd8c01bdca094933f920b41375cfed0",
                     "direction": "export",
@@ -1575,6 +2957,16 @@
             "function": {
                 "name": "rename",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "dc39001171cfdeaf8459443e8ad52c66",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "dc39001171cfdeaf8459443e8ad52c66",
+                        "location": "%rsi"
+                    }
+                ],
                 "return": {
                     "type": "1fd8c01bdca094933f920b41375cfed0",
                     "direction": "export",
@@ -1586,6 +2978,12 @@
             "function": {
                 "name": "rewind",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "2265d4235387f9ab40f88a550f0c18f6",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1598,6 +2996,16 @@
             "function": {
                 "name": "setbuf",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "2265d4235387f9ab40f88a550f0c18f6",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "27dfad7ba35fd5894e7222cb6ce69da6",
+                        "location": "%rsi"
+                    }
+                ],
                 "return": {
                     "location": "none",
                     "type": "void",
@@ -1610,6 +3018,23 @@
             "function": {
                 "name": "setvbuf",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "2265d4235387f9ab40f88a550f0c18f6",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "27dfad7ba35fd5894e7222cb6ce69da6",
+                        "location": "%rsi"
+                    },
+                    {
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdx"
+                    },
+                    {
+                        "type": "2b7927ac6886d6f780cffd9e51ebbc49"
+                    }
+                ],
                 "return": {
                     "type": "1fd8c01bdca094933f920b41375cfed0",
                     "direction": "export",
@@ -1632,6 +3057,12 @@
             "function": {
                 "name": "tmpnam",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "27dfad7ba35fd5894e7222cb6ce69da6",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "type": "1dc06fb44823fb8c214fd52b0f6a25e2",
                     "direction": "export",
@@ -1643,6 +3074,16 @@
             "function": {
                 "name": "ungetc",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "2265d4235387f9ab40f88a550f0c18f6",
+                        "location": "%rsi"
+                    }
+                ],
                 "return": {
                     "type": "1fd8c01bdca094933f920b41375cfed0",
                     "direction": "export",
@@ -1654,6 +3095,14 @@
             "function": {
                 "name": "iswctype",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "fc138e2285033694bfd9b69aeae9b625"
+                    },
+                    {
+                        "type": "df61a8f480c08872f94f6b0c04f164d2"
+                    }
+                ],
                 "return": {
                     "type": "1fd8c01bdca094933f920b41375cfed0",
                     "direction": "export",
@@ -1665,6 +3114,14 @@
             "function": {
                 "name": "towctrans",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "fc138e2285033694bfd9b69aeae9b625"
+                    },
+                    {
+                        "type": "c0dce0c79c9d884de714cb2c1903ebef"
+                    }
+                ],
                 "return": {
                     "type": "fc138e2285033694bfd9b69aeae9b625",
                     "direction": "export"
@@ -1675,6 +3132,12 @@
             "function": {
                 "name": "wctrans",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "dc39001171cfdeaf8459443e8ad52c66",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "type": "c0dce0c79c9d884de714cb2c1903ebef",
                     "direction": "export"
@@ -1685,6 +3148,12 @@
             "function": {
                 "name": "wctype",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "dc39001171cfdeaf8459443e8ad52c66",
+                        "location": "%rdi"
+                    }
+                ],
                 "return": {
                     "type": "df61a8f480c08872f94f6b0c04f164d2",
                     "direction": "export"
@@ -1706,6 +3175,23 @@
             "function": {
                 "name": "_Z6invokeiiPFiiiE",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdi"
+                    },
+                    {
+                        "name": "y",
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rsi"
+                    },
+                    {
+                        "name": "func",
+                        "type": "ca05b02ae1c24093d588a1c6fe4ad20d",
+                        "location": "%rdx"
+                    }
+                ],
                 "return": {
                     "type": "1fd8c01bdca094933f920b41375cfed0",
                     "direction": "export",
@@ -1717,6 +3203,18 @@
             "function": {
                 "name": "_Z8multiplyii",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdi"
+                    },
+                    {
+                        "name": "y",
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rsi"
+                    }
+                ],
                 "return": {
                     "type": "1fd8c01bdca094933f920b41375cfed0",
                     "direction": "export",
@@ -1728,6 +3226,18 @@
             "function": {
                 "name": "_Z3addii",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "x",
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdi"
+                    },
+                    {
+                        "name": "y",
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rsi"
+                    }
+                ],
                 "return": {
                     "type": "1fd8c01bdca094933f920b41375cfed0",
                     "direction": "export",

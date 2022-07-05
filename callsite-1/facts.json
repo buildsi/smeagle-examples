@@ -5,6 +5,12 @@
             "function": {
                 "name": "_Z4funcd",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "type": "5f66ab77d11088555799b0da0fbee9bf",
+                        "location": "%xmm0"
+                    }
+                ],
                 "return": {
                     "type": "5f66ab77d11088555799b0da0fbee9bf",
                     "direction": "export",

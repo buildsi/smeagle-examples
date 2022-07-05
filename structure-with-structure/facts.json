@@ -5,6 +5,18 @@
             "function": {
                 "name": "main",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "argc",
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdi"
+                    },
+                    {
+                        "name": "argv",
+                        "type": "3ab75f6204d44b4accd79b06bcd7a31e",
+                        "location": "%rsi"
+                    }
+                ],
                 "return": {
                     "type": "1fd8c01bdca094933f920b41375cfed0",
                     "direction": "export",
@@ -17,6 +29,23 @@
             "function": {
                 "name": "_Z3fooiP12StructyChildP13StructyParent",
                 "class": "Function",
+                "parameters": [
+                    {
+                        "name": "one",
+                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "location": "%rdi"
+                    },
+                    {
+                        "name": "two",
+                        "type": "4cd3788687ed7670eae158ac4f300b41",
+                        "location": "%rsi"
+                    },
+                    {
+                        "name": "three",
+                        "type": "02a07b5d039542c4b8700b3c2b9a7635",
+                        "location": "%rdx"
+                    }
+                ],
                 "return": {
                     "type": "1fd8c01bdca094933f920b41375cfed0",
                     "direction": "export",

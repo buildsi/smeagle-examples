@@ -8,12 +8,12 @@
                 "parameters": [
                     {
                         "name": "x",
-                        "type": "aacd57e83b8b686422065a7059344b6c",
+                        "type": "5514c83d6ea5a9c66a72f3f18ce1642a",
                         "location": "%rdi"
                     }
                 ],
                 "return": {
-                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
                     "direction": "export",
                     "location": "%rax"
                 }
@@ -21,69 +21,66 @@
         }
     ],
     "types": {
-        "1fd8c01bdca094933f920b41375cfed0": {
+        "9c67aaa6ef89dd4db8543f00bd1f472f": {
             "type": "int",
             "size": 4,
-            "class": "Integer",
-            "direction": "import"
+            "class": "Integer"
         },
-        "5c9aaaf36f52e308f9f5b66a32099fc6": {
+        "dbef5bff425a8e631e2bc5fba7cc20e6": {
             "type": "char",
             "size": 1,
-            "class": "Integer",
-            "direction": "import"
+            "class": "Integer"
         },
-        "27dfad7ba35fd5894e7222cb6ce69da6": {
+        "7e23b4d1fe940040810be7a419c68aff": {
             "class": "Pointer",
             "size": 8,
             "underlying_type": {
-                "type": "5c9aaaf36f52e308f9f5b66a32099fc6"
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
             }
         },
-        "3ab75f6204d44b4accd79b06bcd7a31e": {
+        "ba26a1b06c24691988f94f706e51b94d": {
             "class": "Pointer",
             "size": 8,
             "underlying_type": {
-                "type": "27dfad7ba35fd5894e7222cb6ce69da6"
+                "type": "7e23b4d1fe940040810be7a419c68aff"
             },
             "name": "argv"
         },
-        "5f66ab77d11088555799b0da0fbee9bf": {
+        "d20be53e889d2cee0c86d0ef9b0fbbc8": {
             "type": "double",
             "size": 8,
-            "class": "Float",
-            "direction": "import"
+            "class": "Float"
         },
-        "2b59b424e08cf82fd904a020572ed4a9": {
+        "48531991421c8a761cbfaf90bb68f61c": {
             "name": "Foo",
             "size": 16,
             "class": "Struct",
             "fields": [
                 {
                     "name": "i",
-                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
                     "offset": 0
                 },
                 {
                     "name": "d",
-                    "type": "5f66ab77d11088555799b0da0fbee9bf",
+                    "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
                     "offset": 8
                 }
             ]
         },
-        "ea36fa9410a7eb12b8a9a58788863f82": {
+        "5621b430d9eba1119794d1e1d391d084": {
             "class": "Pointer",
             "size": 8,
             "underlying_type": {
-                "type": "2b59b424e08cf82fd904a020572ed4a9"
+                "type": "48531991421c8a761cbfaf90bb68f61c"
             },
             "name": "f"
         },
-        "aacd57e83b8b686422065a7059344b6c": {
+        "5514c83d6ea5a9c66a72f3f18ce1642a": {
             "class": "Pointer",
             "size": 8,
             "underlying_type": {
-                "type": "1fd8c01bdca094933f920b41375cfed0"
+                "type": "9c67aaa6ef89dd4db8543f00bd1f472f"
             },
             "name": "x"
         }

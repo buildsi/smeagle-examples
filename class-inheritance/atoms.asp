@@ -6,5 +6,4 @@
 %----------------------------------------------------------------------------
 % Library: lib.so
 %----------------------------------------------------------------------------
-abi_typelocation("lib.so","_Z4func1AP1B1C1D","Import","Integer32","(%rsi)").
 abi_typelocation("lib.so","_Z4func1AP1B1C1D","Export","Integer32","%rax").

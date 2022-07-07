@@ -26,10 +26,42 @@
             "size": 4,
             "class": "Integer"
         },
+        "abe75cc58bf0465f278804f771c3367e": {
+            "type": "long int",
+            "size": 8,
+            "class": "Integer"
+        },
         "dbef5bff425a8e631e2bc5fba7cc20e6": {
             "type": "char",
             "size": 1,
             "class": "Integer"
+        },
+        "f1f65f310f38a24fdb8fa5978e27170c": {
+            "name": "atype",
+            "size": 24,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "a",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "offset": 0
+                },
+                {
+                    "name": "b",
+                    "type": "abe75cc58bf0465f278804f771c3367e",
+                    "offset": 8
+                },
+                {
+                    "name": "c",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "offset": 16
+                },
+                {
+                    "name": "d",
+                    "type": "dbef5bff425a8e631e2bc5fba7cc20e6",
+                    "offset": 20
+                }
+            ]
         },
         "7e23b4d1fe940040810be7a419c68aff": {
             "class": "Pointer",
@@ -50,6 +82,38 @@
             "type": "double",
             "size": 8,
             "class": "Float"
+        },
+        "20ef28a223bc4bb32b11358764322945": {
+            "type": "bool",
+            "size": 1,
+            "class": "Integer"
+        },
+        "6509b918841961f96fc9df084f97d12a": {
+            "type": "long double",
+            "size": 16,
+            "class": "Float"
+        },
+        "71eb013dc6703f4f3319f4b0e5c532c4": {
+            "name": "structy",
+            "size": 24,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "one",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "offset": 0
+                },
+                {
+                    "name": "two",
+                    "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
+                    "offset": 8
+                },
+                {
+                    "name": "three",
+                    "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
+                    "offset": 16
+                }
+            ]
         },
         "48531991421c8a761cbfaf90bb68f61c": {
             "name": "Foo",

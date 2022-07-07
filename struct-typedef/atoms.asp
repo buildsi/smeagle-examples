@@ -6,4 +6,5 @@
 %----------------------------------------------------------------------------
 % Library: lib.so
 %----------------------------------------------------------------------------
-abi_typelocation("lib.so","_Z3fooPi","Export","Integer32","%rax").
+abi_typelocation("lib.so","_Z3barRP3TwoS1_","Import","Reference64","(%rsi)").
+abi_typelocation("lib.so","_Z3fooP3TwoS0_","Import","Pointer64","(%rdi)").

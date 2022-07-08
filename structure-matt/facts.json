@@ -49,11 +49,13 @@
                     {
                         "name": "argc",
                         "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "direction": "import",
                         "location": "%rdi"
                     },
                     {
                         "name": "argv",
                         "type": "ba26a1b06c24691988f94f706e51b94d",
+                        "direction": "both",
                         "location": "%rsi"
                     }
                 ],

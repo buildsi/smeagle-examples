@@ -2239,11 +2239,23 @@
         },
         {
             "function": {
+                "name": "unknown",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
                 "name": "atexit",
                 "class": "Function",
                 "parameters": [
                     {
-                        "type": "41b83846a1e2576a428144dc8f9638bb",
+                        "type": "aff2ddd73f41df18bddd5584f8c9bc94",
                         "location": "%rdi"
                     }
                 ],
@@ -2260,7 +2272,7 @@
                 "class": "Function",
                 "parameters": [
                     {
-                        "type": "41b83846a1e2576a428144dc8f9638bb",
+                        "type": "aff2ddd73f41df18bddd5584f8c9bc94",
                         "location": "%rdi"
                     }
                 ],
@@ -2324,6 +2336,27 @@
         },
         {
             "function": {
+                "name": "unknown",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "41b83846a1e2576a428144dc8f9638bb",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "41b83846a1e2576a428144dc8f9638bb",
+                        "location": "%rsi"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
                 "name": "bsearch",
                 "class": "Function",
                 "parameters": [
@@ -2344,7 +2377,7 @@
                         "location": "%rcx"
                     },
                     {
-                        "type": "62f736d393b5d775e8d8a018260bc7c8",
+                        "type": "8a9f83b670287dd01e0e412af81101a1",
                         "location": "%r8"
                     }
                 ],
@@ -2501,7 +2534,7 @@
                         "location": "%rdx"
                     },
                     {
-                        "type": "62f736d393b5d775e8d8a018260bc7c8",
+                        "type": "8a9f83b670287dd01e0e412af81101a1",
                         "location": "%rcx"
                     }
                 ],
@@ -3401,6 +3434,27 @@
         },
         {
             "function": {
+                "name": "unknown",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rdi"
+                    },
+                    {
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rsi"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
                 "name": "_Z6invokeiiPFiiiE",
                 "class": "Function",
                 "parameters": [
@@ -3416,7 +3470,7 @@
                     },
                     {
                         "name": "func",
-                        "type": "6a907118f9a72392572aeda4bea3f784",
+                        "type": "05e74cfd5519fdcf89e2f3fed13be9b3",
                         "location": "%rdx"
                     }
                 ],
@@ -3462,6 +3516,51 @@
                     },
                     {
                         "name": "y",
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rsi"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "atexit_func_pointer_0",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "at_quick_exit_func_pointer_0_atexit_func_pointer_0",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_Z6invokeiiPFiiiE_func_pointer_2",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rdi"
+                    },
+                    {
                         "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
                         "location": "%rsi"
                     }
@@ -5483,11 +5582,20 @@
             },
             "name": "localeconv"
         },
-        "41b83846a1e2576a428144dc8f9638bb": {
+        "eceac2efd56514d24af7e69c2af3c7f1": {
+            "name": "at_quick_exit_func_pointer_0_atexit_func_pointer_0",
+            "class": "Function",
+            "return": {
+                "location": "none",
+                "type": "void",
+                "class": "Void"
+            }
+        },
+        "aff2ddd73f41df18bddd5584f8c9bc94": {
             "class": "Pointer",
             "size": 8,
             "underlying_type": {
-                "type": "020df1952a91a123ea259028a7dcb599"
+                "type": "eceac2efd56514d24af7e69c2af3c7f1"
             }
         },
         "ef6dcbf33e0304ef5b4840ce5c8301e7": {
@@ -5498,25 +5606,44 @@
             },
             "name": "bsearch"
         },
-        "63a63e56efc9e3193d411d165f2624c8": {
-            "type": "9c67aaa6ef89dd4db8543f00bd1f472f"
-        },
-        "06455daa0a52c40c0513c2f5f0d02a30": {
+        "41b83846a1e2576a428144dc8f9638bb": {
             "class": "Pointer",
             "size": 8,
             "underlying_type": {
-                "type": "63a63e56efc9e3193d411d165f2624c8"
+                "type": "020df1952a91a123ea259028a7dcb599"
+            }
+        },
+        "52105d311fbf3be3c911b1df2d286640": {
+            "name": "unknown",
+            "class": "Function",
+            "parameters": [
+                {
+                    "type": "41b83846a1e2576a428144dc8f9638bb"
+                },
+                {
+                    "type": "41b83846a1e2576a428144dc8f9638bb"
+                }
+            ],
+            "return": {
+                "type": "9c67aaa6ef89dd4db8543f00bd1f472f"
+            }
+        },
+        "1cf07ae2d7687ab57faf2640bd85f3cb": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "52105d311fbf3be3c911b1df2d286640"
             },
             "name": "__compar_fn_t"
         },
-        "62f736d393b5d775e8d8a018260bc7c8": {
+        "8a9f83b670287dd01e0e412af81101a1": {
             "name": "__compar_fn_t",
             "class": "TypeDef",
             "underlying_type": {
                 "class": "Pointer",
                 "size": 8,
                 "underlying_type": {
-                    "type": "63a63e56efc9e3193d411d165f2624c8"
+                    "type": "52105d311fbf3be3c911b1df2d286640"
                 },
                 "name": "__compar_fn_t"
             },
@@ -5983,11 +6110,26 @@
             },
             "name": "__dso_handle"
         },
-        "6a907118f9a72392572aeda4bea3f784": {
+        "5d24f94d5a16871ee4425eeb218c973e": {
+            "name": "_Z6invokeiiPFiiiE_func_pointer_2",
+            "class": "Function",
+            "parameters": [
+                {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f"
+                },
+                {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f"
+                }
+            ],
+            "return": {
+                "type": "9c67aaa6ef89dd4db8543f00bd1f472f"
+            }
+        },
+        "05e74cfd5519fdcf89e2f3fed13be9b3": {
             "class": "Pointer",
             "size": 8,
             "underlying_type": {
-                "type": "63a63e56efc9e3193d411d165f2624c8"
+                "type": "5d24f94d5a16871ee4425eeb218c973e"
             },
             "name": "func"
         }

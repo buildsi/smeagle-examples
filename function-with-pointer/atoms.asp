@@ -6,4 +6,5 @@
 %----------------------------------------------------------------------------
 % Library: lib.so
 %----------------------------------------------------------------------------
+abi_typelocation("lib.so","_Z3fooPi","Import","Integer32","(%rdi)").
 abi_typelocation("lib.so","_Z3fooPi","Export","Integer32","%rax").

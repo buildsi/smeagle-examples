@@ -6,10 +6,8 @@
 %----------------------------------------------------------------------------
 % Library: example
 %----------------------------------------------------------------------------
-abi_typelocation("example","booley","Import","Integer8","var").
-abi_typelocation("example","booley","export","Integer8","var").
-abi_typelocation("example","doubley","Import","Float128","var").
-abi_typelocation("example","doubley","export","Float128","var").
+abi_typelocation("example","booley","Export","Integer8","var").
+abi_typelocation("example","doubley","Export","Float128","var").
 abi_typelocation("example","_Z9fooreturniP7Structy","Import","Integer32","%rdi").
 abi_typelocation("example","_Z9fooreturniP7Structy","Import","Integer32","(%rsi)").
 abi_typelocation("example","_Z9fooreturniP7Structy","Import","Float64","((%rsi)+8)").

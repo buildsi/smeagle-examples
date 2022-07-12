@@ -26,7 +26,7 @@
                     },
                     {
                         "name": "b",
-                        "type": "d1297da1641c6a894f54290fa95eb9d3",
+                        "type": "08573c756bc7c57d0d0c970cc608f590",
                         "direction": "both",
                         "location": "%rsi"
                     },
@@ -39,9 +39,9 @@
                             "fields": [
                                 {
                                     "name": "z",
-                                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                                    "type": "9184556c0910b05214ac53bae6daf100",
                                     "offset": 0,
-                                    "location": "%rdx",
+                                    "location": "%xmm0",
                                     "direction": "export"
                                 }
                             ]
@@ -52,7 +52,7 @@
                         "name": "d",
                         "type": {
                             "name": "D",
-                            "size": 16,
+                            "size": 24,
                             "class": "Struct",
                             "fields": [
                                 {
@@ -62,18 +62,18 @@
                                 },
                                 {
                                     "name": "unknown",
-                                    "type": "15fa2140eed3e62e760b7ac8be778fb7",
-                                    "offset": 4
-                                },
-                                {
-                                    "name": "unknown",
-                                    "type": "699ddd73b2f0f201bb3f47bd917d32ae",
+                                    "type": "11d5edead3db0c5ecedc57500c96789f",
                                     "offset": 8
                                 },
                                 {
+                                    "name": "unknown",
+                                    "type": "feb2f2fbae1354cf7df2f08ad97dfa67",
+                                    "offset": 16
+                                },
+                                {
                                     "name": "d",
-                                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
-                                    "offset": 12,
+                                    "type": "dbef5bff425a8e631e2bc5fba7cc20e6",
+                                    "offset": 20,
                                     "location": "%rcx",
                                     "direction": "export"
                                 }
@@ -108,41 +108,56 @@
                 }
             ]
         },
-        "15fa2140eed3e62e760b7ac8be778fb7": {
+        "d20be53e889d2cee0c86d0ef9b0fbbc8": {
+            "type": "double",
+            "size": 8,
+            "class": "Float"
+        },
+        "11d5edead3db0c5ecedc57500c96789f": {
             "name": "B",
-            "size": 4,
+            "size": 8,
             "class": "Struct",
             "fields": [
                 {
                     "name": "y",
-                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
                     "offset": 0
                 }
             ]
         },
-        "d1297da1641c6a894f54290fa95eb9d3": {
+        "08573c756bc7c57d0d0c970cc608f590": {
             "class": "Pointer",
             "size": 8,
             "underlying_type": {
-                "type": "15fa2140eed3e62e760b7ac8be778fb7"
+                "type": "11d5edead3db0c5ecedc57500c96789f"
             },
             "name": "b"
         },
-        "699ddd73b2f0f201bb3f47bd917d32ae": {
+        "9184556c0910b05214ac53bae6daf100": {
+            "type": "float",
+            "size": 4,
+            "class": "Float"
+        },
+        "feb2f2fbae1354cf7df2f08ad97dfa67": {
             "name": "C",
             "size": 4,
             "class": "Struct",
             "fields": [
                 {
                     "name": "z",
-                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "type": "9184556c0910b05214ac53bae6daf100",
                     "offset": 0
                 }
             ]
         },
-        "fcc6ae4b71eb522df09adeace67ed8a8": {
+        "dbef5bff425a8e631e2bc5fba7cc20e6": {
+            "type": "char",
+            "size": 1,
+            "class": "Integer"
+        },
+        "f346b7d53092050f42d8e4e69466c55e": {
             "name": "D",
-            "size": 16,
+            "size": 24,
             "class": "Struct",
             "fields": [
                 {
@@ -152,18 +167,18 @@
                 },
                 {
                     "name": "unknown",
-                    "type": "15fa2140eed3e62e760b7ac8be778fb7",
-                    "offset": 4
-                },
-                {
-                    "name": "unknown",
-                    "type": "699ddd73b2f0f201bb3f47bd917d32ae",
+                    "type": "11d5edead3db0c5ecedc57500c96789f",
                     "offset": 8
                 },
                 {
+                    "name": "unknown",
+                    "type": "feb2f2fbae1354cf7df2f08ad97dfa67",
+                    "offset": 16
+                },
+                {
                     "name": "d",
-                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
-                    "offset": 12
+                    "type": "dbef5bff425a8e631e2bc5fba7cc20e6",
+                    "offset": 20
                 }
             ]
         }

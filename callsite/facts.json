@@ -3,6 +3,17 @@
     "locations": [
         {
             "function": {
+                "name": "main",
+                "class": "Function",
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
                 "name": "_Z5startd",
                 "class": "Function",
                 "parameters": [

@@ -7,6 +7,10 @@ int baz(int *x) {
   return *x;
 }
 
+long foodlepoodle(int a, char *b, char ** c) {
+   return 0;
+}
+
 struct MyStruct {
   int a;
   double b;

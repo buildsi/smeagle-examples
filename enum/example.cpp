@@ -10,3 +10,4 @@ Color print_color(Color r){
 // Enums with different sizes underlying types
 enum class CharEnum : char {h='h', i='i', j='j'};
 enum class DoubleEnum : bool { a=true, b=false};
+enum class SizeEnum : size_t { a=1, b=2, c=3};

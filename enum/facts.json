@@ -23,12 +23,12 @@
         },
         {
             "function": {
-                "name": "_Z10doublefunc10DoubleEnum",
+                "name": "_Z8boolfunc8BoolEnum",
                 "class": "Function",
                 "parameters": [
                     {
                         "name": "c",
-                        "type": "61921251219badd0f420bae78b080609",
+                        "type": "d733aac69b7b6275ff814935599cede6",
                         "direction": "import",
                         "location": "%rdi"
                     }
@@ -132,8 +132,8 @@
             "size": 1,
             "class": "Integer"
         },
-        "61921251219badd0f420bae78b080609": {
-            "name": "DoubleEnum",
+        "d733aac69b7b6275ff814935599cede6": {
+            "name": "BoolEnum",
             "size": 1,
             "type": "20ef28a223bc4bb32b11358764322945",
             "class": "Enum",

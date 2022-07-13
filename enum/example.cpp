@@ -9,11 +9,11 @@ Color print_color(Color r){
 
 // Enums with different sizes underlying types
 enum class CharEnum : char {h='h', i='i', j='j'};
-enum class DoubleEnum : bool { a=true, b=false};
+enum class BoolEnum : bool { a=true, b=false};
 enum class SizeEnum : unsigned long { a=1, b=2, c=3};
 
 void enumfunc(CharEnum c) {}
-void doublefunc(DoubleEnum c) {}
+void boolfunc(BoolEnum c) {}
 void sizefunc(SizeEnum c) {}
 
 

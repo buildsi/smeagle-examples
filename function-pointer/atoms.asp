@@ -7,9 +7,6 @@
 % Library: lib.so
 %----------------------------------------------------------------------------
 abi_typelocation("lib.so","main","Export","Integer32","%rax").
-abi_typelocation("lib.so","unknown","Import","Integer32","%rdi").
-abi_typelocation("lib.so","unknown","Import","Integer32","%rsi").
-abi_typelocation("lib.so","unknown","Export","Integer32","%rax").
 abi_typelocation("lib.so","_Z6invokeiiPFiiiE","Import","Integer32","%rdi").
 abi_typelocation("lib.so","_Z6invokeiiPFiiiE","Import","Integer32","%rsi").
 abi_typelocation("lib.so","_Z6invokeiiPFiiiE","Both","Function","(%rdx)").

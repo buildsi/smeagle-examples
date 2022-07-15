@@ -27,8 +27,8 @@
                     {
                         "name": "b",
                         "type": "08573c756bc7c57d0d0c970cc608f590",
-                        "direction": "both",
-                        "location": "%rsi"
+                        "location": "%rsi",
+                        "direction": "both"
                     },
                     {
                         "name": "c",

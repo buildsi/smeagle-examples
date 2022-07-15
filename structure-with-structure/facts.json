@@ -9,14 +9,14 @@
                     {
                         "name": "argc",
                         "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     },
                     {
                         "name": "argv",
                         "type": "ba26a1b06c24691988f94f706e51b94d",
-                        "direction": "both",
-                        "location": "%rsi"
+                        "location": "%rsi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -35,20 +35,20 @@
                     {
                         "name": "one",
                         "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     },
                     {
                         "name": "two",
                         "type": "c10704147b11f5438e9b59c49f899af7",
-                        "direction": "both",
-                        "location": "%rsi"
+                        "location": "%rsi",
+                        "direction": "both"
                     },
                     {
                         "name": "three",
                         "type": "732a810858f8b2ebc66fa5f59d0e10ae",
-                        "direction": "both",
-                        "location": "%rdx"
+                        "location": "%rdx",
+                        "direction": "both"
                     }
                 ],
                 "return": {

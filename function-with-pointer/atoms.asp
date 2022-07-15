@@ -6,6 +6,7 @@
 %----------------------------------------------------------------------------
 % Library: lib.so
 %----------------------------------------------------------------------------
+abi_typelocation("lib.so","_Z11VoidPointerPv","Export","Integer32","%rax").
 abi_typelocation("lib.so","_Z10SingleFuncP8MyStruct","Import","Integer32","(%rdi)").
 abi_typelocation("lib.so","_Z10SingleFuncP8MyStruct","Import","Float64","((%rdi)+8)").
 abi_typelocation("lib.so","_Z10SingleFuncP8MyStruct","Export","Integer32","%rax").

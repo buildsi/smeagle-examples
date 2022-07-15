@@ -9,14 +9,14 @@
                     {
                         "name": "one",
                         "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     },
                     {
                         "name": "two",
                         "type": "edff4d203bbfdbb5b7d5493c534844fc",
-                        "direction": "both",
-                        "location": "%rsi"
+                        "location": "%rsi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -34,13 +34,14 @@
                     {
                         "name": "f",
                         "type": "1f8d0371e346db02e3ed4316592b2b01",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
                     "type": "8df065c5d600f09e608bbc7685d9b109",
-                    "direction": "export"
+                    "direction": "export",
+                    "location": "%rax"
                 }
             }
         },
@@ -104,8 +105,8 @@
                     {
                         "name": "f",
                         "type": "fe169f943fa0385719a160f664162033",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -124,8 +125,8 @@
                     {
                         "name": "b",
                         "type": "d969401829f2a196210e6ea211628c4b",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -176,8 +177,8 @@
                     {
                         "name": "b",
                         "type": "6b28a8fdc5f2c4c040aa4b09fd154030",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -228,8 +229,8 @@
                     {
                         "name": "b",
                         "type": "a1e2b74a362e239cc051473a91550132",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -280,8 +281,8 @@
                     {
                         "name": "b",
                         "type": "751a511c578285bc2a95ede3fe401abd",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {

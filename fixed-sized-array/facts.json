@@ -31,8 +31,8 @@
                     {
                         "name": "array",
                         "type": "c31c2518fddc91c25994a30fb492944b",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {

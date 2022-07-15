@@ -20,8 +20,8 @@
                     {
                         "name": "d",
                         "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
-                        "direction": "import",
-                        "location": "%xmm0"
+                        "location": "%xmm0",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -39,8 +39,8 @@
                     {
                         "name": "d",
                         "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
-                        "direction": "import",
-                        "location": "%xmm0"
+                        "location": "%xmm0",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -58,8 +58,8 @@
                     {
                         "name": "x",
                         "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {

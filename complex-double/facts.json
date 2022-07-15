@@ -9,14 +9,14 @@
                     {
                         "name": "c1",
                         "type": "d1795a3dd8e481ee71d80669f17bd004",
-                        "direction": "import",
-                        "location": "framebase+8"
+                        "location": "framebase+8",
+                        "direction": "import"
                     },
                     {
                         "name": "c2",
                         "type": "d1795a3dd8e481ee71d80669f17bd004",
-                        "direction": "import",
-                        "location": "framebase+40"
+                        "location": "framebase+8",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -35,8 +35,8 @@
                     {
                         "name": "x",
                         "type": "d1795a3dd8e481ee71d80669f17bd004",
-                        "direction": "import",
-                        "location": "framebase+8"
+                        "location": "framebase+8",
+                        "direction": "import"
                     }
                 ],
                 "return": {

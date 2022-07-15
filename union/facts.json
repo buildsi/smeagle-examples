@@ -20,8 +20,8 @@
                     {
                         "name": "a",
                         "type": "8b9d9a611daa3d6c9c6a5297627e746f",
-                        "direction": "import",
-                        "location": "framebase+8"
+                        "location": "framebase+8",
+                        "direction": "import"
                     }
                 ],
                 "return": {

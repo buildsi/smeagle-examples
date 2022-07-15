@@ -20,8 +20,8 @@
                     {
                         "name": "y",
                         "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     },
                     {
                         "name": "f",

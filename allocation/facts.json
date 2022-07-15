@@ -34,8 +34,8 @@
                     {
                         "name": "x",
                         "type": "0bcee8594fae4ad3bc06dc7ab8440c93",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -55,8 +55,8 @@
                     {
                         "name": "x",
                         "type": "285e1f891d2c80211aeab5b2625ada5c",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -76,8 +76,8 @@
                     {
                         "name": "x",
                         "type": "05f6aefde114a8f514d568ae6dfaf25c",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -97,8 +97,8 @@
                     {
                         "name": "x",
                         "type": "cfd1a6973a2e714c5bc042d69f98ac29",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -118,8 +118,8 @@
                     {
                         "name": "x",
                         "type": "08ab24d45e4dd69839f13cba9d5f608f",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -139,8 +139,8 @@
                     {
                         "name": "x",
                         "type": "4328393b0ab05a611a34be7d7c3375ba",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -160,8 +160,8 @@
                     {
                         "name": "x",
                         "type": "3be489729451517f8b341d10724a9080",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -181,8 +181,8 @@
                     {
                         "name": "x",
                         "type": "db5bae0e1f391123151315f6cfd0e500",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -202,8 +202,8 @@
                     {
                         "name": "x",
                         "type": "32a6d130aa2d33728f8031985a625585",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -223,8 +223,8 @@
                     {
                         "name": "x",
                         "type": "31419cb7bb7ae7c26c5c7c98b95fd78e",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -244,8 +244,8 @@
                     {
                         "name": "x",
                         "type": "c1b3106297634569e64d4e4fdacf7ca1",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -265,8 +265,8 @@
                     {
                         "name": "x",
                         "type": "c99e01f4989c0ece91194d65191cc244",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -286,8 +286,8 @@
                     {
                         "name": "x",
                         "type": "a11b1889a889d70d48bce8e747f6637e",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -307,8 +307,8 @@
                     {
                         "name": "x",
                         "type": "86b1c01dc49d2f3aa9363ce51e6329f3",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -328,8 +328,8 @@
                     {
                         "name": "x",
                         "type": "4385e15f9632d22127313bdbb2a3f10d",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -349,8 +349,8 @@
                     {
                         "name": "x",
                         "type": "f0bdee4fe08f19446ec09c1d969c29cb",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -370,8 +370,8 @@
                     {
                         "name": "x",
                         "type": "57df82be024335f16f311a6e00cbf8cf",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -391,8 +391,8 @@
                     {
                         "name": "x",
                         "type": "c9285ff939dcfdd2ad54e8d8455b11a4",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -412,8 +412,8 @@
                     {
                         "name": "x",
                         "type": "9c604aaaac295999d46dab4afc1a16f0",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -433,8 +433,8 @@
                     {
                         "name": "x",
                         "type": "d89658bb921b82c514eb8e6dcbdeb793",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -454,8 +454,8 @@
                     {
                         "name": "x",
                         "type": "5f4ff0c733c9d349f9f1f0d1c116bce1",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -475,8 +475,8 @@
                     {
                         "name": "x",
                         "type": "1fdcc921596580b9ed4fa864847d2e99",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -496,8 +496,8 @@
                     {
                         "name": "x",
                         "type": "c47d2e7bc508bc9d3320a09663739a89",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -517,8 +517,8 @@
                     {
                         "name": "x",
                         "type": "b18d7f3d8ca72bfeab9a32fff859ab67",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -538,8 +538,8 @@
                     {
                         "name": "x",
                         "type": "6bfe7a9e4a0cada426cb4681dbbfaf81",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -559,8 +559,8 @@
                     {
                         "name": "x",
                         "type": "69d3b65e8968d8398823a510efccfdb0",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -580,8 +580,8 @@
                     {
                         "name": "x",
                         "type": "13f5d632aec2547f17afca17adffefc2",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -601,8 +601,8 @@
                     {
                         "name": "x",
                         "type": "8348ead71279eb98715deb87464129e4",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -622,8 +622,8 @@
                     {
                         "name": "x",
                         "type": "b272c34933f02cb3ead54bf2d176849e",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -643,8 +643,8 @@
                     {
                         "name": "x",
                         "type": "453551e3083bb521eda4f96b7068144f",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -664,8 +664,8 @@
                     {
                         "name": "x",
                         "type": "f8ec03be05ecdbe344924d7f3629eeda",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -685,8 +685,8 @@
                     {
                         "name": "x",
                         "type": "12043bd3e692a5baa07a5327fe7fbf43",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -706,8 +706,8 @@
                     {
                         "name": "x",
                         "type": "7bbf255fe2f21f3834bb8e0e46b0db18",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -727,8 +727,8 @@
                     {
                         "name": "x",
                         "type": "22c1739bcbe4f9772ba9fb6700f3980b",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -748,8 +748,8 @@
                     {
                         "name": "x",
                         "type": "05bb08a661986d3faf3b715796584180",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -769,8 +769,8 @@
                     {
                         "name": "x",
                         "type": "63381865ac122d4aafe5e18542eaa390",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -790,8 +790,8 @@
                     {
                         "name": "x",
                         "type": "3eb8f722c6fa8a0c75bbdc56e29718b9",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -811,8 +811,8 @@
                     {
                         "name": "x",
                         "type": "cf92a082ba80dc92158bb86d37a7472a",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -832,8 +832,8 @@
                     {
                         "name": "x",
                         "type": "43f2f961adb258a958d4a2536605efe0",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -853,8 +853,8 @@
                     {
                         "name": "x",
                         "type": "6d3a042d64af5e7832b2b4cf691a76b3",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -874,8 +874,8 @@
                     {
                         "name": "x",
                         "type": "81b70272ba96fb1b121cbc75f1683838",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -895,8 +895,8 @@
                     {
                         "name": "x",
                         "type": "3c48a6ecd3f77e003adb18b8521580ff",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -916,8 +916,8 @@
                     {
                         "name": "x",
                         "type": "1065655dd284b0f8a2f32385b88daf33",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -937,8 +937,8 @@
                     {
                         "name": "x",
                         "type": "4cec4fbd93f554c23e866955c625be82",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -958,8 +958,8 @@
                     {
                         "name": "x",
                         "type": "3c5e372fd9cec180aa65fdfa9bfe179f",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -979,8 +979,8 @@
                     {
                         "name": "x",
                         "type": "9f7ac253ec6df62baf9be6201a4f0e09",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -1000,8 +1000,8 @@
                     {
                         "name": "x",
                         "type": "1541ff9e44d7c4165ffbb83035da20ed",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -1021,8 +1021,8 @@
                     {
                         "name": "x",
                         "type": "f971baf5f9e57d5d1d4ac99a48b5e456",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -1042,8 +1042,8 @@
                     {
                         "name": "x",
                         "type": "929e415eef9bd3cbb9cdbaaca7bfc0eb",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -1063,8 +1063,8 @@
                     {
                         "name": "x",
                         "type": "b2e10c6baa425ce5c881e920d11b3d49",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -1084,8 +1084,8 @@
                     {
                         "name": "x",
                         "type": "7b6e385700be7d15aca8c3db1c55b7b5",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -1105,8 +1105,8 @@
                     {
                         "name": "x",
                         "type": "2135f15e91a859d40b36fc26085eba80",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -1126,8 +1126,8 @@
                     {
                         "name": "x",
                         "type": "f23034fcd9d74163057350a58db0f66a",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -1147,8 +1147,8 @@
                     {
                         "name": "x",
                         "type": "dad95e46d2d4950cdd95ca8c23ade9c3",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -1168,8 +1168,8 @@
                     {
                         "name": "x",
                         "type": "ce79fa581f904a0f6076ff84c23fe8f8",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -1189,8 +1189,8 @@
                     {
                         "name": "x",
                         "type": "db525f06035c0d772e53b34467f9d11d",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -1210,8 +1210,8 @@
                     {
                         "name": "x",
                         "type": "425ba16bf96387cbeeb3e8933546b209",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -1231,8 +1231,8 @@
                     {
                         "name": "x",
                         "type": "4a9d0889d4b0b5c18c97da1162dd199f",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -1252,8 +1252,8 @@
                     {
                         "name": "x",
                         "type": "316eaaa6cadc5a5427aa967c7c033e1a",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -1273,8 +1273,8 @@
                     {
                         "name": "x",
                         "type": "8c893b1d1badf07a5560cea17c754a4c",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -1294,8 +1294,8 @@
                     {
                         "name": "x",
                         "type": "a572163b796d89b3c4c288de476aeaa0",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -1315,8 +1315,8 @@
                     {
                         "name": "x",
                         "type": "2e15e8ab9fcf4444793cefa01f14ffd0",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -1336,8 +1336,8 @@
                     {
                         "name": "x",
                         "type": "0b74430a4f69d9648a29c90bf3dfb22e",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -1357,8 +1357,8 @@
                     {
                         "name": "x",
                         "type": "1d197d99804f8ec9a3ddac4dd1e8ae79",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -1378,8 +1378,8 @@
                     {
                         "name": "x",
                         "type": "ea18f4a5af570dd3d2ddc36ebb3a01d2",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -1399,8 +1399,8 @@
                     {
                         "name": "x",
                         "type": "1067d910ca329b26adc9e2fe132f813b",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -1420,8 +1420,8 @@
                     {
                         "name": "x",
                         "type": "3298b7de2a4da2799d4300fe52b0f076",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -1441,8 +1441,8 @@
                     {
                         "name": "x",
                         "type": "03e6140afd7722d7f9411af3a2d58290",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -1462,8 +1462,8 @@
                     {
                         "name": "x",
                         "type": "97d5df98c04a4faffbb1c9b8f2cc83bd",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -1483,8 +1483,8 @@
                     {
                         "name": "x",
                         "type": "e23c73dd7e85c2b8f164b9ddbb366f6b",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -1504,8 +1504,8 @@
                     {
                         "name": "x",
                         "type": "8cf7e8c3521c7eb44eb15a2328bb22fb",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -1525,8 +1525,8 @@
                     {
                         "name": "x",
                         "type": "25aabf27f45411722ac803ac80ceff76",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -1546,8 +1546,8 @@
                     {
                         "name": "x",
                         "type": "106bc1fe7d0454f32497a63e5bbebf8c",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -1567,8 +1567,8 @@
                     {
                         "name": "x",
                         "type": "c7147e74f89ea2b765f3ceaff872e3da",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -1588,8 +1588,8 @@
                     {
                         "name": "x",
                         "type": "743eb19b70578d0851a9252515916e84",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -1609,8 +1609,8 @@
                     {
                         "name": "x",
                         "type": "0303670db3c3dd0c15aaeff922424b22",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -1630,8 +1630,8 @@
                     {
                         "name": "x",
                         "type": "061e798d647c72599d1ef82860ec37f3",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -1651,8 +1651,8 @@
                     {
                         "name": "x",
                         "type": "d2eae901d62b63928cffd7a3017f1e75",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -1672,8 +1672,8 @@
                     {
                         "name": "x",
                         "type": "afb6c6dd05fddb7ab525fd41eaa5496a",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -1693,8 +1693,8 @@
                     {
                         "name": "x",
                         "type": "1dda5fbd06bce6212cfbae46856ab191",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -1714,8 +1714,8 @@
                     {
                         "name": "x",
                         "type": "66acc7d5e2b1a56bede47ce657d138db",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -1735,8 +1735,8 @@
                     {
                         "name": "x",
                         "type": "5de2803c68be1b0f634d0839b36fe70e",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -1756,8 +1756,8 @@
                     {
                         "name": "x",
                         "type": "15df325f2f86c2c4a13615f409521bf9",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -1777,8 +1777,8 @@
                     {
                         "name": "x",
                         "type": "e03859d8fdce15123a86e4f3df1bbb9f",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -1798,8 +1798,8 @@
                     {
                         "name": "x",
                         "type": "bf702fc17b00864ab5f33830602f03c0",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -1819,8 +1819,8 @@
                     {
                         "name": "x",
                         "type": "aab14cdcf837684eb15c7dbc09a9d6ac",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -1840,8 +1840,8 @@
                     {
                         "name": "x",
                         "type": "18a1655c0d6e5784b11d64496b967364",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -1861,8 +1861,8 @@
                     {
                         "name": "x",
                         "type": "2006232acc68a5af22d2aa382df2ebef",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -1882,8 +1882,8 @@
                     {
                         "name": "x",
                         "type": "6f1b98d8bf3e7a7dbe14e074256c7d86",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -1903,8 +1903,8 @@
                     {
                         "name": "x",
                         "type": "10be0f68b09902296f12e1bc02e001b1",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -1924,8 +1924,8 @@
                     {
                         "name": "x",
                         "type": "788fc957d54104e9cc2a49686085d03c",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -1945,8 +1945,8 @@
                     {
                         "name": "x",
                         "type": "88c604e942fd3770e9a03f73dac049c3",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -1966,8 +1966,8 @@
                     {
                         "name": "x",
                         "type": "6986649949d545b215fafcb74d98ce06",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -1987,8 +1987,8 @@
                     {
                         "name": "x",
                         "type": "937505ac43dbf8355f78642c258205ab",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -2008,8 +2008,8 @@
                     {
                         "name": "x",
                         "type": "8dd1aea96566abbebcabb7be956b4315",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -2029,8 +2029,8 @@
                     {
                         "name": "x",
                         "type": "ceb70483253993cb8bb8e2210b61e949",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -2050,8 +2050,8 @@
                     {
                         "name": "x",
                         "type": "ea285e4a14d737c2428e205e3034ddc3",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -2071,8 +2071,8 @@
                     {
                         "name": "x",
                         "type": "236c24fb5f364ba0d5ca4abd43c16581",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -2092,8 +2092,8 @@
                     {
                         "name": "x",
                         "type": "d1795a3dd8e481ee71d80669f17bd004",
-                        "direction": "import",
-                        "location": "framebase+8"
+                        "location": "framebase+8",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -2113,8 +2113,8 @@
                     {
                         "name": "x",
                         "type": "61a6652bb102cd3ca1b1a6efd1501f93",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -2134,8 +2134,8 @@
                     {
                         "name": "x",
                         "type": "c040ff4c391e3e7ce9fd3a021efe29c1",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -2155,8 +2155,8 @@
                     {
                         "name": "x",
                         "type": "7e38163ecea6ae6a10b8605d1056dea4",
-                        "direction": "import",
-                        "location": "framebase+8"
+                        "location": "framebase+8",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -2176,8 +2176,8 @@
                     {
                         "name": "x",
                         "type": "63bea88b4278e92482a9717b41acf0e5",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -2197,8 +2197,8 @@
                     {
                         "name": "x",
                         "type": "42c438f437165fe7f6b8885e19f3a9e8",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -2218,8 +2218,8 @@
                     {
                         "name": "x",
                         "type": "2d46f5adfec61bff0158f30a685b39ac",
-                        "direction": "import",
-                        "location": "framebase+8"
+                        "location": "framebase+8",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -2239,8 +2239,8 @@
                     {
                         "name": "x",
                         "type": "e9d91d28a0191eea302bdac93caf5637",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -2260,8 +2260,8 @@
                     {
                         "name": "x",
                         "type": "b4894c86c4b6be7d2112f3f2f82f3805",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -2281,8 +2281,8 @@
                     {
                         "name": "x",
                         "type": "6509b918841961f96fc9df084f97d12a",
-                        "direction": "import",
-                        "location": "framebase+8"
+                        "location": "framebase+8",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -2302,8 +2302,8 @@
                     {
                         "name": "x",
                         "type": "0abdabc35386752dc609c15551925183",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -2323,8 +2323,8 @@
                     {
                         "name": "x",
                         "type": "31e308acc5a50c985ab3b5eafeb17571",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -2344,8 +2344,8 @@
                     {
                         "name": "x",
                         "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
-                        "direction": "import",
-                        "location": "%xmm0"
+                        "location": "%xmm0",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -2365,8 +2365,8 @@
                     {
                         "name": "x",
                         "type": "3a97222acb4ea39d31d565f5d775886d",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -2386,8 +2386,8 @@
                     {
                         "name": "x",
                         "type": "e0df5c18b2b96a0ef5b5b3d73adcbe6d",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -2407,8 +2407,8 @@
                     {
                         "name": "x",
                         "type": "9184556c0910b05214ac53bae6daf100",
-                        "direction": "import",
-                        "location": "%xmm0"
+                        "location": "%xmm0",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -2428,8 +2428,8 @@
                     {
                         "name": "x",
                         "type": "2a3926b5db4957cf164ac905c72d1389",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -2449,8 +2449,8 @@
                     {
                         "name": "x",
                         "type": "606d7c8e63b7c9a8ee9e1eecd454bbf1",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -2470,8 +2470,8 @@
                     {
                         "name": "x",
                         "type": "8e72107a72bb5ccd7a9da1ecd068ae1e",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -2491,8 +2491,8 @@
                     {
                         "name": "x",
                         "type": "9f28916f09da7e38a6ddd39919366007",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -2512,8 +2512,8 @@
                     {
                         "name": "x",
                         "type": "e3c821263aab5afeee8b3980deeb1e92",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -2533,8 +2533,8 @@
                     {
                         "name": "x",
                         "type": "7a2f32ee5b8a01b41c1806555f194fe7",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -2554,8 +2554,8 @@
                     {
                         "name": "x",
                         "type": "d4021f7f1c0a8e91e24f55fbf000eec9",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -2575,8 +2575,8 @@
                     {
                         "name": "x",
                         "type": "5233bbba0292dd806cca901e9b043318",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -2596,8 +2596,8 @@
                     {
                         "name": "x",
                         "type": "23c8dbaade46c0452e1e8a42755e7087",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -2617,8 +2617,8 @@
                     {
                         "name": "x",
                         "type": "7f2d4885f50946c9fef67ecb96696ed7",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -2638,8 +2638,8 @@
                     {
                         "name": "x",
                         "type": "6eea4a81598f2ce64a888ed5646df523",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -2659,8 +2659,8 @@
                     {
                         "name": "x",
                         "type": "0eda2e2e55410d273f7dc06c4b1a527d",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -2680,8 +2680,8 @@
                     {
                         "name": "x",
                         "type": "7601a5df184c40e57ee2d03a59ff119e",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -2701,8 +2701,8 @@
                     {
                         "name": "x",
                         "type": "f0ded31d1eda5fe4af2803a963d623dd",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -2722,8 +2722,8 @@
                     {
                         "name": "x",
                         "type": "d915d482818bc16287f636e3b3f16416",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -2743,8 +2743,8 @@
                     {
                         "name": "x",
                         "type": "d4021f7f1c0a8e91e24f55fbf000eec9",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -2764,8 +2764,8 @@
                     {
                         "name": "x",
                         "type": "5233bbba0292dd806cca901e9b043318",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -2785,8 +2785,8 @@
                     {
                         "name": "x",
                         "type": "23c8dbaade46c0452e1e8a42755e7087",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -2806,8 +2806,8 @@
                     {
                         "name": "x",
                         "type": "667faf310a6ae1c6d55d7c8874f1b080",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -2827,8 +2827,8 @@
                     {
                         "name": "x",
                         "type": "910096b7ac9d6776959dc3f5adf2fcb8",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -2848,8 +2848,8 @@
                     {
                         "name": "x",
                         "type": "f0732f0297b948cb904d6f460c6cde06",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -2869,8 +2869,8 @@
                     {
                         "name": "x",
                         "type": "84c16f144dd762f3483af0f78073ffd0",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -2890,8 +2890,8 @@
                     {
                         "name": "x",
                         "type": "63d02c4e87e918c3da6b22fbf23d2aaa",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -2911,8 +2911,8 @@
                     {
                         "name": "x",
                         "type": "abe75cc58bf0465f278804f771c3367e",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -2932,8 +2932,8 @@
                     {
                         "name": "x",
                         "type": "478807dcfae00ec90fdc19d8d17f0dd3",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -2953,8 +2953,8 @@
                     {
                         "name": "x",
                         "type": "5514c83d6ea5a9c66a72f3f18ce1642a",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -2974,8 +2974,8 @@
                     {
                         "name": "x",
                         "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -2995,8 +2995,8 @@
                     {
                         "name": "x",
                         "type": "db5011c228fcb756a86a6120e0467c64",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -3016,8 +3016,8 @@
                     {
                         "name": "x",
                         "type": "6e5b56d5d01e91ec9b0ca4c4e741d115",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -3037,8 +3037,8 @@
                     {
                         "name": "x",
                         "type": "1dc2869f2771ca9623670daf9647f92e",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -3058,8 +3058,8 @@
                     {
                         "name": "x",
                         "type": "bf2bf38b74d5c2a13656dc277c30b3b0",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -3079,8 +3079,8 @@
                     {
                         "name": "x",
                         "type": "f5bd4ddde523be4987a24c0999e9a81e",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -3100,8 +3100,8 @@
                     {
                         "name": "x",
                         "type": "e5cd6cd12a33c9993ba99d95db8f4ce7",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -3121,8 +3121,8 @@
                     {
                         "name": "x",
                         "type": "478807dcfae00ec90fdc19d8d17f0dd3",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -3142,8 +3142,8 @@
                     {
                         "name": "x",
                         "type": "5514c83d6ea5a9c66a72f3f18ce1642a",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -3163,8 +3163,8 @@
                     {
                         "name": "x",
                         "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -3184,8 +3184,8 @@
                     {
                         "name": "x",
                         "type": "667faf310a6ae1c6d55d7c8874f1b080",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -3205,8 +3205,8 @@
                     {
                         "name": "x",
                         "type": "910096b7ac9d6776959dc3f5adf2fcb8",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -3226,8 +3226,8 @@
                     {
                         "name": "x",
                         "type": "f0732f0297b948cb904d6f460c6cde06",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -3247,8 +3247,8 @@
                     {
                         "name": "x",
                         "type": "84c16f144dd762f3483af0f78073ffd0",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -3268,8 +3268,8 @@
                     {
                         "name": "x",
                         "type": "63d02c4e87e918c3da6b22fbf23d2aaa",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -3289,8 +3289,8 @@
                     {
                         "name": "x",
                         "type": "abe75cc58bf0465f278804f771c3367e",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -3310,8 +3310,8 @@
                     {
                         "name": "x",
                         "type": "478807dcfae00ec90fdc19d8d17f0dd3",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -3331,8 +3331,8 @@
                     {
                         "name": "x",
                         "type": "5514c83d6ea5a9c66a72f3f18ce1642a",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -3352,8 +3352,8 @@
                     {
                         "name": "x",
                         "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -3373,8 +3373,8 @@
                     {
                         "name": "x",
                         "type": "db5011c228fcb756a86a6120e0467c64",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -3394,8 +3394,8 @@
                     {
                         "name": "x",
                         "type": "6e5b56d5d01e91ec9b0ca4c4e741d115",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -3415,8 +3415,8 @@
                     {
                         "name": "x",
                         "type": "1dc2869f2771ca9623670daf9647f92e",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -3436,8 +3436,8 @@
                     {
                         "name": "x",
                         "type": "568e0c9e96f65e528ebf754519047d2c",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -3457,8 +3457,8 @@
                     {
                         "name": "x",
                         "type": "060c3afd50e04df8f81cc856d2932da0",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -3478,8 +3478,8 @@
                     {
                         "name": "x",
                         "type": "dbef5bff425a8e631e2bc5fba7cc20e6",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -3499,8 +3499,8 @@
                     {
                         "name": "x",
                         "type": "78525346b194036652858950980d6da9",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -3520,8 +3520,8 @@
                     {
                         "name": "x",
                         "type": "d677405226a17a8609f8758fa67a9297",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -3541,8 +3541,8 @@
                     {
                         "name": "x",
                         "type": "20ef28a223bc4bb32b11358764322945",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {

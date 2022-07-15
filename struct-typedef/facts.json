@@ -9,14 +9,14 @@
                     {
                         "name": "a",
                         "type": "7d495312ebc453ee800f688c4d47bf0a",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     },
                     {
                         "name": "b",
                         "type": "9f0cd11ba39b1021e8c4b98f7f1c8ce5",
-                        "direction": "import",
-                        "location": "%rsi"
+                        "location": "%rsi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -35,14 +35,14 @@
                     {
                         "name": "a",
                         "type": "1184ebb5a7ea59f05d56ef045d5ea85d",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     },
                     {
                         "name": "b",
                         "type": "8725f69f8eb0adcbd377e33e41f98e99",
-                        "direction": "both",
-                        "location": "%rsi"
+                        "location": "%rsi",
+                        "direction": "both"
                     }
                 ],
                 "return": {

@@ -19,13 +19,13 @@
                 "parameters": [
                     {
                         "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     },
                     {
                         "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
-                        "direction": "import",
-                        "location": "%rsi"
+                        "location": "%rsi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -43,20 +43,20 @@
                     {
                         "name": "x",
                         "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     },
                     {
                         "name": "y",
                         "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
-                        "direction": "import",
-                        "location": "%rsi"
+                        "location": "%rsi",
+                        "direction": "import"
                     },
                     {
                         "name": "func",
                         "type": "05e74cfd5519fdcf89e2f3fed13be9b3",
-                        "direction": "both",
-                        "location": "%rdx"
+                        "location": "%rdx",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -74,14 +74,14 @@
                     {
                         "name": "x",
                         "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     },
                     {
                         "name": "y",
                         "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
-                        "direction": "import",
-                        "location": "%rsi"
+                        "location": "%rsi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -99,14 +99,14 @@
                     {
                         "name": "x",
                         "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     },
                     {
                         "name": "y",
                         "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
-                        "direction": "import",
-                        "location": "%rsi"
+                        "location": "%rsi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -123,13 +123,13 @@
                 "parameters": [
                     {
                         "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     },
                     {
                         "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
-                        "direction": "import",
-                        "location": "%rsi"
+                        "location": "%rsi",
+                        "direction": "import"
                     }
                 ],
                 "return": {

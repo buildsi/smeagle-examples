@@ -8,13 +8,13 @@
                 "parameters": [
                     {
                         "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
-                        "direction": "import",
-                        "location": "%xmm0"
+                        "location": "%xmm0",
+                        "direction": "import"
                     },
                     {
                         "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
-                        "direction": "import",
-                        "location": "%xmm1"
+                        "location": "%xmm1",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -31,13 +31,13 @@
                 "parameters": [
                     {
                         "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
-                        "direction": "import",
-                        "location": "%xmm0"
+                        "location": "%xmm0",
+                        "direction": "import"
                     },
                     {
                         "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
-                        "direction": "import",
-                        "location": "%xmm1"
+                        "location": "%xmm1",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -54,13 +54,13 @@
                 "parameters": [
                     {
                         "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
-                        "direction": "import",
-                        "location": "%xmm0"
+                        "location": "%xmm0",
+                        "direction": "import"
                     },
                     {
                         "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
-                        "direction": "import",
-                        "location": "%xmm1"
+                        "location": "%xmm1",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -77,13 +77,13 @@
                 "parameters": [
                     {
                         "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
-                        "direction": "import",
-                        "location": "%xmm0"
+                        "location": "%xmm0",
+                        "direction": "import"
                     },
                     {
                         "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
-                        "direction": "import",
-                        "location": "%xmm1"
+                        "location": "%xmm1",
+                        "direction": "import"
                     }
                 ],
                 "return": {

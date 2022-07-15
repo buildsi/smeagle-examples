@@ -17,3 +17,6 @@ struct MyStruct {
 };
 int DoubleFunc(MyStruct **m){ return (*m)->a;};
 int SingleFunc(MyStruct *m){ return m->a;};
+int VoidPointer(void* pointy) {
+    return 0;
+} 

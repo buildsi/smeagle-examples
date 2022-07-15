@@ -3,14 +3,33 @@
     "locations": [
         {
             "function": {
+                "name": "_Z11VoidPointerPv",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "pointy",
+                        "type": "ff8805064ed6d5f4f29acb8ce3c16aa2",
+                        "location": "%rdi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
                 "name": "_Z10SingleFuncP8MyStruct",
                 "class": "Function",
                 "parameters": [
                     {
                         "name": "m",
                         "type": "9ae44d44190c5f47e38d9b8a513afcda",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -28,8 +47,8 @@
                     {
                         "name": "m",
                         "type": "470677c25e6346f520c5c2ca3186fc5d",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -47,20 +66,20 @@
                     {
                         "name": "a",
                         "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     },
                     {
                         "name": "b",
                         "type": "6b721c12269442e2c916552346414b7e",
-                        "direction": "both",
-                        "location": "%rsi"
+                        "location": "%rsi",
+                        "direction": "both"
                     },
                     {
                         "name": "c",
                         "type": "248ec85420ac8ae4aa6f0332d35cbc48",
-                        "direction": "both",
-                        "location": "%rdx"
+                        "location": "%rdx",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -78,8 +97,8 @@
                     {
                         "name": "x",
                         "type": "5514c83d6ea5a9c66a72f3f18ce1642a",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -97,8 +116,8 @@
                     {
                         "name": "x",
                         "type": "478807dcfae00ec90fdc19d8d17f0dd3",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -117,8 +136,8 @@
                     {
                         "name": "f",
                         "type": "5621b430d9eba1119794d1e1d391d084",
-                        "direction": "both",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
@@ -134,6 +153,22 @@
             "type": "int",
             "size": 4,
             "class": "Integer"
+        },
+        "094f321fd5bb8d08c33f220ea53625d9": {
+            "type": "unknown",
+            "class": "Unknown"
+        },
+        "4fc7ba059a1711e8c26bd491510ea170": {
+            "type": "void",
+            "class": "Void"
+        },
+        "ff8805064ed6d5f4f29acb8ce3c16aa2": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "4fc7ba059a1711e8c26bd491510ea170"
+            },
+            "name": "pointy"
         },
         "d20be53e889d2cee0c86d0ef9b0fbbc8": {
             "type": "double",

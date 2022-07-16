@@ -57,17 +57,56 @@
                             "fields": [
                                 {
                                     "name": "unknown",
-                                    "type": "354d28be1670bbd7b2e17ad7398e35ec",
+                                    "type": {
+                                        "name": "A",
+                                        "size": 4,
+                                        "class": "Struct",
+                                        "fields": [
+                                            {
+                                                "name": "x",
+                                                "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                                                "offset": 0,
+                                                "location": "%rdx",
+                                                "direction": "export"
+                                            }
+                                        ]
+                                    },
                                     "offset": 0
                                 },
                                 {
                                     "name": "unknown",
-                                    "type": "11d5edead3db0c5ecedc57500c96789f",
+                                    "type": {
+                                        "name": "B",
+                                        "size": 8,
+                                        "class": "Struct",
+                                        "fields": [
+                                            {
+                                                "name": "y",
+                                                "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
+                                                "offset": 0,
+                                                "location": "%xmm1",
+                                                "direction": "export"
+                                            }
+                                        ]
+                                    },
                                     "offset": 8
                                 },
                                 {
                                     "name": "unknown",
-                                    "type": "feb2f2fbae1354cf7df2f08ad97dfa67",
+                                    "type": {
+                                        "name": "C",
+                                        "size": 4,
+                                        "class": "Struct",
+                                        "fields": [
+                                            {
+                                                "name": "z",
+                                                "type": "9184556c0910b05214ac53bae6daf100",
+                                                "offset": 0,
+                                                "location": "%rcx",
+                                                "direction": "export"
+                                            }
+                                        ]
+                                    },
                                     "offset": 16
                                 },
                                 {

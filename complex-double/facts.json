@@ -15,7 +15,7 @@
                     {
                         "name": "c2",
                         "type": "d1795a3dd8e481ee71d80669f17bd004",
-                        "location": "framebase+8",
+                        "location": "framebase+40",
                         "direction": "import"
                     }
                 ],

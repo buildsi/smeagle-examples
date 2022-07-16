@@ -307,7 +307,41 @@
                             "fields": [
                                 {
                                     "name": "f",
-                                    "type": "3a154cce93f00f3ad7c1cc4609fc8a8e",
+                                    "type": {
+                                        "name": "Foo",
+                                        "size": 32,
+                                        "class": "Struct",
+                                        "fields": [
+                                            {
+                                                "name": "one",
+                                                "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                                                "offset": 0,
+                                                "location": "%rdi",
+                                                "direction": "export"
+                                            },
+                                            {
+                                                "name": "two",
+                                                "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
+                                                "offset": 8,
+                                                "location": "%xmm0",
+                                                "direction": "export"
+                                            },
+                                            {
+                                                "name": "three",
+                                                "type": "e5386f8ca0584657862a4f60f41e5aa4",
+                                                "offset": 16,
+                                                "location": "%rsi",
+                                                "direction": "export"
+                                            },
+                                            {
+                                                "name": "f",
+                                                "type": "1fdeb6adf22ac42bf39a3af9d4ceb939",
+                                                "offset": 24,
+                                                "location": "%rdx",
+                                                "direction": "export"
+                                            }
+                                        ]
+                                    },
                                     "offset": 0
                                 }
                             ]

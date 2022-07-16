@@ -171,7 +171,26 @@
                                 },
                                 {
                                     "name": "b",
-                                    "type": "88c361659df62308506e347c41d6018f",
+                                    "type": {
+                                        "size": 16,
+                                        "class": "Struct",
+                                        "fields": [
+                                            {
+                                                "name": "__int128_1",
+                                                "type": "284ad50c788e2ef7d0e6de0c793ba964",
+                                                "offset": 0,
+                                                "location": "%rdi",
+                                                "direction": "export"
+                                            },
+                                            {
+                                                "name": "__int128_2",
+                                                "type": "284ad50c788e2ef7d0e6de0c793ba964",
+                                                "offset": 8,
+                                                "location": "%rsi",
+                                                "direction": "export"
+                                            }
+                                        ]
+                                    },
                                     "offset": 16
                                 },
                                 {

@@ -22,16 +22,11 @@
                                     "name": "__int128_2",
                                     "type": "284ad50c788e2ef7d0e6de0c793ba964",
                                     "offset": 8,
-                                    "location": "%rdi",
+                                    "location": "%rsi",
                                     "direction": "export"
                                 }
                             ]
                         },
-                        "direction": "import"
-                    },
-                    {
-                        "type": "abe75cc58bf0465f278804f771c3367e",
-                        "location": "%rsi",
                         "direction": "import"
                     },
                     {
@@ -52,6 +47,11 @@
                     {
                         "type": "abe75cc58bf0465f278804f771c3367e",
                         "location": "%r9",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "abe75cc58bf0465f278804f771c3367e",
+                        "location": "framebase+8",
                         "direction": "import"
                     }
                 ],
@@ -102,14 +102,14 @@
                                     "name": "__int128_1",
                                     "type": "284ad50c788e2ef7d0e6de0c793ba964",
                                     "offset": 0,
-                                    "location": "%r9",
+                                    "location": "framebase+8",
                                     "direction": "export"
                                 },
                                 {
                                     "name": "__int128_2",
                                     "type": "284ad50c788e2ef7d0e6de0c793ba964",
                                     "offset": 8,
-                                    "location": "%r9",
+                                    "location": "framebase+16",
                                     "direction": "export"
                                 }
                             ]
@@ -166,7 +166,7 @@
                                     "name": "a",
                                     "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
                                     "offset": 0,
-                                    "location": "%rdi",
+                                    "location": "%xmm0",
                                     "direction": "export"
                                 },
                                 {
@@ -186,7 +186,7 @@
                                                 "name": "__int128_2",
                                                 "type": "284ad50c788e2ef7d0e6de0c793ba964",
                                                 "offset": 8,
-                                                "location": "%rdi",
+                                                "location": "%rsi",
                                                 "direction": "export"
                                             }
                                         ]
@@ -197,7 +197,7 @@
                                     "name": "c",
                                     "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
                                     "offset": 32,
-                                    "location": "%rdi",
+                                    "location": "%rdx",
                                     "direction": "export"
                                 }
                             ]
@@ -207,7 +207,7 @@
                     {
                         "name": "b",
                         "type": "c6d678e90361b6d4f202f1b5553fdfd0",
-                        "location": "%rsi",
+                        "location": "%rcx",
                         "direction": "both"
                     }
                 ],

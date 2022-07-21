@@ -68,21 +68,21 @@
                                     "name": "two",
                                     "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
                                     "offset": 8,
-                                    "location": "%rdi",
+                                    "location": "%xmm0",
                                     "direction": "export"
                                 },
                                 {
                                     "name": "three",
                                     "type": "e5386f8ca0584657862a4f60f41e5aa4",
                                     "offset": 16,
-                                    "location": "%rdi",
+                                    "location": "%rsi",
                                     "direction": "export"
                                 },
                                 {
                                     "name": "f",
                                     "type": "fe169f943fa0385719a160f664162033",
                                     "offset": 24,
-                                    "location": "%rdi",
+                                    "location": "%rdx",
                                     "direction": "export"
                                 }
                             ]
@@ -323,21 +323,21 @@
                                                 "name": "two",
                                                 "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
                                                 "offset": 8,
-                                                "location": "%rdi",
+                                                "location": "%xmm0",
                                                 "direction": "export"
                                             },
                                             {
                                                 "name": "three",
                                                 "type": "e5386f8ca0584657862a4f60f41e5aa4",
                                                 "offset": 16,
-                                                "location": "%rdi",
+                                                "location": "%rsi",
                                                 "direction": "export"
                                             },
                                             {
                                                 "name": "f",
                                                 "type": "1fdeb6adf22ac42bf39a3af9d4ceb939",
                                                 "offset": 24,
-                                                "location": "%rdi",
+                                                "location": "%rdx",
                                                 "direction": "export"
                                             }
                                         ]
@@ -380,21 +380,21 @@
                                     "name": "two",
                                     "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
                                     "offset": 8,
-                                    "location": "%rdi",
+                                    "location": "%xmm0",
                                     "direction": "export"
                                 },
                                 {
                                     "name": "three",
                                     "type": "e5386f8ca0584657862a4f60f41e5aa4",
                                     "offset": 16,
-                                    "location": "%rdi",
+                                    "location": "%rsi",
                                     "direction": "export"
                                 },
                                 {
                                     "name": "f",
                                     "type": "1fdeb6adf22ac42bf39a3af9d4ceb939",
                                     "offset": 24,
-                                    "location": "%rdi",
+                                    "location": "%rdx",
                                     "direction": "export"
                                 }
                             ]

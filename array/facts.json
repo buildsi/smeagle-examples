@@ -34,14 +34,14 @@
                                     "name": "x",
                                     "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
                                     "offset": 0,
-                                    "location": "%xmm0",
+                                    "location": "%rsi",
                                     "direction": "export"
                                 },
                                 {
                                     "name": "c",
                                     "type": "8eed461bfc3501fadc3cdbc18372b319",
                                     "offset": 4,
-                                    "location": "%xmm0",
+                                    "location": "%rdx",
                                     "direction": "export"
                                 },
                                 {
@@ -55,7 +55,7 @@
                                     "name": "z",
                                     "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
                                     "offset": 24,
-                                    "location": "%xmm0",
+                                    "location": "%xmm1",
                                     "direction": "export"
                                 }
                             ]

@@ -5,70 +5,66 @@
             "function": {
                 "name": "main",
                 "class": "Function",
-                "direction": "export",
                 "parameters": [
                     {
                         "name": "argc",
-                        "type": "1fd8c01bdca094933f920b41375cfed0",
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
                         "location": "%rdi",
                         "direction": "import"
                     },
                     {
                         "name": "argv",
-                        "type": "904f42901eac4afa007d59e94e1fe24b",
+                        "type": "ba26a1b06c24691988f94f706e51b94d",
                         "location": "%rsi",
-                        "direction": "import"
+                        "direction": "both"
                     }
                 ],
                 "return": {
-                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
                     "direction": "export",
                     "location": "%rax"
-                }
+                },
+                "direction": "export"
             }
         },
         {
             "function": {
                 "name": "_Z3foov",
                 "class": "Function",
-                "direction": "export",
                 "return": {
                     "location": "none",
-                    "direction": "export",
                     "type": "void",
-                    "class": "Void"
-                }
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "export"
             }
         }
     ],
     "types": {
-        "1fd8c01bdca094933f920b41375cfed0": {
+        "9c67aaa6ef89dd4db8543f00bd1f472f": {
             "type": "int",
             "size": 4,
-            "class": "Integer",
-            "direction": "import"
+            "class": "Integer"
         },
-        "5c9aaaf36f52e308f9f5b66a32099fc6": {
+        "dbef5bff425a8e631e2bc5fba7cc20e6": {
             "type": "char",
             "size": 1,
-            "class": "Integer",
-            "direction": "import"
+            "class": "Integer"
         },
-        "376a1ba4ca8c718e3e55c1cbc5a0cfa7": {
+        "7e23b4d1fe940040810be7a419c68aff": {
             "class": "Pointer",
             "size": 8,
             "underlying_type": {
-                "type": "5c9aaaf36f52e308f9f5b66a32099fc6"
-            },
-            "direction": "both"
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            }
         },
-        "904f42901eac4afa007d59e94e1fe24b": {
+        "ba26a1b06c24691988f94f706e51b94d": {
             "class": "Pointer",
             "size": 8,
             "underlying_type": {
-                "type": "376a1ba4ca8c718e3e55c1cbc5a0cfa7"
+                "type": "7e23b4d1fe940040810be7a419c68aff"
             },
-            "direction": "both",
             "name": "argv"
         }
     }

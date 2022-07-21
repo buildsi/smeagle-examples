@@ -6,7 +6,7 @@
                 "name": "main",
                 "class": "Function",
                 "return": {
-                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
                     "direction": "export",
                     "location": "%rax"
                 }
@@ -19,52 +19,54 @@
                 "parameters": [
                     {
                         "name": "a",
-                        "type": "c035a0328192ad7ec73b5cf5bb3207c0",
+                        "type": "8b9d9a611daa3d6c9c6a5297627e746f",
                         "location": "framebase+8",
                         "direction": "import"
                     }
                 ],
                 "return": {
                     "location": "none",
-                    "direction": "export",
                     "type": "void",
-                    "class": "Void"
+                    "class": "Void",
+                    "direction": "export"
                 }
             }
         }
     ],
     "types": {
-        "1fd8c01bdca094933f920b41375cfed0": {
+        "9c67aaa6ef89dd4db8543f00bd1f472f": {
             "type": "int",
             "size": 4,
-            "class": "Integer",
-            "direction": "import"
+            "class": "Integer"
         },
-        "6d168f46b7d9e8b96a1ff9b171e0ad48": {
+        "7a2f32ee5b8a01b41c1806555f194fe7": {
             "type": "long unsigned int",
             "size": 8,
-            "class": "Integer",
-            "direction": "import"
+            "class": "Integer"
         },
-        "91a1497aed4305feaaaf5ddfdb0da5e5": {
+        "9b9f3357d66518b14398f8ef7cdd9836": {
             "class": "Array",
             "name": "y",
             "size": 16,
             "count": 0,
-            "type": "int"
+            "underlying_type": {
+                "type": "int",
+                "size": 4,
+                "class": "Integer"
+            }
         },
-        "c035a0328192ad7ec73b5cf5bb3207c0": {
+        "8b9d9a611daa3d6c9c6a5297627e746f": {
             "name": "A",
             "size": 16,
             "class": "Union",
             "fields": [
                 {
                     "name": "x",
-                    "type": "1fd8c01bdca094933f920b41375cfed0"
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f"
                 },
                 {
                     "name": "y",
-                    "type": "91a1497aed4305feaaaf5ddfdb0da5e5"
+                    "type": "9b9f3357d66518b14398f8ef7cdd9836"
                 }
             ]
         }

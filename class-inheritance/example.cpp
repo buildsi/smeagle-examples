@@ -3,15 +3,15 @@ struct A {
 };
 
 struct B {
- int y;
+ double y;
 };
 
 struct C {
- int z;
+ float z;
 };
 
 struct D: A, B, C {
- int d;
+ char d;
 };
 
 int func(struct A a, struct B * b, struct C c, struct D d) {

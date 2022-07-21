@@ -6,7 +6,7 @@
                 {
                     "name": "fixedSizeArray",
                     "location": "var",
-                    "type": "245cde0c8f021af32e68f2ac34176fca",
+                    "type": "90b3cd95673cfb17514f68a9ff70a9a8",
                     "direction": "export"
                 }
             ]
@@ -15,63 +15,64 @@
             "function": {
                 "name": "main",
                 "class": "Function",
-                "direction": "export",
                 "return": {
-                    "type": "1fd8c01bdca094933f920b41375cfed0",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
                     "direction": "export",
                     "location": "%rax"
-                }
+                },
+                "direction": "export"
             }
         },
         {
             "function": {
                 "name": "_Z30function_with_fixed_size_arrayPi",
                 "class": "Function",
-                "direction": "export",
                 "parameters": [
                     {
                         "name": "array",
-                        "type": "210d6ae6dbf28fcd041c68d1fe5930a3",
+                        "type": "c31c2518fddc91c25994a30fb492944b",
                         "location": "%rdi",
-                        "direction": "import"
+                        "direction": "both"
                     }
                 ],
                 "return": {
                     "location": "none",
-                    "direction": "export",
                     "type": "void",
-                    "class": "Void"
-                }
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "export"
             }
         }
     ],
     "types": {
-        "1fd8c01bdca094933f920b41375cfed0": {
+        "9c67aaa6ef89dd4db8543f00bd1f472f": {
             "type": "int",
             "size": 4,
-            "class": "Integer",
-            "direction": "import"
+            "class": "Integer"
         },
-        "6d168f46b7d9e8b96a1ff9b171e0ad48": {
+        "7a2f32ee5b8a01b41c1806555f194fe7": {
             "type": "long unsigned int",
             "size": 8,
-            "class": "Integer",
-            "direction": "import"
+            "class": "Integer"
         },
-        "245cde0c8f021af32e68f2ac34176fca": {
+        "90b3cd95673cfb17514f68a9ff70a9a8": {
             "class": "Array",
             "name": "fixedSizeArray",
             "size": 120,
             "count": 0,
-            "type": "int"
+            "underlying_type": {
+                "type": "int",
+                "size": 4,
+                "class": "Integer"
+            }
         },
-        "210d6ae6dbf28fcd041c68d1fe5930a3": {
+        "c31c2518fddc91c25994a30fb492944b": {
             "class": "Pointer",
             "size": 8,
             "underlying_type": {
-                "type": "1fd8c01bdca094933f920b41375cfed0"
+                "type": "9c67aaa6ef89dd4db8543f00bd1f472f"
             },
-            "direction": "both",
             "name": "array"
         }
     }

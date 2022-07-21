@@ -14,12 +14,12 @@
         },
         {
             "function": {
-                "name": "_Z3foo1A",
+                "name": "_Z3foo3Bar",
                 "class": "Function",
                 "parameters": [
                     {
-                        "name": "a",
-                        "type": "8b9d9a611daa3d6c9c6a5297627e746f",
+                        "name": "b",
+                        "type": "daed930e74cf397d33c905dad28a4dfc",
                         "location": "framebase+8",
                         "direction": "import"
                     }
@@ -39,34 +39,59 @@
             "size": 4,
             "class": "Integer"
         },
-        "7a2f32ee5b8a01b41c1806555f194fe7": {
-            "type": "long unsigned int",
+        "d20be53e889d2cee0c86d0ef9b0fbbc8": {
+            "type": "double",
             "size": 8,
-            "class": "Integer"
+            "class": "Float"
         },
-        "9b9f3357d66518b14398f8ef7cdd9836": {
-            "class": "Array",
-            "name": "y",
-            "size": 16,
-            "count": 0,
-            "underlying_type": {
-                "type": "int",
-                "size": 4,
-                "class": "Integer"
-            }
-        },
-        "8b9d9a611daa3d6c9c6a5297627e746f": {
-            "name": "A",
-            "size": 16,
-            "class": "Union",
+        "c00b810a5f2260e9f99bca898f839cd0": {
+            "name": "Foo",
+            "size": 32,
+            "class": "Struct",
             "fields": [
                 {
+                    "name": "a",
+                    "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
+                    "offset": 0
+                },
+                {
+                    "name": "b",
+                    "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
+                    "offset": 8
+                },
+                {
+                    "name": "c",
+                    "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
+                    "offset": 16
+                },
+                {
                     "name": "x",
-                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f"
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "offset": 24
                 },
                 {
                     "name": "y",
-                    "type": "9b9f3357d66518b14398f8ef7cdd9836"
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "offset": 28
+                }
+            ]
+        },
+        "daed930e74cf397d33c905dad28a4dfc": {
+            "name": "Bar",
+            "size": 32,
+            "class": "Union",
+            "fields": [
+                {
+                    "name": "a",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f"
+                },
+                {
+                    "name": "f",
+                    "type": "c00b810a5f2260e9f99bca898f839cd0"
+                },
+                {
+                    "name": "d",
+                    "type": "d20be53e889d2cee0c86d0ef9b0fbbc8"
                 }
             ]
         }

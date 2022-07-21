@@ -6,7 +6,7 @@
                 {
                     "name": "fixedSizeArray",
                     "location": "var",
-                    "type": "90b3cd95673cfb17514f68a9ff70a9a8",
+                    "type": "8084b7ca14517cdeeb95d783ba48548d",
                     "direction": "export"
                 }
             ]
@@ -56,11 +56,13 @@
             "size": 8,
             "class": "Integer"
         },
-        "90b3cd95673cfb17514f68a9ff70a9a8": {
+        "8084b7ca14517cdeeb95d783ba48548d": {
             "class": "Array",
             "name": "fixedSizeArray",
             "size": 120,
-            "count": 0,
+            "counts": [
+                30
+            ],
             "underlying_type": {
                 "type": "int",
                 "size": 4,

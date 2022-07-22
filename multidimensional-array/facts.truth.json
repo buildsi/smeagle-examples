@@ -1,5 +1,5 @@
 {
-    "library": "/home/vanessa/Desktop/Code/smeagle-examples/structure-array-structures/example",
+    "library": "/home/vanessa/Desktop/Code/smeagle-examples/multidimensional-array/example",
     "locations": [
         {
             "function": {
@@ -29,7 +29,7 @@
         },
         {
             "function": {
-                "name": "_Z3fooiPP7Structy",
+                "name": "_Z3fooiP7Structy",
                 "class": "Function",
                 "parameters": [
                     {
@@ -39,8 +39,8 @@
                         "direction": "import"
                     },
                     {
-                        "name": "arrayOfStructures",
-                        "type": "6ab633a3650272566efce1c83032125d",
+                        "name": "array",
+                        "type": "429b78b625bd1b4520290bf67ae42aa2",
                         "location": "%rsi",
                         "direction": "both"
                     }
@@ -80,71 +80,64 @@
             },
             "name": "argv"
         },
-        "c7cb2b29b6a65fa43d7b991d5c3a8143": {
-            "name": "StructyChild",
-            "size": 4,
-            "class": "Struct",
-            "fields": [
-                {
-                    "name": "one",
-                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
-                    "offset": 0
-                }
-            ]
-        },
-        "c4e2afc8fd63188b0f52fa5240eb12e0": {
-            "class": "Pointer",
-            "size": 8,
-            "underlying_type": {
-                "type": "c7cb2b29b6a65fa43d7b991d5c3a8143"
-            }
-        },
         "7a2f32ee5b8a01b41c1806555f194fe7": {
             "type": "long unsigned int",
             "size": 8,
             "class": "Integer"
         },
-        "e8ba69790811b9092d4a298fa74a874a": {
+        "2e197574c391d1b4115af009e86a70e0": {
             "class": "Array",
-            "name": "child",
-            "size": 40,
+            "name": "two_d",
+            "size": 100,
             "counts": [
+                5,
                 5
             ],
             "underlying_type": {
-                "class": "Pointer",
-                "size": 8,
-                "underlying_type": {
-                    "type": "c7cb2b29b6a65fa43d7b991d5c3a8143"
-                }
+                "type": "int",
+                "size": 4,
+                "class": "Integer"
             }
         },
-        "6e7e9583ed3041d40426d50d3f34c3a4": {
+        "ccf4dbe1061e0f4c6c42736ce0a92b0c": {
+            "class": "Array",
+            "name": "three_d",
+            "size": 24000,
+            "counts": [
+                10,
+                20,
+                30
+            ],
+            "underlying_type": {
+                "type": "int",
+                "size": 4,
+                "class": "Integer"
+            }
+        },
+        "a5b8f03151c2552b5bc5a6e4f11bc457": {
             "name": "Structy",
-            "size": 40,
+            "size": 24100,
             "class": "Struct",
             "fields": [
                 {
-                    "name": "child",
-                    "type": "e8ba69790811b9092d4a298fa74a874a",
+                    "name": "two_d",
+                    "type": "2e197574c391d1b4115af009e86a70e0",
                     "offset": 0
+                },
+                {
+                    "name": "three_d",
+                    "type": "ccf4dbe1061e0f4c6c42736ce0a92b0c",
+                    "offset": 100
                 }
             ]
         },
-        "729d4cec600aa2d267edd94256813b8e": {
+        "429b78b625bd1b4520290bf67ae42aa2": {
             "class": "Pointer",
             "size": 8,
             "underlying_type": {
-                "type": "6e7e9583ed3041d40426d50d3f34c3a4"
-            }
-        },
-        "6ab633a3650272566efce1c83032125d": {
-            "class": "Pointer",
-            "size": 8,
-            "underlying_type": {
-                "type": "729d4cec600aa2d267edd94256813b8e"
+                "type": "a5b8f03151c2552b5bc5a6e4f11bc457"
             },
-            "name": "arrayOfStructures"
+            "name": "array"
         }
     }
 }

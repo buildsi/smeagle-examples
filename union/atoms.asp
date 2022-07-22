@@ -7,4 +7,4 @@
 % Library: lib.so
 %----------------------------------------------------------------------------
 abi_typelocation("lib.so","main","Export","Integer32","%rax").
-abi_typelocation("lib.so","_Z3foo1A","Import","Union","framebase+8").
+abi_typelocation("lib.so","_Z3foo3Bar","Import","Union","framebase+8").

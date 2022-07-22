@@ -6,7 +6,9 @@
 %----------------------------------------------------------------------------
 % Library: lib.so
 %----------------------------------------------------------------------------
-abi_typelocation("lib.so","fixedSizeArray","Export","Array[120:30]","var").
-abi_typelocation("lib.so","fixedSizeArray","Export","Integer32","var").
+abi_typelocation("lib.so","close","Import","Integer32","%rdi").
+abi_typelocation("lib.so","close","Export","Integer32","%rax").
+abi_typelocation("lib.so","getpid","Export","Integer32","%rax").
+abi_typelocation("lib.so","main","Import","Integer32","%rdi").
+abi_typelocation("lib.so","main","Both","Integer8","((%rsi))").
 abi_typelocation("lib.so","main","Export","Integer32","%rax").
-abi_typelocation("lib.so","_Z30function_with_fixed_size_arrayPi","Both","Integer32","(%rdi)").

@@ -40,7 +40,7 @@
                     },
                     {
                         "name": "arrayOfStructures",
-                        "type": "6ab633a3650272566efce1c83032125d",
+                        "type": "43eadb5e563d08393b07f237acabd3aa",
                         "location": "%rsi",
                         "direction": "both"
                     }
@@ -104,13 +104,11 @@
             "size": 8,
             "class": "Integer"
         },
-        "e8ba69790811b9092d4a298fa74a874a": {
+        "9192883661546c218f8c320b0cf2eabb": {
             "class": "Array",
             "name": "child",
             "size": 40,
-            "counts": [
-                5
-            ],
+            "count": 0,
             "underlying_type": {
                 "class": "Pointer",
                 "size": 8,
@@ -119,30 +117,30 @@
                 }
             }
         },
-        "6e7e9583ed3041d40426d50d3f34c3a4": {
+        "f8c174347474936572fce14d6ef7d8ed": {
             "name": "Structy",
             "size": 40,
             "class": "Struct",
             "fields": [
                 {
                     "name": "child",
-                    "type": "e8ba69790811b9092d4a298fa74a874a",
+                    "type": "9192883661546c218f8c320b0cf2eabb",
                     "offset": 0
                 }
             ]
         },
-        "729d4cec600aa2d267edd94256813b8e": {
+        "70b9ed30700df5a382ae47c9bd269f07": {
             "class": "Pointer",
             "size": 8,
             "underlying_type": {
-                "type": "6e7e9583ed3041d40426d50d3f34c3a4"
+                "type": "f8c174347474936572fce14d6ef7d8ed"
             }
         },
-        "6ab633a3650272566efce1c83032125d": {
+        "43eadb5e563d08393b07f237acabd3aa": {
             "class": "Pointer",
             "size": 8,
             "underlying_type": {
-                "type": "729d4cec600aa2d267edd94256813b8e"
+                "type": "70b9ed30700df5a382ae47c9bd269f07"
             },
             "name": "arrayOfStructures"
         }

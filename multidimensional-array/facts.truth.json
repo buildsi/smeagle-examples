@@ -40,7 +40,7 @@
                     },
                     {
                         "name": "array",
-                        "type": "429b78b625bd1b4520290bf67ae42aa2",
+                        "type": "ef50de5b18081929847a8ed690d12122",
                         "location": "%rsi",
                         "direction": "both"
                     }
@@ -85,57 +85,50 @@
             "size": 8,
             "class": "Integer"
         },
-        "2e197574c391d1b4115af009e86a70e0": {
+        "427e1ed160c9982c6c26abf96c5e9955": {
             "class": "Array",
             "name": "two_d",
-            "size": 100,
-            "counts": [
-                5,
-                5
-            ],
+            "size": 40,
+            "count": 0,
             "underlying_type": {
                 "type": "int",
                 "size": 4,
                 "class": "Integer"
             }
         },
-        "ccf4dbe1061e0f4c6c42736ce0a92b0c": {
+        "f6a71a9d4e82c9bccf9e964b1761fa76": {
             "class": "Array",
             "name": "three_d",
-            "size": 24000,
-            "counts": [
-                10,
-                20,
-                30
-            ],
+            "size": 240,
+            "count": 0,
             "underlying_type": {
                 "type": "int",
                 "size": 4,
                 "class": "Integer"
             }
         },
-        "a5b8f03151c2552b5bc5a6e4f11bc457": {
+        "73b7223ee02fd0c8efa93da747a8847c": {
             "name": "Structy",
             "size": 24100,
             "class": "Struct",
             "fields": [
                 {
                     "name": "two_d",
-                    "type": "2e197574c391d1b4115af009e86a70e0",
+                    "type": "427e1ed160c9982c6c26abf96c5e9955",
                     "offset": 0
                 },
                 {
                     "name": "three_d",
-                    "type": "ccf4dbe1061e0f4c6c42736ce0a92b0c",
+                    "type": "f6a71a9d4e82c9bccf9e964b1761fa76",
                     "offset": 100
                 }
             ]
         },
-        "429b78b625bd1b4520290bf67ae42aa2": {
+        "ef50de5b18081929847a8ed690d12122": {
             "class": "Pointer",
             "size": 8,
             "underlying_type": {
-                "type": "a5b8f03151c2552b5bc5a6e4f11bc457"
+                "type": "73b7223ee02fd0c8efa93da747a8847c"
             },
             "name": "array"
         }

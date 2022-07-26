@@ -39,7 +39,7 @@
                                 },
                                 {
                                     "name": "c",
-                                    "type": "8eed461bfc3501fadc3cdbc18372b319",
+                                    "type": "5d91d0e2f1e27d9ccf8a1f793505c10e",
                                     "offset": 4,
                                     "location": "%rdx",
                                     "direction": "export"
@@ -88,13 +88,11 @@
             "size": 8,
             "class": "Integer"
         },
-        "8eed461bfc3501fadc3cdbc18372b319": {
+        "5d91d0e2f1e27d9ccf8a1f793505c10e": {
             "class": "Array",
             "name": "c",
             "size": 8,
-            "counts": [
-                8
-            ],
+            "count": 0,
             "underlying_type": {
                 "type": "char",
                 "size": 1,
@@ -106,7 +104,7 @@
             "size": 8,
             "class": "Float"
         },
-        "a55a12a304bd32496749c5178e5e4e01": {
+        "6258e06c1116fa369b2b9c8dc692f3cf": {
             "name": "Foo",
             "size": 32,
             "class": "Struct",
@@ -118,7 +116,7 @@
                 },
                 {
                     "name": "c",
-                    "type": "8eed461bfc3501fadc3cdbc18372b319",
+                    "type": "5d91d0e2f1e27d9ccf8a1f793505c10e",
                     "offset": 4
                 },
                 {

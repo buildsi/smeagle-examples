@@ -8,8 +8,5 @@ ifneq (${VERBOSE},1)
 MUTE := @
 endif
 
-example:
-	${MUTE} ${CXX} ${CXXFLAGS} -c -Wl,-E example.cpp -o lib.so
-
-breaks:
-	${MUTE} $(MAKE) CXX="${CXX}" CXXFLAGS="${CXXFLAGS}" -C $@
+all:
+	${MUTE} ${CXX} ${CXXFLAGS} -c -Wl,-E -fPIC -shared -o lib.so example.cpp

@@ -70,7 +70,7 @@ for category in $(ls -d */); do
             fi
             printf "${cmd}\n"
             ${cmd}
-            if [[ "$?" -ne "0" ]]; then
+            if [ "$?" != "0" ]; then
                 printf "Issue running: ${cmd}\n"
                 exit 1
             fi

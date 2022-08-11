@@ -40,7 +40,8 @@ for category in $(ls -d */); do
     printf "Inspecting category ${category}\n"
     ls
     echo $PWD
-    CXX=${CXX} make
+    cat Makefile
+    make -d CXX=${CXX}
     ls
     original=$(realpath ./lib.so)
     if ! test -f ${original}; then
@@ -57,7 +58,7 @@ for category in $(ls -d */); do
                 continue
             fi
             echo $PWD
-            CXX=${CXX} make
+            make -d CXX=${CXX}
             ls
             splice=$(realpath ./lib.so)
             if ! test -f ${splice}; then

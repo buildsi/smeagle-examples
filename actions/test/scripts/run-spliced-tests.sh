@@ -24,11 +24,11 @@ for category in $(ls -d */); do
     printf "Inspecting category ${category}\n"
     cd ${root}/${category}
     ls
-    original=example
+    original=$(realpath ./lib.so)
     if ! test -f ${original}; then
-        original=lib.so
+        printf "${original} does not exist\n"
+        exit 1
     fi
-    original=$(realpath ${original})
     printf "Found libA ${original}\n"
     if test -d ./breaks; then
         for dir in $(ls ./breaks); do
@@ -36,13 +36,13 @@ for category in $(ls -d */); do
             break_dir=${root}/${category}/breaks/${dir}
             cd ${break_dir}
             ls
-            splice="example"
+            splice=$(realpath ./lib.so)
             if ! test -f ${splice}; then
-                splice=lib.so
+                printf "${splice} does not exist\n"
+                exit 1
             fi
-            splice=$(realpath ${splice})
             printf "Found libB ${splice}\n"
-            outdir="/tmp/diff-results/${category}${dir}/${compiler}"
+            outdir="${results_dir}/${category}${dir}/${compiler}"
             mkdir -p ${outdir}
             experiment=${original}-${splice}-${compiler}
             outfile="${outdir}/experiment.json"
@@ -53,7 +53,15 @@ for category in $(ls -d */); do
             fi
             printf "${cmd}\n"
             ${cmd}
+            if [[ "$?" -ne "0" ]]; then
+                printf "Issue running: ${cmd}\n"
+                exit 1
+            fi
             cat ${outfile}
         done
     fi
 done
+
+if [[ $? -neq "0" ]]; then
+   echo no
+fi

@@ -6,4 +6,4 @@ MUTE := @
 endif
 
 all:
-	${MUTE} ${CXX} ${CXXFLAGS} -c -Wl,-E example.cpp -o example
+	${MUTE} ${CXX} ${CXXFLAGS} -c -Wl,-E -fPIC -shared -o lib.so example.cpp

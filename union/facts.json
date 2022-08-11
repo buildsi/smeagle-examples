@@ -19,7 +19,7 @@
                 "parameters": [
                     {
                         "name": "a",
-                        "type": "8b9d9a611daa3d6c9c6a5297627e746f",
+                        "type": "227d2573226946bdb4ccdb4af73ac107",
                         "location": "framebase+8",
                         "direction": "import"
                     }
@@ -44,18 +44,20 @@
             "size": 8,
             "class": "Integer"
         },
-        "9b9f3357d66518b14398f8ef7cdd9836": {
+        "60d878d3ef42239c29775902b50e039b": {
             "class": "Array",
             "name": "y",
             "size": 16,
-            "count": 0,
+            "counts": [
+                4
+            ],
             "underlying_type": {
                 "type": "int",
                 "size": 4,
                 "class": "Integer"
             }
         },
-        "8b9d9a611daa3d6c9c6a5297627e746f": {
+        "227d2573226946bdb4ccdb4af73ac107": {
             "name": "A",
             "size": 16,
             "class": "Union",
@@ -66,7 +68,7 @@
                 },
                 {
                     "name": "y",
-                    "type": "9b9f3357d66518b14398f8ef7cdd9836"
+                    "type": "60d878d3ef42239c29775902b50e039b"
                 }
             ]
         }

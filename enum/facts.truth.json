@@ -9,8 +9,8 @@
                     {
                         "name": "c",
                         "type": "15e2741a97d17c7c11211cd33155a5fc",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -29,8 +29,8 @@
                     {
                         "name": "c",
                         "type": "d733aac69b7b6275ff814935599cede6",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -49,8 +49,8 @@
                     {
                         "name": "c",
                         "type": "cac15ab977da00c5206209fcc5591d65",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -69,8 +69,8 @@
                     {
                         "name": "r",
                         "type": "3edc0d2f7db195a904a2c82fb8dc21c5",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {
@@ -88,8 +88,8 @@
                     {
                         "name": "c",
                         "type": "0cf43b197cf3ea9f2525df5f81833d3c",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     }
                 ],
                 "return": {

@@ -1,5 +1,5 @@
 {
-    "library": "/home/vanessa/Desktop/Code/smeagle-examples/structure-arrays-of-arrays/example",
+    "library": "/home/vanessa/Desktop/Code/smeagle-examples/structure-arrays-of-arrays/lib.so",
     "locations": [
         {
             "function": {
@@ -23,8 +23,7 @@
                     "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
                     "direction": "export",
                     "location": "%rax"
-                },
-                "direction": "export"
+                }
             }
         },
         {
@@ -40,7 +39,7 @@
                     },
                     {
                         "name": "array",
-                        "type": "ef50de5b18081929847a8ed690d12122",
+                        "type": "429b78b625bd1b4520290bf67ae42aa2",
                         "location": "%rsi",
                         "direction": "both"
                     }
@@ -49,8 +48,7 @@
                     "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
                     "direction": "export",
                     "location": "%rax"
-                },
-                "direction": "export"
+                }
             }
         }
     ],
@@ -85,50 +83,57 @@
             "size": 8,
             "class": "Integer"
         },
-        "427e1ed160c9982c6c26abf96c5e9955": {
+        "2e197574c391d1b4115af009e86a70e0": {
             "class": "Array",
             "name": "two_d",
-            "size": 40,
-            "count": 0,
+            "size": 100,
+            "counts": [
+                5,
+                5
+            ],
             "underlying_type": {
                 "type": "int",
                 "size": 4,
                 "class": "Integer"
             }
         },
-        "f6a71a9d4e82c9bccf9e964b1761fa76": {
+        "ccf4dbe1061e0f4c6c42736ce0a92b0c": {
             "class": "Array",
             "name": "three_d",
-            "size": 240,
-            "count": 0,
+            "size": 24000,
+            "counts": [
+                10,
+                20,
+                30
+            ],
             "underlying_type": {
                 "type": "int",
                 "size": 4,
                 "class": "Integer"
             }
         },
-        "73b7223ee02fd0c8efa93da747a8847c": {
+        "a5b8f03151c2552b5bc5a6e4f11bc457": {
             "name": "Structy",
             "size": 24100,
             "class": "Struct",
             "fields": [
                 {
                     "name": "two_d",
-                    "type": "427e1ed160c9982c6c26abf96c5e9955",
+                    "type": "2e197574c391d1b4115af009e86a70e0",
                     "offset": 0
                 },
                 {
                     "name": "three_d",
-                    "type": "f6a71a9d4e82c9bccf9e964b1761fa76",
+                    "type": "ccf4dbe1061e0f4c6c42736ce0a92b0c",
                     "offset": 100
                 }
             ]
         },
-        "ef50de5b18081929847a8ed690d12122": {
+        "429b78b625bd1b4520290bf67ae42aa2": {
             "class": "Pointer",
             "size": 8,
             "underlying_type": {
-                "type": "73b7223ee02fd0c8efa93da747a8847c"
+                "type": "a5b8f03151c2552b5bc5a6e4f11bc457"
             },
             "name": "array"
         }

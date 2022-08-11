@@ -1,25 +1,28 @@
 # default compiler
 CXX ?= g++
+CC ?= gcc
 
 # compiler flags:
 #  -g    adds debugging information to the executable file
 #  -Wall turns on most, but not all, compiler warnings
+CFLAGS  ?= -g -Wall
 CXXFLAGS ?= -g -Wall
+LIBS = ./
+BREAKS = ./*/breaks
 
-ifneq (${VERBOSE},1)
-MUTE := @
-endif
+all: libs breaks
+.PHONY: libs breaks
 
-EXAMPLES := allocation array callsite callsite-as-parameter class-inheritance \
-            complex-double empty-func enum fixed-sized-array function-pointer \
-            function-with-pointer global-variables global-variables-pointers \
-            inline int128 pointer-hell static-member-func struct-typedef \
-            structure-arrays-of-arrays structure-array-structures \
-            structure-simple structure-with-structure union
+breaks: $(BREAKS)/*
+	for dir in $^ ; do \
+		echo "Building break" $${dir} ; \
+		$(MAKE) CXX="${CXX}" CXXFLAGS="${CXXFLAGS}" -C $${dir}; \
+	done
 
-all: $(EXAMPLES)
-.PHONY: all $(EXAMPLES)
 
-$(EXAMPLES):
-	@ echo Building $@
-	${MUTE} $(MAKE) CXX="${CXX}" CXXFLAGS="${CXXFLAGS}" -C $@
+libs: $(LIBS)/*
+	for dir in $^ ; do \
+		echo "Building" $${dir} ; \
+		$(MAKE) "${CXX}" CXXFLAGS="${CXXFLAGS}" -C $${dir}; \
+	done
+

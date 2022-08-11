@@ -25,8 +25,8 @@ for category in $(ls -d ./*); do
             if [ ! -f "Makefile" ]; then
                 continue
             fi
+            ls
             make CXX=${CXX}
         done
     fi
 done
-

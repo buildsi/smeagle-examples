@@ -26,7 +26,6 @@ ls
 # _development script should not be run
 rm -rf _development
 
-CXX=${CXX} /bin/bash ${build_script}/build.sh
 for category in $(ls -d */); do
     cd ${root}/${category}
     if ! test -f "Makefile"; then
@@ -37,6 +36,7 @@ for category in $(ls -d */); do
         continue
     fi
     printf "Inspecting category ${category}\n"
+    make CXX=${CXX}
     ls
     original=$(realpath ./lib.so)
     if ! test -f ${original}; then
@@ -52,6 +52,7 @@ for category in $(ls -d */); do
             if ! test -f "Makefile"; then
                 continue
             fi
+            make CXX=${CXX}
             ls
             splice=$(realpath ./lib.so)
             if ! test -f ${splice}; then

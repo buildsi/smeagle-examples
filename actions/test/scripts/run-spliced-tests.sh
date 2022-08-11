@@ -38,6 +38,7 @@ for category in $(ls -d */); do
         continue
     fi
     printf "Inspecting category ${category}\n"
+    ls
     make CXX=${CXX}
     ls
     original=$(realpath ./lib.so)

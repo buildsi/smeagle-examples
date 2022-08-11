@@ -19,6 +19,9 @@ build_script=$(dirname ${build_script})
 printf "Looking for build.sh..."
 ls
 
+# _development script should not be run
+rm -rf _development
+
 CXX=${CXX} /bin/bash ${build_script}/build.sh
 for category in $(ls -d */); do
     printf "Inspecting category ${category}\n"

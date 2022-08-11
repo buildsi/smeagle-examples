@@ -1,9 +1,6 @@
 CXX ?= g++
 CXXFLAGS ?= -g -Wall
 
-all: example breaks
-.PHONY: example breaks
-
 ifneq (${VERBOSE},1)
 MUTE := @
 endif

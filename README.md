@@ -18,21 +18,15 @@ a table of this ground truth, you can see [this Google Doc](https://docs.google.
 ## Usage
 
 To manually build on your local machine with whatever compiler is available
-(defaults to gcc)
+(defaults to g++)
 
 ```bash
-$ make
+$ ./build.sh
 ```
 
-To choose a specific compiler:
+To build using a container (and check the base image that it's the one you want):
+
 
 ```bash
-make CC=g++
+$ ./build-container.sh
 ```
-
-To generate a matrix for GitHub actions:
-
-```bash
-$ python matrix.py
-```
-

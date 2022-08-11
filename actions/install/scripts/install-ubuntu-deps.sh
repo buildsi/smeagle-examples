@@ -5,26 +5,26 @@ set -eu -o pipefail
 # Core deps for ubuntu base
 apt-get update && apt-get install -y build-essential python3-pip libssl-dev vtable-dumper 
 shopt -s expand_aliases
-alias pip='pip3'
-pip install --upgrade pip 
+alias python='python3'
+python -m pip install --upgrade pip 
 
-pip install ipython
+python -m pip install ipython
 CMAKE_VERSION=3.20.4
 curl -s -L https://github.com/Kitware/CMake/releases/download/v$CMAKE_VERSION/cmake-$CMAKE_VERSION-linux-x86_64.sh > cmake.sh
 sh cmake.sh --prefix=/usr/local --skip-license
 rm cmake.sh
 
 git clone https://github.com/vsoch/cle && \
-cd cle && \
+cd cle
 
 # archinfo, pyvex, pyelftools, then cle
-pip install wheel && \
-pip install git+https://github.com/angr/archinfo && \
-pip install git+https://github.com/angr/pyvex && \
-pip install git+https://github.com/eliben/pyelftools && \
-pip install .
-pip install git+https://github.com/vsoch/elfcall@tweaks
-pip install git+https://github.com/buildsi/spliced@add/diff
+python -m pip install wheel
+python -m pip install git+https://github.com/angr/archinfo
+python -m pip install git+https://github.com/angr/pyvex
+python -m pip install git+https://github.com/eliben/pyelftools
+python -m pip install .
+python -m pip install git+https://github.com/vsoch/elfcall@tweaks
+python -m pip install git+https://github.com/buildsi/spliced@add/diff
 cd ../
 rm -rf ./cle
 

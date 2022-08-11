@@ -1,0 +1,2 @@
+- we need a better makefile that builds across subdirectories, mine doesn't seem to work
+- we need a naming convention, idk why some are example and some are lib.so

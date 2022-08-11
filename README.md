@@ -26,7 +26,9 @@ $ ./build.sh
 
 To build using a container (and check the base image that it's the one you want):
 
-
 ```bash
 $ ./build-container.sh
 ```
+
+And to see an example of automating all of this and using the [actions](actions)
+here, see [.github/example-spliced-analysis.yaml](.github/example-spliced-analysis.yaml).

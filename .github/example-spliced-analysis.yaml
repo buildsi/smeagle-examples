@@ -1,0 +1,85 @@
+name: Spliced Analysis
+on:
+  pull_request: []
+  workflow_dispatch: 
+    inputs:
+      package_pattern:
+        description: 'Name of experiment.yaml pattern (in buildsi/spliced-experiment splices) to test.'
+        required: true
+      skip_smeagle:
+        description: 'Skip Smeagle if it caused the runs to fail (e.g., memory)'
+        required: true
+        type: boolean
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      packages: read
+    strategy:
+      fail-fast: false
+      matrix:
+        # container, compiler inside to use, and name+version to save
+        container: [['ghcr.io/buildsi/ubuntu:ubuntu-18.04', 'gcc' , 'gcc-7.5.0'],
+                    ['ghcr.io/buildsi/ubuntu:ubuntu-18.04', 'g++' , 'gpp-7.5.0'],
+                    ['ghcr.io/buildsi/ubuntu:ubuntu-20.04', 'gcc' , 'gcc-9.4.0'],
+                    ['ghcr.io/buildsi/ubuntu:ubuntu-20.04', 'g++' , 'gpp-9.4.0'],
+                    ['ghcr.io/buildsi/ubuntu:ubuntu-22.04', 'gcc' , 'gcc-11.2.0'],
+                    ['ghcr.io/buildsi/ubuntu:ubuntu-22.04', 'g++' , 'gpp-11.2.0'],                                      
+                    ['ghcr.io/buildsi/llvm:llvm-6', 'clang', 'clang-6'],
+                    ['ghcr.io/buildsi/llvm:llvm-7', 'clang', 'clang-7'],
+                    ['ghcr.io/buildsi/llvm:llvm-8', 'clang', 'clang-8'],
+                    ['ghcr.io/buildsi/llvm:llvm-9', 'clang', 'clang-8'],
+                    ['ghcr.io/buildsi/llvm:llvm-10', 'clang', 'clang-10'],
+                    ['ghcr.io/buildsi/llvm:llvm-11', 'clang', 'clang-11'],
+                    ['ghcr.io/buildsi/llvm:llvm-12', 'clang', 'clang-12'],
+                    ['ghcr.io/buildsi/llvm:llvm-13', 'clang', 'clang-13'],
+                    ['ghcr.io/buildsi/llvm:llvm-14', 'clang', 'clang-14']]
+        
+    container:
+      image: ${{ matrix.container[0] }}
+      options: "--platform=linux/amd64"
+
+    name: ${{ matrix.container[2] }}
+    steps:
+      - name: Show Job Config
+        run: |
+           echo ${{ matrix.container[0] }}
+           echo ${{ matrix.container[1] }}
+           echo ${{ matrix.container[2] }}
+
+      - name: Make Space For Build
+        run: |        
+          ls /usr/share
+          rm -rf /usr/share/dotnet
+          rm -rf /opt/ghc
+
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          repository: buildsi/smeagle-examples
+          ref: breakages/enum
+
+        # Install deps cle, abi-laboratory, spliced, etc. into container
+      - name: Update container base with predictors and spliced
+        uses: buildsi/smeagle-examples/actions/install@main
+
+      - name: Run Unit Tests with Spliced
+        uses: buildsi/smeagle-examples/actions/test@main
+        env:
+          cache_dir: /cache
+          results_dir: /tmp/diff-results
+          cxx: ${{ matrix.container[1] }} 
+          compiler: ${{ matrix.container[2] }} 
+          skip_smeagle: ${{ github.event.inputs.skip_smeagle }}       
+
+      - name: Save result artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: ${{ matrix.container[2] }}
+          path: /tmp/diff-results
+
+      - name: Save Smeagle Cache
+        uses: actions/upload-artifact@v3
+        with:
+          name: cache-smeagle-${{ matrix.container[2] }}
+          path: /cache/smeagle-spack

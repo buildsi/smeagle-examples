@@ -1,15 +1,15 @@
 CXX ?= g++
 CXXFLAGS ?= -g -Wall
 
-all: example breaks
-.PHONY: example breaks
+SUBDIRS := add_to_sizeenum
 
 ifneq (${VERBOSE},1)
 MUTE := @
 endif
 
-example:
-	${MUTE} ${CXX} ${CXXFLAGS} -c -Wl,-E example.cpp -o example
+all: $(SUBDIRS)
+.PHONY: all $(SUBDIRS)
 
-breaks:
+$(SUBDIRS):
+	@ echo Building $@
 	${MUTE} $(MAKE) CXX="${CXX}" CXXFLAGS="${CXXFLAGS}" -C $@

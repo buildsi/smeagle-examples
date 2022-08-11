@@ -1,2 +1,9 @@
+CXX ?= g++
+CXXFLAGS ?= -g -Wall
+
+ifneq (${VERBOSE},1)
+MUTE := @
+endif
+
 all:
-	g++ -g -c -Wl,-E example.cpp -o example
+	${MUTE} ${CXX} ${CXXFLAGS} -c -Wl,-E example.cpp -o example

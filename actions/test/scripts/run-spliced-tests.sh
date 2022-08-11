@@ -19,6 +19,7 @@ build_script=$(dirname ${SCRIPTS_DIR})
 build_script=$(dirname ${build_script})
 build_script=$(dirname ${build_script})
 
+cd ${root}
 printf "Looking for build.sh..."
 ls
 

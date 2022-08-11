@@ -37,6 +37,13 @@ make install prefix=/usr && \
 cd ../ && \
 rm -rf ./abi-compliance-checker
 
+# Ensure spliced and other binaries available
+which abicompat
+which abidiff
+which abi-dumper
+which abi-compliance-checker
+which spliced
+
 # Ensure abi laboratory script added to path
 printf "Copying ${SCRIPTS_DIR}/run_abi_laboratory.sh to ${INSTALL_BIN}/run_abi_laboratory.sh\n"
 cp ${SCRIPTS_DIR}/run_abi_laboratory.sh ${INSTALL_BIN}/run_abi_laboratory.sh

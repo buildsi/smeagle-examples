@@ -1,6 +1,9 @@
 name: "Install Smeagle Example Unit Testing Dependencies"
 description: "Install cle, spliced, abi-laboratory, and other deps."
 inputs:
+  tests_dir:
+    description: Root directory with testing files
+    required: true
   results_dir:
     description: Directory for results
     required: true
@@ -29,6 +32,7 @@ runs:
         SPLICED_SMEAGLE_CACHE_DIR: ${{ inputs.cache_dir }}
         SPLICED_ABILAB_CACHE_DIR: ${{ inputs.cache_dir }}
         CXX: ${{ inputs.cxx }}
+        tests_dir: ${{ inputs.tests_dir }}
         results_dir: ${{ inputs.results_dir }}
         compiler: ${{ inputs.compiler }}
         skip_smeagle: ${{ inputs.skip_smeagle }}

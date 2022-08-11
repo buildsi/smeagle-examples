@@ -1,13 +1,16 @@
 #!/bin/bash
 
+tests_dir = $(realpath ${tests_dir})
+
 printf "CXX: ${CXX}\n"
+printf "tests_dir: ${tests_dir}\n"
 printf "results_dir: ${results_dir}\n"
 printf "skip smeagle: ${skip_smeagle}\n"
 printf "compiler: ${compiler}\n"
 printf "Smeagle Cache: ${SPLICED_SMEAGLE_CACHE_DIR}\n"
 printf "Abi Laboratory Cache: ${SPLICED_ABILAB_CACHE_DIR}\n"
 
-root=$PWD 
+root=${tests_dir}
 export PATH=/usr/local/bin:${HOME}/.local/bin:/usr/bin:$PATH
 mkdir -p ${results_dir} ${SPLICED_SMEAGLE_CACHE_DIR} ${SPLICED_ABILAB_CACHE_DIR}
 ls
@@ -26,6 +29,9 @@ CXX=${CXX} /bin/bash ${build_script}/build.sh
 for category in $(ls -d */); do
     printf "Inspecting category ${category}\n"
     cd ${root}/${category}
+    if ! test -f "Makefile"; then
+        continue
+    fi
     ls
     original=$(realpath ./lib.so)
     if ! test -f ${original}; then
@@ -38,6 +44,9 @@ for category in $(ls -d */); do
             printf "Looking at break ${dir}\n"
             break_dir=${root}/${category}/breaks/${dir}
             cd ${break_dir}
+            if ! test -f "Makefile"; then
+                continue
+            fi
             ls
             splice=$(realpath ./lib.so)
             if ! test -f ${splice}; then

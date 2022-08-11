@@ -18,7 +18,7 @@ runs:
       env:
         SCRIPTS_DIR: ${{ github.action_path }}/scripts
         INSTALL_BIN: ${{ inputs.bin }}
-      run: ${{ github.action_path }}/scripts/install-ubuntu-deps.sh
+      run: ${SCRIPTS_DIR}/install-ubuntu-deps.sh
       shell: bash
 
     - name: Install Unspecified Dependencies

@@ -3,9 +3,12 @@
 set -eu -o pipefail
 
 # Core deps for ubuntu base
-apt-get update && apt-get install -y build-essential python3-pip libssl-dev vtable-dumper 
-shopt -s expand_aliases
-alias python='python3'
+apt-get update && apt-get install -y build-essential libssl-dev vtable-dumper 
+
+wget --quiet https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda.sh && \
+/bin/bash ~/miniconda.sh -b -p /opt/conda
+
+export PATH=/opt/conda/bin:$HOME/.local/bin:$PATH
 python -m pip install --upgrade pip 
 
 python -m pip install ipython

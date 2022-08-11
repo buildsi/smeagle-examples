@@ -2,6 +2,9 @@
 
 set -eu -o pipefail
 
+# Ensure we can see Python installs
+export PATH=/opt/conda/bin:$HOME/.local/bin:$PATH
+
 tests_dir=$(realpath ${tests_dir})
 
 printf "CXX: ${CXX}\n"

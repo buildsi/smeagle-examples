@@ -2,7 +2,7 @@
 
 set -eu -o pipefail
 
-tests_dir = $(realpath ${tests_dir})
+tests_dir=$(realpath ${tests_dir})
 
 printf "CXX: ${CXX}\n"
 printf "tests_dir: ${tests_dir}\n"

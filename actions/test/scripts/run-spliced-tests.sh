@@ -27,11 +27,15 @@ rm -rf _development
 
 CXX=${CXX} /bin/bash ${build_script}/build.sh
 for category in $(ls -d */); do
-    printf "Inspecting category ${category}\n"
     cd ${root}/${category}
     if ! test -f "Makefile"; then
         continue
     fi
+    # Don't continue if we don't have breaks
+    if ! test -d "${root}/${category}/breaks"; then
+        continue
+    fi
+    printf "Inspecting category ${category}\n"
     ls
     original=$(realpath ./lib.so)
     if ! test -f ${original}; then

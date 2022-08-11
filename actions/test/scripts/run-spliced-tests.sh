@@ -87,7 +87,3 @@ for category in $(ls -d */); do
         done
     fi
 done
-
-if [[ $? -neq "0" ]]; then
-   echo no
-fi

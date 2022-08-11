@@ -74,7 +74,7 @@ for category in $(ls -d */); do
             printf "${cmd}\n"
             ${cmd}
             if [ "$?" != "0" ]; then
-                printf "Issue running: ${cmd}\n"
+                printf "Issue running command.\n"
                 exit 1
             fi
             cat ${outfile}

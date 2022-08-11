@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -eu -o pipefail
+
 tests_dir = $(realpath ${tests_dir})
 
 printf "CXX: ${CXX}\n"

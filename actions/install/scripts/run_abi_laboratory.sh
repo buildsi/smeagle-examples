@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -eu -o pipefail
+
 # This script will be called by the abi-laboratory runner.
 
 old=$1

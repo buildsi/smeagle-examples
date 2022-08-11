@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -eu -o pipefail
+
 # Core deps for ubuntu base
 apt-get update && apt-get install -y build-essential python3-pip libssl-dev vtable-dumper 
 shopt -s expand_aliases

@@ -1,2 +1,5 @@
+CC = gcc
+CFLAGS  = -g -Wall
+
 all:
-	g++ -g -c -Wl,-E example.cpp -o example
+	${CC} ${CFLAGS} -c -Wl,-E example.cpp -o example

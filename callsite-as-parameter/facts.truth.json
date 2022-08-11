@@ -1,6 +1,35 @@
 {
-    "library": "/home/vanessa/Desktop/Code/smeagle-examples/empty-func/lib.so",
+    "library": "/home/vanessa/Desktop/Code/smeagle-examples/callsite-as-parameter/lib.so",
     "locations": [
+        {
+            "function": {
+                "name": "close",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "getpid",
+                "class": "Function",
+                "return": {
+                    "type": "fd87dffe1cb2490a2ab0e35b1d96863c",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
         {
             "function": {
                 "name": "main",
@@ -25,18 +54,6 @@
                     "location": "%rax"
                 }
             }
-        },
-        {
-            "function": {
-                "name": "_Z3foov",
-                "class": "Function",
-                "return": {
-                    "location": "none",
-                    "type": "void",
-                    "class": "Void",
-                    "direction": "export"
-                }
-            }
         }
     ],
     "types": {
@@ -44,6 +61,16 @@
             "type": "int",
             "size": 4,
             "class": "Integer"
+        },
+        "fd87dffe1cb2490a2ab0e35b1d96863c": {
+            "name": "__pid_t",
+            "class": "TypeDef",
+            "underlying_type": {
+                "type": "int",
+                "size": 4,
+                "class": "Integer"
+            },
+            "size": 4
         },
         "dbef5bff425a8e631e2bc5fba7cc20e6": {
             "type": "char",

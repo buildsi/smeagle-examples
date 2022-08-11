@@ -1,5 +1,5 @@
 {
-    "library": "/home/vanessa/Desktop/Code/smeagle-examples/empty-func/example",
+    "library": "/home/vanessa/Desktop/Code/smeagle-examples/empty-func/lib.so",
     "locations": [
         {
             "function": {
@@ -9,22 +9,21 @@
                     {
                         "name": "argc",
                         "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
-                        "direction": "import",
-                        "location": "%rdi"
+                        "location": "%rdi",
+                        "direction": "import"
                     },
                     {
                         "name": "argv",
                         "type": "ba26a1b06c24691988f94f706e51b94d",
-                        "direction": "both",
-                        "location": "%rsi"
+                        "location": "%rsi",
+                        "direction": "both"
                     }
                 ],
                 "return": {
                     "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
                     "direction": "export",
                     "location": "%rax"
-                },
-                "direction": "export"
+                }
             }
         },
         {
@@ -36,8 +35,7 @@
                     "type": "void",
                     "class": "Void",
                     "direction": "export"
-                },
-                "direction": "export"
+                }
             }
         }
     ],

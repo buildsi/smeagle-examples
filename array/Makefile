@@ -1,2 +1,10 @@
+
+CXX ?= g++
+CXXFLAGS ?= -g -Wall
+
+ifneq (${VERBOSE},1)
+MUTE := @
+endif
+
 all:
-	g++ -g -c example.cpp -o lib.so
+	${MUTE} ${CXX} ${CXXFLAGS} -c -Wl,-E -fPIC -shared -o lib.so example.cpp

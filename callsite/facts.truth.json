@@ -1,6 +1,17 @@
 {
-    "library": "/home/vanessa/Desktop/Code/smeagle-examples/inline/lib.so",
+    "library": "/home/vanessa/Desktop/Code/smeagle-examples/callsite/lib.so",
     "locations": [
+        {
+            "function": {
+                "name": "main",
+                "class": "Function",
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                }
+            }
+        },
         {
             "function": {
                 "name": "_Z5startd",
@@ -17,6 +28,25 @@
                     "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
                     "direction": "export",
                     "location": "%rax"
+                }
+            }
+        },
+        {
+            "function": {
+                "name": "_Z3bard",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "d",
+                        "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
+                        "location": "%xmm0",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
+                    "direction": "export",
+                    "location": "%xmm0"
                 }
             }
         },

@@ -2,6 +2,7 @@
 
 # Core deps for ubuntu base
 apt-get update && apt-get install -y build-essential python3-pip libssl-dev vtable-dumper 
+shopt -s expand_aliases
 alias pip='pip3'
 pip install --upgrade pip 
 

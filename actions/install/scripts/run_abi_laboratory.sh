@@ -16,7 +16,7 @@ printf "report: $report_path\n"
 
 dira=$(dirname ${old})
 dirb=$(dirname ${new})
-export LD_LIBRARY_PATH="${dira}:${dirb}:${LD_LIBRARY_PATH}"
+export LD_LIBRARY_PATH="${dira}:${dirb}"
 
 # cleanup if no custom report path is provided
 if [ -z "${report_path+xxx}" ]; then 

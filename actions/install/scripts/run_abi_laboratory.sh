@@ -30,6 +30,9 @@ if [ -z "${new+xxx}" ]; then echo "Missing second argument, new library"; exit 1
 dump_old=$(mktemp /tmp/ABI-1-XXXXX.dump)
 dump_new=$(mktemp /tmp/ABI-2-XXXXX.dump)
 
+# Do we have custom debug directories?
+DEBUG1=""
+DEBUG2=""
 if [ -z "$ABILAB_DEBUGINFO_DIR1" ]; then DEBUG1="--search-debuginfo=$ABILAB_DEBUGINFO_DIR1"; fi
 if [ -z "$ABILAB_DEBUGINFO_DIR2" ]; then DEBUG1="--search-debuginfo=$ABILAB_DEBUGINFO_DIR2"; fi
 

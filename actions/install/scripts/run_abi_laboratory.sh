@@ -30,13 +30,17 @@ if [ -z "${new+xxx}" ]; then echo "Missing second argument, new library"; exit 1
 dump_old=$(mktemp /tmp/ABI-1-XXXXX.dump)
 dump_new=$(mktemp /tmp/ABI-2-XXXXX.dump)
 
+if [ -z "$ABILAB_DEBUGINFO_DIR1" ]; then DEBUG1="--search-debuginfo=$ABILAB_DEBUGINFO_DIR1"; fi
+if [ -z "$ABILAB_DEBUGINFO_DIR2" ]; then DEBUG1="--search-debuginfo=$ABILAB_DEBUGINFO_DIR2"; fi
+
+
 # Options: https://github.com/lvc/abi-dumper/blob/master/abi-dumper.pl#L112
 cd $dira
-abi-dumper $old -o $dump_old -lver 1
+abi-dumper $old -o $dump_old -lver 1 $DEBUG1
 cd -
 
 cd $dirb
-abi-dumper $new -o $dump_new -lver 2
+abi-dumper $new -o $dump_new -lver 2 $DEBUG2
 cd -
 
 # Options: https://github.com/lvc/abi-compliance-checker/blob/master/abi-compliance-checker.pl#L119

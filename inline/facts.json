@@ -1,5 +1,5 @@
 {
-    "library": "/home/vanessa/Desktop/Code/smeagle-examples/inline/lib.so",
+    "library": "/home/vanessa/Desktop/Code/cle/examples/inline/lib.so",
     "locations": [
         {
             "function": {
@@ -17,7 +17,8 @@
                     "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
                     "direction": "export",
                     "location": "%rax"
-                }
+                },
+                "direction": "export"
             }
         },
         {
@@ -36,7 +37,8 @@
                     "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
                     "direction": "export",
                     "location": "%rax"
-                }
+                },
+                "direction": "export"
             }
         }
     ],

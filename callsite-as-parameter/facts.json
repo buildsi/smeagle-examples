@@ -1,5 +1,5 @@
 {
-    "library": "/home/vanessa/Desktop/Code/smeagle-examples/callsite-as-parameter/lib.so",
+    "library": "/home/vanessa/Desktop/Code/cle/examples/callsite-as-parameter/lib.so",
     "locations": [
         {
             "function": {
@@ -16,7 +16,8 @@
                     "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
                     "direction": "export",
                     "location": "%rax"
-                }
+                },
+                "direction": "import"
             }
         },
         {
@@ -27,7 +28,8 @@
                     "type": "fd87dffe1cb2490a2ab0e35b1d96863c",
                     "direction": "export",
                     "location": "%rax"
-                }
+                },
+                "direction": "import"
             }
         },
         {
@@ -52,7 +54,8 @@
                     "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
                     "direction": "export",
                     "location": "%rax"
-                }
+                },
+                "direction": "export"
             }
         }
     ],

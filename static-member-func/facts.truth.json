@@ -1,5 +1,5 @@
 {
-    "library": "/home/vanessa/Desktop/Code/smeagle-examples/static-member-func/lib.so",
+    "library": "/home/vanessa/Desktop/Code/cle/examples/static-member-func/lib.so",
     "locations": [
         {
             "function": {
@@ -21,7 +21,8 @@
                     "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
                     "direction": "export",
                     "location": "%xmm0"
-                }
+                },
+                "direction": "export"
             }
         },
         {
@@ -44,7 +45,8 @@
                     "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
                     "direction": "export",
                     "location": "%xmm0"
-                }
+                },
+                "direction": "export"
             }
         },
         {
@@ -67,7 +69,8 @@
                     "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
                     "direction": "export",
                     "location": "%xmm0"
-                }
+                },
+                "direction": "export"
             }
         },
         {
@@ -90,7 +93,8 @@
                     "type": "d20be53e889d2cee0c86d0ef9b0fbbc8",
                     "direction": "export",
                     "location": "%xmm0"
-                }
+                },
+                "direction": "export"
             }
         }
     ],

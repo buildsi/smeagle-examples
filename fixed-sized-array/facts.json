@@ -1,5 +1,5 @@
 {
-    "library": "/home/vanessa/Desktop/Code/smeagle-examples/fixed-sized-array/lib.so",
+    "library": "/home/vanessa/Desktop/Code/cle/examples/fixed-sized-array/lib.so",
     "locations": [
         {
             "variables": [
@@ -19,7 +19,8 @@
                     "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
                     "direction": "export",
                     "location": "%rax"
-                }
+                },
+                "direction": "export"
             }
         },
         {
@@ -39,7 +40,8 @@
                     "type": "void",
                     "class": "Void",
                     "direction": "export"
-                }
+                },
+                "direction": "export"
             }
         }
     ],

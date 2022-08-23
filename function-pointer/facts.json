@@ -1,5 +1,5 @@
 {
-    "library": "/home/vanessa/Desktop/Code/smeagle-examples/function-pointer/lib.so",
+    "library": "/home/vanessa/Desktop/Code/cle/examples/function-pointer/lib.so",
     "locations": [
         {
             "function": {
@@ -9,30 +9,8 @@
                     "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
                     "direction": "export",
                     "location": "%rax"
-                }
-            }
-        },
-        {
-            "function": {
-                "name": "unknown",
-                "class": "Function",
-                "parameters": [
-                    {
-                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
-                        "location": "%rdi",
-                        "direction": "import"
-                    },
-                    {
-                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
-                        "location": "%rsi",
-                        "direction": "import"
-                    }
-                ],
-                "return": {
-                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
-                    "direction": "export",
-                    "location": "%rax"
-                }
+                },
+                "direction": "export"
             }
         },
         {
@@ -54,7 +32,7 @@
                     },
                     {
                         "name": "func",
-                        "type": "05e74cfd5519fdcf89e2f3fed13be9b3",
+                        "type": "662387e8be37e32293e638a2fa2fe86a",
                         "location": "%rdx",
                         "direction": "both"
                     }
@@ -63,7 +41,8 @@
                     "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
                     "direction": "export",
                     "location": "%rax"
-                }
+                },
+                "direction": "export"
             }
         },
         {
@@ -88,7 +67,8 @@
                     "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
                     "direction": "export",
                     "location": "%rax"
-                }
+                },
+                "direction": "export"
             }
         },
         {
@@ -113,30 +93,8 @@
                     "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
                     "direction": "export",
                     "location": "%rax"
-                }
-            }
-        },
-        {
-            "function": {
-                "name": "_Z6invokeiiPFiiiE_func_pointer_2",
-                "class": "Function",
-                "parameters": [
-                    {
-                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
-                        "location": "%rdi",
-                        "direction": "import"
-                    },
-                    {
-                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
-                        "location": "%rsi",
-                        "direction": "import"
-                    }
-                ],
-                "return": {
-                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
-                    "direction": "export",
-                    "location": "%rax"
-                }
+                },
+                "direction": "export"
             }
         }
     ],
@@ -146,26 +104,18 @@
             "size": 4,
             "class": "Integer"
         },
-        "5d24f94d5a16871ee4425eeb218c973e": {
-            "name": "_Z6invokeiiPFiiiE_func_pointer_2",
-            "class": "Function",
-            "parameters": [
-                {
-                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f"
-                },
-                {
-                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f"
-                }
-            ],
-            "return": {
-                "type": "9c67aaa6ef89dd4db8543f00bd1f472f"
-            }
+        "3136b53c7788b73670691bd7c934571c": {
+            "type": "unknown"
         },
-        "05e74cfd5519fdcf89e2f3fed13be9b3": {
+        "4fc7ba059a1711e8c26bd491510ea170": {
+            "type": "void",
+            "class": "Void"
+        },
+        "662387e8be37e32293e638a2fa2fe86a": {
             "class": "Pointer",
             "size": 8,
             "underlying_type": {
-                "type": "5d24f94d5a16871ee4425eeb218c973e"
+                "type": "4fc7ba059a1711e8c26bd491510ea170"
             },
             "name": "func"
         }

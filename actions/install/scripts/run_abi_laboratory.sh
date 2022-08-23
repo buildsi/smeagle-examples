@@ -34,7 +34,7 @@ dump_new=$(mktemp /tmp/ABI-2-XXXXX.dump)
 DEBUG1=""
 DEBUG2=""
 if [ -z "$ABILAB_DEBUGINFO_DIR1" ]; then DEBUG1="--search-debuginfo=$ABILAB_DEBUGINFO_DIR1"; fi
-if [ -z "$ABILAB_DEBUGINFO_DIR2" ]; then DEBUG1="--search-debuginfo=$ABILAB_DEBUGINFO_DIR2"; fi
+if [ -z "$ABILAB_DEBUGINFO_DIR2" ]; then DEBUG2="--search-debuginfo=$ABILAB_DEBUGINFO_DIR2"; fi
 
 
 # Options: https://github.com/lvc/abi-dumper/blob/master/abi-dumper.pl#L112

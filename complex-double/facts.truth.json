@@ -24,7 +24,8 @@
                     "type": "void",
                     "class": "Void",
                     "direction": "export"
-                }
+                },
+                "direction": "export"
             }
         },
         {
@@ -44,7 +45,8 @@
                     "type": "void",
                     "class": "Void",
                     "direction": "export"
-                }
+                },
+                "direction": "export"
             }
         }
     ],

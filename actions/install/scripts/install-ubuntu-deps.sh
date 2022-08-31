@@ -17,19 +17,11 @@ curl -s -L https://github.com/Kitware/CMake/releases/download/v$CMAKE_VERSION/cm
 sh cmake.sh --prefix=/usr/local --skip-license
 rm cmake.sh
 
-git clone https://github.com/vsoch/cle && \
-cd cle
-
-# archinfo, pyvex, pyelftools, then cle
+# Python dependencies
 python -m pip install wheel
-python -m pip install git+https://github.com/angr/archinfo
-python -m pip install git+https://github.com/angr/pyvex
 python -m pip install git+https://github.com/eliben/pyelftools
-python -m pip install .
 python -m pip install git+https://github.com/vsoch/elfcall@main
-python -m pip install git+https://github.com/buildsi/spliced@main
-cd ../
-rm -rf ./cle
+python -m pip install git+https://github.com/buildsi/spliced@use/smeagle-py
 
 # Install abi-laboratory tools
 git clone https://github.com/lvc/abi-dumper && \

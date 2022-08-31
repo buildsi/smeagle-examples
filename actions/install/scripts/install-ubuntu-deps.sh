@@ -26,8 +26,8 @@ python -m pip install git+https://github.com/angr/archinfo
 python -m pip install git+https://github.com/angr/pyvex
 python -m pip install git+https://github.com/eliben/pyelftools
 python -m pip install .
-python -m pip install git+https://github.com/vsoch/elfcall@tweaks
-python -m pip install git+https://github.com/buildsi/spliced@add/diff
+python -m pip install git+https://github.com/vsoch/elfcall@main
+python -m pip install git+https://github.com/buildsi/spliced@main
 cd ../
 rm -rf ./cle
 

@@ -22,7 +22,10 @@ rm cmake.sh
 python -m pip install wheel
 python -m pip install git+https://github.com/eliben/pyelftools
 python -m pip install git+https://github.com/vsoch/elfcall@main
-python -m pip install git+https://github.com/buildsi/spliced@use/smeagle-py
+
+# This is the merged/released smeagle-py branch
+pip install spliced@0.0.18
+#python -m pip install git+https://github.com/buildsi/spliced@use/smeagle-py
 
 # Install abi-laboratory tools
 git clone https://github.com/lvc/abi-dumper && \

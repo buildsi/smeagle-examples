@@ -74,7 +74,8 @@ for category in $(ls -d */); do
             outfile="${outdir}/experiment.json"
             echo ${compiler} >> ${outdir}/compiler.txt
             cmd="spliced diff --package ${original} --splice ${splice} --experiment ${experiment} --runner manual --outfile ${outfile} --skip spack-test" 
-            if [ "${skip_smeagle}" == "true" ]; then
+            if [ "${skip_smeagle}" != "" ]; then
+                printf "Skipping smeagle\n"
                 cmd="${cmd} --skip-smeagle"
             fi
             printf "${cmd}\n"

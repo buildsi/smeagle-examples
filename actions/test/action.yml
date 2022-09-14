@@ -21,7 +21,7 @@ inputs:
   skip_smeagle:
     description: Skip running smeagle?
     required: false
-    default: false
+    default: ""
 
 runs:
   using: "composite"
